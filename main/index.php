@@ -554,46 +554,44 @@
                         <!--// Portfolio Single -->
 
                         <!-- Portfolio Single -->
-                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-financial portfolio-filter-careative portfolio-filter-technology">
+                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-documentation">
                             <div class="tm-portfolio mt-30 wow fadeInUp">
                                 <div class="tm-portfolio-image">
-                                    <img src="main/assets/images/portfolio/portfolio-image-2.jpg" alt="portfolio image">
+                                    <img src="main/assets/images/portfolio/2.jpg" alt="portfolio image" style="height: 304px;">
                                     <ul class="tm-portfolio-actions">
                                         <li class="link-button">
-                                            <a href="main/portfolio-details-gallery.html"><i class="fa fa-link"></i></a>
+                                            <a href=""><i class="fa fa-link"></i></a>
                                         </li>
                                         <li class="zoom-button">
-                                            <a href="main/assets/images/portfolio/lg/portfolio-image-lg-2.jpg"><i class="fa fa-clone"></i></a>
-                                            <a href="main/assets/images/portfolio/lg/portfolio-image-lg-3.jpg"><i class="fa fa-clone"></i></a>
-                                            <a href="main/assets/images/portfolio/lg/portfolio-image-lg-4.jpg"><i class="fa fa-clone"></i></a>
+                                            <a href="main/assets/images/portfolio/2.jpg"><i class="fa fa-search-plus"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="tm-portfolio-content">
-                                    <h5><a href="main/portfolio-details-gallery.html">Corrupti est voluptatem.</a></h5>
-                                    <h6><a href="main/portfolio.html">Financial</a></h6>
+                                    <h5><a href="main/portfolio-details.html">Passport</a></h5>
+                                    <h6><a href="">Documentation</a></h6>
                                 </div>
                             </div>
                         </div>
                         <!--// Portfolio Single -->
 
                         <!-- Portfolio Single -->
-                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-business portfolio-filter-technology">
+                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-documentation">
                             <div class="tm-portfolio mt-30 wow fadeInUp">
                                 <div class="tm-portfolio-image">
-                                    <img src="main/assets/images/portfolio/portfolio-image-3.jpg" alt="portfolio image">
+                                    <img src="main/assets/images/portfolio/3.jpg" alt="portfolio image" style="height: 304px;">
                                     <ul class="tm-portfolio-actions">
                                         <li class="link-button">
-                                            <a href="main/portfolio-details-video.html"><i class="fa fa-link"></i></a>
+                                            <a href=""><i class="fa fa-link"></i></a>
                                         </li>
                                         <li class="zoom-button">
-                                            <a href="main/https://www.youtube.com/watch?v=Sv511KEiIJQ"><i class="fa fa-play"></i></a>
+                                            <a href="main/assets/images/portfolio/3.jpg"><i class="fa fa-search-plus"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="tm-portfolio-content">
-                                    <h5><a href="main/portfolio-details-video.html">Ullam doloremque est ipsa.</a></h5>
-                                    <h6><a href="main/portfolio.html">Technology</a></h6>
+                                    <h5><a href="main/portfolio-details.html">Birth Certificate</a></h5>
+                                    <h6><a href="">Documentation</a></h6>
                                 </div>
                             </div>
                         </div>
