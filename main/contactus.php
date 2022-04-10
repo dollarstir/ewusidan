@@ -115,7 +115,7 @@
                                             <textarea name="message" cols="30" rows="5" placeholder="Message*"></textarea>
                                         </div>
                                         <div class="tm-form-field">
-                                            <button type="submit" class="tm-button">Send Message <b></b></button>
+                                            <button type="submit" class="tm-button" value="snd">Send Message <b></b></button>
                                         </div>
                                     </div>
                                 </form>
