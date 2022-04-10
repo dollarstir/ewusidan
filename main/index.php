@@ -364,7 +364,7 @@
                                     <i class="flaticon-management"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Customer service consultancy</a></h5>
+                                    <h5><a href="main/service-details.html">Documentations</a></h5>
                                     <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
                                     <a href="main/service-details.html" class="tm-readmore">Read More</a>
