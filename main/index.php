@@ -174,7 +174,8 @@
                                     <li><i class="fa fa-check-square-o"></i> Marketing consultancy</li>
                                     <li><i class="fa fa-check-square-o"></i> Customer service consultancy</li>
                                     <li><i class="fa fa-check-square-o"></i> Social marketing consultancy</li>
-                                    <li><i class="fa fa-check-square-o"></i> Marketing consultancy.</li>
+                                    <li><i class="fa fa-check-square-o"></i> Documentations</li>
+                                    <li><i class="fa fa-check-square-o"></i>Land consultancy</li>
                                 </ul>
                                 <a href="about" class="tm-button">About Us <b></b></a>
                             </div>
@@ -192,8 +193,8 @@
                             <div class="tm-section-title text-center">
                                 <h2>OUR SERVICES</h2>
                                 <span class="divider"><i class="fa fa-superpowers"></i></span>
-                                <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
-                                    ullam.</p>
+                                <!-- <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
+                                    ullam.</p> -->
                             </div>
                         </div>
                     </div>
