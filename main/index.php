@@ -210,10 +210,10 @@
                                     <i class="flaticon-analysis"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Financial Analysis</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Financial Consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -230,9 +230,9 @@
                                 </span>
                                 <div class="tm-service-content">
                                     <h5><a href="main/service-details.html">Business Consulting</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -248,10 +248,10 @@
                                     <i class="flaticon-growth"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Corporate Finance</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">IT consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -267,10 +267,10 @@
                                     <i class="flaticon-planning"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Financial Planning</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Education consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -286,10 +286,10 @@
                                     <i class="flaticon-money"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Business Growth</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Marketing consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -305,7 +305,66 @@
                                     <i class="flaticon-management"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Wealth Management</a></h5>
+                                    <h5><a href="main/service-details.html">Customer service consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                        similique sed perspiciatis.</p>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Service -->
+
+                        <!-- Single Service -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-30">
+                            <div class="tm-service text-center wow fadeInUp">
+                                <span class="tm-service-bgicon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <span class="tm-service-icon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <div class="tm-service-content">
+                                    <h5><a href="main/service-details.html">Social marketing consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                        similique sed perspiciatis.</p>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Service -->
+
+
+                        <!-- Single Service -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-30">
+                            <div class="tm-service text-center wow fadeInUp">
+                                <span class="tm-service-bgicon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <span class="tm-service-icon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <div class="tm-service-content">
+                                    <h5><a href="main/service-details.html">Land consultancy</a></h5>
+                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                        similique sed perspiciatis.</p>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Service -->
+
+
+                        <!-- Single Service -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-30">
+                            <div class="tm-service text-center wow fadeInUp">
+                                <span class="tm-service-bgicon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <span class="tm-service-icon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <div class="tm-service-content">
+                                    <h5><a href="main/service-details.html">Customer service consultancy</a></h5>
                                     <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
                                     <a href="main/service-details.html" class="tm-readmore">Read More</a>
