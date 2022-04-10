@@ -171,8 +171,9 @@
                                     <li><i class="fa fa-check-square-o"></i>Business consultancy </li>
                                     <li><i class="fa fa-check-square-o"></i>IT consultancy</li>
                                     <li><i class="fa fa-check-square-o"></i>Education consultancy</li>
-                                    <li><i class="fa fa-check-square-o"></i> Marketing consultancy.</li>
-                                    <li><i class="fa fa-check-square-o"></i> Marketing consultancy.</li>
+                                    <li><i class="fa fa-check-square-o"></i> Marketing consultancy</li>
+                                    <li><i class="fa fa-check-square-o"></i> Customer service consultancy</li>
+                                    <li><i class="fa fa-check-square-o"></i> Social marketing consultancy</li>
                                     <li><i class="fa fa-check-square-o"></i> Marketing consultancy.</li>
                                 </ul>
                                 <a href="about" class="tm-button">About Us <b></b></a>
