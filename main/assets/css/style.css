@@ -1399,7 +1399,7 @@ input[type=radio]:checked ~ label::before {
   right: 0;
   bottom: 0;
   width: 100%;
-  background: rgba(63, 81, 181, 0.9);
+  background: rgba(69, 140, 120, 0.9);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6417,17 +6417,17 @@ button.tm-videobutton.tm-videobutton-lg span i {
 }
 
 .footer-widgets .single-widget {
-  color: #464141;
+  color: #dedede;
   margin-top: 50px;
 }
 
 .footer-widgets .single-widget a:not(.tm-button) {
-  color: #464141;
+  color: #dedede;
 }
 
 .footer-widgets .single-widget a:not(.tm-button):hover {
   opacity: 0.75;
-  color: #464141;
+  color: #dedede;
 }
 
 .footer-widgets .widget-title {
