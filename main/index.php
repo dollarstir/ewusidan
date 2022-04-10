@@ -532,22 +532,22 @@
                     <div class="row tm-portfolio-wrapper mt-30-reverse">
 
                         <!-- Portfolio Single -->
-                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-business portfolio-filter-investment">
+                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-documentation">
                             <div class="tm-portfolio mt-30 wow fadeInUp">
                                 <div class="tm-portfolio-image">
-                                    <img src="main/assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image">
+                                    <img src="main/assets/images/portfolio/1.jpg" alt="portfolio image">
                                     <ul class="tm-portfolio-actions">
                                         <li class="link-button">
-                                            <a href="main/portfolio-details.html"><i class="fa fa-link"></i></a>
+                                            <a href=""><i class="fa fa-link"></i></a>
                                         </li>
                                         <li class="zoom-button">
-                                            <a href="main/assets/images/portfolio/lg/portfolio-image-lg-1.jpg"><i class="fa fa-search-plus"></i></a>
+                                            <a href="main/assets/images/portfolio/1.jpg"><i class="fa fa-search-plus"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="tm-portfolio-content">
-                                    <h5><a href="main/portfolio-details.html">Exercit alias cupiditate</a></h5>
-                                    <h6><a href="main/portfolio.html">Business</a></h6>
+                                    <h5><a href="main/portfolio-details.html">Affidavit</a></h5>
+                                    <h6><a href="">Documentation</a></h6>
                                 </div>
                             </div>
                         </div>
