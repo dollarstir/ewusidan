@@ -365,9 +365,16 @@
                                 </span>
                                 <div class="tm-service-content">
                                     <h5><a href="main/service-details.html">Documentations</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a>
+                                    <p><ul>
+                                        <li>Affidavit</li>
+                                        <!-- <li>Gazetting</li> -->
+                                        <li>birth certificate</li>
+                                        <li>Business certificate</li>
+                                        <li>online passport application</li>
+                                        
+                                    </ul></p>
+                                    <a href="services" class="tm-readmore">Read More</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -496,111 +503,7 @@
             <!--// Funfact Area -->
 
             <!-- Team Area -->
-            <div class="tm-section team-members-area bg-white tm-padding-section">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-7 col-md-10 col-12">
-                            <div class="tm-section-title text-center">
-                                <h2>OUR ADVISORS</h2>
-                                <span class="divider"><i class="fa fa-superpowers"></i></span>
-                                <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
-                                    ullam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-30-reverse">
-
-                        <!-- Team Member -->
-                        <div class="col-lg-3 col-md-6 col-12 mt-30">
-                            <div class="tm-member wow fadeInUp">
-                                <div class="tm-member-top">
-                                    <img src="main/assets/images/team/team-member-1.jpg" alt="team member">
-                                    <div class="tm-member-social">
-                                        <ul>
-                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="tm-member-bottom">
-                                    <h5>Astley Fletcher</h5>
-                                    <p>S. Advisor</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Team Member -->
-
-                        <!-- Team Member -->
-                        <div class="col-lg-3 col-md-6 col-12 mt-30">
-                            <div class="tm-member wow fadeInUp">
-                                <div class="tm-member-top">
-                                    <img src="main/assets/images/team/team-member-2.jpg" alt="team member">
-                                    <div class="tm-member-social">
-                                        <ul>
-                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="tm-member-bottom">
-                                    <h5>Bernard Rutherford</h5>
-                                    <p>S. Advisor</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Team Member -->
-
-                        <!-- Team Member -->
-                        <div class="col-lg-3 col-md-6 col-12 mt-30">
-                            <div class="tm-member wow fadeInUp">
-                                <div class="tm-member-top">
-                                    <img src="main/assets/images/team/team-member-3.jpg" alt="team member">
-                                    <div class="tm-member-social">
-                                        <ul>
-                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="tm-member-bottom">
-                                    <h5>Amelie Bernhard</h5>
-                                    <p>J. Advisor</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Team Member -->
-
-                        <!-- Team Member -->
-                        <div class="col-lg-3 col-md-6 col-12 mt-30">
-                            <div class="tm-member wow fadeInUp">
-                                <div class="tm-member-top">
-                                    <img src="main/assets/images/team/team-member-4.jpg" alt="team member">
-                                    <div class="tm-member-social">
-                                        <ul>
-                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="tm-member-bottom">
-                                    <h5>Demond Towne</h5>
-                                    <p>Marketer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Team Member -->
-
-                    </div>
-                </div>
-            </div>
+            
             <!--// Team Area -->
 
             <!-- Our Portfolios -->
@@ -611,18 +514,18 @@
                             <div class="tm-section-title text-center">
                                 <h2>OUR PORTFOLIOS</h2>
                                 <span class="divider"><i class="fa fa-superpowers"></i></span>
-                                <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
-                                    ullam.</p>
+                                <p>Sample of our works</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="tm-portfolio-buttons text-center">
                         <button data-filter="*" class="is-active">All</button>
+                        <button data-filter=".portfolio-filter-documentation">Documentation</button>
                         <button data-filter=".portfolio-filter-business">Business</button>
                         <button data-filter=".portfolio-filter-financial">Financial</button>
-                        <button data-filter=".portfolio-filter-investment">Investment</button>
-                        <button data-filter=".portfolio-filter-careative">Creative</button>
+                        <!-- <button data-filter=".portfolio-filter-investment">Documentation</button> -->
+                        <button data-filter=".portfolio-filter-careative">Education</button>
                         <button data-filter=".portfolio-filter-technology">Technology</button>
                     </div>
 
@@ -858,227 +761,11 @@
             <!--// Testimonial Area -->
 
             <!-- Blogs Area -->
-            <div class="tm-section blogs-area bg-white tm-padding-section">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-7 col-md-10 col-12">
-                            <div class="tm-section-title text-center">
-                                <h2>OUR LATEST BLOGS</h2>
-                                <span class="divider"><i class="fa fa-superpowers"></i></span>
-                                <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
-                                    ullam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-slider-active tm-slider-arrow tm-slider-arrow-hovervisible">
-
-                        <!-- Single Blog -->
-                        <div class="blog-slider-item">
-                            <div class="tm-blog wow fadeInUp">
-                                <div class="tm-blog-image">
-                                    <a href="main/blog-details.html">
-                                        <img src="main/assets/images/blog/blog-image-1.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <div class="tm-blog-meta">
-                                        <span><i class="fa fa-user-o"></i>By <a href="main/blog.html">Anderson</a></span>
-                                        <span><i class="fa fa-calendar-o"></i>October 15, 2018</span>
-                                    </div>
-                                    <h5><a href="main/blog-details.html">The Most Advance Business Plan</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incdidunt ut labore et.</p>
-                                    <a href="main/blog-details.html" class="tm-readmore">Continue Reading...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="blog-slider-item">
-                            <div class="tm-blog wow fadeInUp">
-                                <div class="tm-blog-imageslider tm-slider-arrow tm-slider-dots">
-                                    <a href="main/blog-details-gallery.html" class="blogitem-imageslider-image">
-                                        <img src="main/assets/images/blog/blog-image-5.jpg" alt="blog image">
-                                    </a>
-                                    <a href="main/blog-details-gallery.html" class="blogitem-imagesalider-image">
-                                        <img src="main/assets/images/blog/blog-image-6.jpg" alt="blog image">
-                                    </a>
-                                    <a href="main/blog-details-gallery.html" class="blogitem-imageslider-image">
-                                        <img src="main/assets/images/blog/blog-image-7.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <div class="tm-blog-meta">
-                                        <span><i class="fa fa-user-o"></i>By <a href="main/blog.html">Anderson</a></span>
-                                        <span><i class="fa fa-calendar-o"></i>October 15, 2018</span>
-                                    </div>
-                                    <h5><a href="main/blog-details-gallery.html">The Most Advance Business Plan</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incdidunt ut labore et.</p>
-                                    <a href="main/blog-details-gallery.html" class="tm-readmore">Continue Reading...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="blog-slider-item">
-                            <div class="tm-blog wow fadeInUp">
-                                <div class="tm-blog-video">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="main/https://www.youtube.com/embed/XWcjIahn7xI"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <div class="tm-blog-meta">
-                                        <span><i class="fa fa-user-o"></i>By <a href="main/blog.html">Anderson</a></span>
-                                        <span><i class="fa fa-calendar-o"></i>October 15, 2018</span>
-                                    </div>
-                                    <h5><a href="main/blog-details-video.html">The Most Advance Business Plan</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incdidunt ut labore et.</p>
-                                    <a href="main/blog-details-video.html" class="tm-readmore">Continue Reading...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="blog-slider-item">
-                            <div class="tm-blog wow fadeInUp">
-                                <div class="tm-blog-audio">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="main/https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/298527001&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-                                    </div>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <div class="tm-blog-meta">
-                                        <span><i class="fa fa-user-o"></i>By <a href="main/blog.html">Anderson</a></span>
-                                        <span><i class="fa fa-calendar-o"></i>October 15, 2018</span>
-                                    </div>
-                                    <h5><a href="main/blog-details-audio.html">The Most Advance Business Plan</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incdidunt ut labore et.</p>
-                                    <a href="main/blog-details-audio.html" class="tm-readmore">Continue Reading...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="blog-slider-item">
-                            <div class="tm-blog wow fadeInUp">
-                                <div class="tm-blog-image">
-                                    <a href="main/blog-details.html">
-                                        <img src="main/assets/images/blog/blog-image-2.jpg" alt="blog image">
-                                    </a>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <div class="tm-blog-meta">
-                                        <span><i class="fa fa-user-o"></i>By <a href="main/blog.html">Anderson</a></span>
-                                        <span><i class="fa fa-calendar-o"></i>October 15, 2018</span>
-                                    </div>
-                                    <h5><a href="main/blog-details.html">The Most Advance Business Plan</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incdidunt ut labore et.</p>
-                                    <a href="main/blog-details.html" class="tm-readmore">Continue Reading...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                    </div>
-                </div>
-            </div>
+            
             <!--// Blogs Area -->
 
             <!-- Brandlogo Area -->
-            <div class="tm-section brand-logo-area bg-grey tm-padding-section">
-                <div class="container">
-                    <div class="brandlogo-slider tm-slider-arrow tm-slider-arrow-hovervisible">
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-1.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
 
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-2.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-3.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-4.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-5.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-1.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-2.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-3.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-4.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-
-                        <!-- Brang Logo Single -->
-                        <div class="brandlogo">
-                            <a href="main/#">
-                                <img src="main/assets/images/brand-logo/brand-logo-5.png" alt="brand-logo">
-                            </a>
-                        </div>
-                        <!--// Brang Logo Single -->
-                    </div>
-                </div>
-            </div>
             <!--// Brandlogo Area -->
 
             <!-- Call To Action Area -->
@@ -1092,7 +779,7 @@
                         </div>
                         <div class="col-lg-3 col-md-4 col-12">
                             <div class="tm-cta-button">
-                                <a href="main/contact-us.html" class="tm-button tm-button-white">Contact Us <b></b></a>
+                                <a href="contact" class="tm-button tm-button-white">Contact Us <b></b></a>
                             </div>
                         </div>
                     </div>
