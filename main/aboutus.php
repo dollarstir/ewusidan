@@ -69,7 +69,7 @@
                             <div class="tm-about-content">
                                 <h2>WE ARE EWUSIDAN CONSULT</h2>
                                 <span class="divider"><i class="fa fa-superpowers"></i></span>
-                                <p>consultancy firm that provide Business, Education, Financial, Documentation and information technology consultation to people.</p>
+                                <p>EWUSIDAN CONSULT is a consultancy firm that provide Business, Education, Financial, Documentation and information technology consultation to people.</p>
                                 <ul class="stylish-list">
                                     <li><i class="fa fa-check-square-o"></i> Financial consultancy.</li>
                                     <li><i class="fa fa-check-square-o"></i>Business consultancy </li>

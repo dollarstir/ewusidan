@@ -104,7 +104,7 @@ echo '<div class="footer fixed-footer">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-8 col-12">
-                <p class="footer-copyright">Copyright ©'.date('Y').' <a href="home">Ewusidan Consultancy</a>. All Rights Reserved.  Designed by <a href="https://github.com/dollarstir/">Dollarsoft</a></p>
+                <p class="footer-copyright">Copyright ©'.date('Y').' <a href="home">Ewusidan Consult</a>. All Rights Reserved.  Designed by <a href="https://github.com/dollarstir/">Dollarsoft</a></p>
             </div>
             <div class="col-md-4 col-12">
                 <div class="footer-copyrightsocial">
