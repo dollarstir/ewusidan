@@ -1,3 +1,10 @@
+<?php
+if (isset($_POST['snd'])) {
+    extract($_POST);
+    $res = sendmail();
+}
+
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
