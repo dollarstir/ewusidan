@@ -34,6 +34,7 @@ echo '<div class="header sticky-header">
             <div class="header-logo">
                 <a href="main/index.html">
                     <img src="main/assets/images/logo/logo.png" alt="deconsult logo" style="width:100px;height:100px;">
+                    <span style="color:#8C704F;font-weight:bold;">EWUSIDAN CONSULT</span>
                 </a>
             </div>
             <nav class="tm-navigation">
