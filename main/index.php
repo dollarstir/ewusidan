@@ -676,7 +676,7 @@
             <!--// Our Portfolios -->
 
             <!-- Testimonial Area -->
-            <div class="tm-section testimonial-area tm-padding-section tm-parallax" data-overlay="9" data-bgimage="assets/images/bg/bg-image-2.jpg">
+            <!-- <div class="tm-section testimonial-area tm-padding-section tm-parallax" data-overlay="9" data-bgimage="assets/images/bg/bg-image-2.jpg">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-7 col-md-10 col-12">
@@ -690,7 +690,7 @@
                     </div>
                     <div class="row testimonial-slider-active">
 
-                        <!-- Testimonial -->
+                       
                         <div class="col-lg-6">
                             <div class="tm-testimonial">
                                 <div class="tm-testimonial-content">
@@ -709,9 +709,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--// Testimonial -->
-
-                        <!-- Testimonial -->
+                        
                         <div class="col-lg-6">
                             <div class="tm-testimonial">
                                 <div class="tm-testimonial-content">
@@ -730,9 +728,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--// Testimonial -->
-
-                        <!-- Testimonial -->
+                        
                         <div class="col-lg-6">
                             <div class="tm-testimonial">
                                 <div class="tm-testimonial-content">
@@ -751,11 +747,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!--// Testimonial -->
+                        
 
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--// Testimonial Area -->
 
             <!-- Blogs Area -->
