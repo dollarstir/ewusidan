@@ -535,7 +535,7 @@
                         <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-documentation">
                             <div class="tm-portfolio mt-30 wow fadeInUp">
                                 <div class="tm-portfolio-image">
-                                    <img src="main/assets/images/portfolio/1.jpg" alt="portfolio image">
+                                    <img src="main/assets/images/portfolio/1.jpg" alt="portfolio image" style="height: 304px;">
                                     <ul class="tm-portfolio-actions">
                                         <li class="link-button">
                                             <a href=""><i class="fa fa-link"></i></a>
