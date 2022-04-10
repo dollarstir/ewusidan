@@ -10,23 +10,30 @@ $router = new Router([
     ),
 
     new Route(
+        '/home',
+        function ($context) {
+            return Viewer::view('main/index.php', $context);
+        }
+    ),
+
+    new Route(
         '/services',
         function ($context) {
-            return Viewer::view('serv.php', $context);
+            return Viewer::view('main/serv.php', $context);
         }
     ),
 
     new Route(
         '/about',
         function ($context) {
-            return Viewer::view('aboutus.php', $context);
+            return Viewer::view('main/aboutus.php', $context);
         }
     ),
 
     new Route(
         '/contact',
         function ($context) {
-            return Viewer::view('t/contactus.php', $context);
+            return Viewer::view('main/contactus.php', $context);
         }
     ),
 ]);

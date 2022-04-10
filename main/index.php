@@ -11,9 +11,9 @@
     <link rel="shortcut icon" href="main/assets/images/favicon.ico">
 
     <!-- Google Font (font-family: 'Karla', sans-serif;) -->
-    <link href="main/https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
     <!-- Google Font (font-family: 'Rubik', sans-serif;) -->
-    <link href="main/https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700" rel="stylesheet">
 
     <link rel="stylesheet" href="main/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="main/assets/css/plugins.css">

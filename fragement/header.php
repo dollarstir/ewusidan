@@ -32,7 +32,7 @@ echo '<div class="header sticky-header">
     <div class="container">
         <div class="header-bottominner">
             <div class="header-logo">
-                <a href="main/index.html">
+                <a href="home">
                     <img src="main/assets/images/logo/logo.png" alt="deconsult logo" style="width:100px;height:100px;">
                     <span style="color:#8C704F;font-weight:bold;">EWUSIDAN CONSULT</span>
                 </a>
@@ -40,9 +40,9 @@ echo '<div class="header sticky-header">
             <nav class="tm-navigation">
                 <ul>
                     <li><a href="home">Home</a></li>
-                    <li><a href="main/about-us.html">Services</a></li>
-                    <li><a href="main/about-us.html">About</a></li>
-                    <li><a href="main/about-us.html">Contact Us</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact Us</a></li>
                     <!--<li class="tm-navigation-dropdown"><a href="main/portfolio.html">Portfolio</a>
                         <ul>
                             <li><a href="main/portfolio.html">Portfolio Grid</a></li>
