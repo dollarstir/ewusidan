@@ -3,7 +3,7 @@ if (isset($_POST['snd'])) {
     extract($_POST);
     $res = sendmail('www.phpyolk.com', $subject, 'Username: '.$name.' Email: '.$email.' Message <br> '.$message.' ', 'Ewusidan Website', ['kpin463@gmail.com']);
 
-    echo '<script>alert('.$res.')</script>';
+    echo '<script>alert("Request sent successfuly")</script>';
 }
 
 ?>
