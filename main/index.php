@@ -2,13 +2,14 @@
 <html lang="zxx">
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Deconsult - Finance & Consulting HTML Template</title>
-    <meta name="description" content="">
+    <title>EWUSIDAN CONSULT - HOME</title>
+    <meta name="description" content="EWUSIDAN CONSULT is a consultancy firm that provide Business, Education, Financial, Documentation and information technology consultation to people.">
+    <meta name="keywords" content="EWUSIDAN,CONSULTANCY, Business Consultancy,Financial Consultancy,Business Certifcate,online Passport,Affidavit,Birth Certificate">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" href="main/assets/images/favicon.png">
-    <link rel="shortcut icon" href="main/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="main/main/assets/images/favicon.png">
+    <link rel="shortcut icon" href="main/main/assets/images/favicon.ico">
 
     <!-- Google Font (font-family: 'Karla', sans-serif;) -->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
@@ -365,7 +366,7 @@
                                 </span>
                                 <div class="tm-service-content">
                                     <h5><a href="main/service-details.html">Documentations</a></h5>
-                                    <p><ul>
+                                    <p><ul style="text-align: justify;">
                                         <li>Affidavit</li>
                                         <!-- <li>Gazetting</li> -->
                                         <li>birth certificate</li>
@@ -392,33 +393,35 @@
                         <div class="col-lg-6">
                             <div class="tm-callback">
                                 <h2>Request a callback</h2>
-                                <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
-                                    ullam.</p>
-                                <form action="#" class="tm-form">
+                                <!-- <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
+                                    ullam.</p> -->
+                                <form action="" class="tm-form" method="post">
                                     <div class="tm-form-inner">
                                         <div class="tm-form-field">
-                                            <input type="text" placeholder="Enter Email*" required>
+                                            <input type="text" name="email" placeholder="Enter Email*" required>
                                         </div>
                                         <div class="tm-form-field">
-                                            <select>
-                                                <option value="a">Select Categories</option>
-                                                <option value="b">Financial Analysis</option>
-                                                <option value="c">Business Consulting</option>
-                                                <option value="d">Corporate Finance</option>
-                                                <option value="e">Financial Planning</option>
-                                                <option value="f">Business Growth</option>
-                                                <option value="g">Wealth Management</option>
+                                            <select name="service">
+                                                <option value="Financial consultancy">Financial consultancy</option>
+                                                <option value="Business consultancy">Business consultancy</option>
+                                                <option value="IT consultancy">IT consultancy</option>
+                                                <option value="Education consultancy">Education consultancy</option>
+                                                <option value="Marketing consultancy">Marketing consultancy</option>
+                                                <option value="Customer service consultancy">Customer service consultancy</option>
+                                                <option value=" Social marketing consultancy"> Social marketing consultancy</option>
+                                                <option value="Documentations">Documentations</option>
+                                                <option value="Land consultancy">Land consultancy</option>
                                             </select>
                                         </div>
                                         <div class="tm-form-field tm-form-fieldhalf">
-                                            <input type="text" placeholder="Phone Number*" required>
+                                            <input type="text" name="contact" placeholder="Phone Number*" required>
                                         </div>
                                         <div class="tm-form-field tm-form-fieldhalf">
-                                            <input type="text" data-toggle="datepicker" placeholder="Select Date*"
+                                            <input type="text" name="date" data-toggle="datepicker" placeholder="Select Date*"
                                                 required>
                                         </div>
                                         <div class="tm-form-field">
-                                            <button type="submit" class="tm-button">Submit Now</button>
+                                            <button type="submit" name="snd" class="tm-button">Submit Now</button>
                                         </div>
                                     </div>
                                 </form>
@@ -436,70 +439,7 @@
             <!--// Request Callback Area -->
 
             <!-- Funfact Area -->
-            <div class="tm-section funfact-area tm-padding-section tm-parallax" data-bgimage="assets/images/bg/bg-image-1.jpg"
-                data-overlay="9">
-                <div class="container">
-                    <div class="row tm-funfact-wrapper">
-
-                        <!-- Single Funfact -->
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="tm-funfact wow fadeInUp">
-                                <span class="tm-funfact-icon">
-                                    <i class="flaticon-group"></i>
-                                </span>
-                                <div class="tm-funfact-content">
-                                    <span class="odometer" data-count-to="500"></span>
-                                    <h5>Projects Complete</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Funfact -->
-
-                        <!-- Single Funfact -->
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="tm-funfact wow fadeInUp">
-                                <span class="tm-funfact-icon">
-                                    <i class="flaticon-success"></i>
-                                </span>
-                                <div class="tm-funfact-content">
-                                    <span class="odometer" data-count-to="500"></span>
-                                    <h5>Happy Clients</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Funfact -->
-
-                        <!-- Single Funfact -->
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="tm-funfact wow fadeInUp">
-                                <span class="tm-funfact-icon">
-                                    <i class="flaticon-trophy"></i>
-                                </span>
-                                <div class="tm-funfact-content">
-                                    <span class="odometer" data-count-to="500"></span>
-                                    <h5>Total Users</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Funfact -->
-
-                        <!-- Single Funfact -->
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="tm-funfact wow fadeInUp">
-                                <span class="tm-funfact-icon">
-                                    <i class="flaticon-like"></i>
-                                </span>
-                                <div class="tm-funfact-content">
-                                    <span class="odometer" data-count-to="500"></span>
-                                    <h5>Likes</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Funfact -->
-
-                    </div>
-                </div>
-            </div>
+          
             <!--// Funfact Area -->
 
             <!-- Team Area -->

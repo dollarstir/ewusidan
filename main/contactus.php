@@ -109,7 +109,7 @@ if (isset($_POST['snd'])) {
                         <div class="col-lg-7">
                             <div class="tm-contact-formwrapper">
                                 <h5>Let’s get in touch</h5>
-                                <form action="" id="tm-contactform" class="tm-form">
+                                <form action="" id="tm-contactform" class="tm-form" method="post">
                                     <div class="tm-form-inner">
                                         <div class="tm-form-field">
                                             <input type="text" name="name" placeholder="Name*">
@@ -124,7 +124,7 @@ if (isset($_POST['snd'])) {
                                             <textarea name="message" cols="30" rows="5" placeholder="Message*"></textarea>
                                         </div>
                                         <div class="tm-form-field">
-                                            <button type="submit" class="tm-button" value="snd">Send Message <b></b></button>
+                                            <button type="submit" class="tm-button" name="snd">Send Message <b></b></button>
                                         </div>
                                     </div>
                                 </form>

@@ -2,24 +2,25 @@
 <html lang="zxx">
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Deconsult - Business Consulting Bootstrap4 Template</title>
-    <meta name="description" content="">
+    <title>EWUSIDAN CONSULT - SERVICES</title>
+    <meta name="description" content="EWUSIDAN CONSULT is a consultancy firm that provide Business, Education, Financial, Documentation and information technology consultation to people.">
+    <meta name="keywords" content="EWUSIDAN,CONSULTANCY, Business Consultancy,Financial Consultancy,Business Certifcate,online Passport,Affidavit,Birth Certificate">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" href="assets/images/favicon.png">
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="main/main/assets/images/favicon.png">
+    <link rel="shortcut icon" href="main/main/assets/images/favicon.ico">
 
     <!-- Google Font (font-family: 'Karla', sans-serif;) -->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
     <!-- Google Font (font-family: 'Rubik', sans-serif;) -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="main/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main/assets/css/plugins.css">
+    <link rel="stylesheet" href="main/assets/css/style.css">
 
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="main/assets/css/custom.css">
 </head>
 
 <body>
@@ -35,207 +36,16 @@
     <div id="wrapper" class="wrapper">
 
         <!-- Header -->
-        <div class="header sticky-header">
-
-            <!-- Header Top Area -->
-            <div class="header-toparea">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7 col-12">
-                            <div class="header-topinfo">
-                                <ul>
-                                    <li><a href="tel://+1-800-915-6270"><i class="fa fa-phone"></i> 1-800-915-6270</a></li>
-                                    <li><a href="mailto://contact@example.com"><i class="fa fa-envelope-o"></i>
-                                            contact@example.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-5 col-12">
-                            <div class="header-topinfo text-right">
-                                <ul>
-                                    <li><i class="fa fa-clock-o"></i> Mon - Fri: 9:00 - 19:00 GMT-05</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Header Top Area -->
-
-            <!-- Header Bottom Area -->
-            <div class="header-bottomarea">
-                <div class="container">
-                    <div class="header-bottominner">
-                        <div class="header-logo">
-                            <a href="index.html">
-                                <img src="assets/images/logo/logo.png" alt="deconsult logo">
-                            </a>
-                        </div>
-                        <nav class="tm-navigation">
-                            <ul>
-                                <li class="tm-navigation-dropdown"><a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Homepage Default</a></li>
-                                        <li><a href="index-textslider.html">Homepage Textslider</a></li>
-                                        <li><a href="index-videobg.html">Homepage Video Bg</a></li>
-                                        <li><a href="index-ripplebg.html">Homepage Ripple Bg</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about-us.html">About</a></li>
-                                <li class="tm-navigation-dropdown"><a href="portfolio.html">Portfolio</a>
-                                    <ul>
-                                        <li><a href="portfolio.html">Portfolio Grid</a></li>
-                                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        <li><a href="portfolio-details-gallery.html">Portfolio Details Gallery</a></li>
-                                        <li><a href="portfolio-details-video.html">Portfolio Details Video</a></li>
-                                    </ul>
-                                </li>
-                                <li class="tm-navigation-dropdown"><a href="shop.html">Shop</a>
-                                    <ul>
-                                        <li><a href="shop.html">Products Right Sidebar</a></li>
-                                        <li><a href="shop-left-sidebar.html">Products Left Sidebar</a></li>
-                                        <li><a href="shop-4-column.html">Products 4 Column</a></li>
-                                        <li><a href="shop-without-sidebar.html">Products Without Sidebar</a></li>
-                                        <li><a href="product-details.html">Products Details</a>
-                                            <ul>
-                                                <li><a href="product-details.html">Products Details</a>
-                                                <li><a href="product-details-left-sidebar.html">Product Details Left
-                                                        Sidebar</a></li>
-                                                <li><a href="product-details-variable.html">Product Details Variable</a></li>
-                                                <li><a href="product-details-without-sidebar.html">Product Details
-                                                        Without Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Shop Extra</a>
-                                            <ul>
-                                                <li><a href="cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="my-account.html">My account</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tm-navigation-dropdown"><a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-3-column.html">Blog 3 Column</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a>
-                                            <ul>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                                <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                                <li><a href="blog-details-without-sidebar.html">Blog Details Without Sidebar</a></li>
-                                                <li><a href="blog-details-audio.html">Blog Details Audio</a></li>
-                                                <li><a href="blog-details-video.html">Blog Details Video</a></li>
-                                                <li><a href="blog-details-gallery.html">Blog Details Gallery</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tm-navigation-megamenu"><a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="shop.html">Pagelist 1</a>
-                                            <ul>
-                                                <li><a href="index.html">Homepage Default</a></li>
-                                                <li><a href="index-textslider.html">Homepage Textslider</a></li>
-                                                <li><a href="index-videobg.html">Homepage Video Bg</a></li>
-                                                <li><a href="index-ripplebg.html">Homepage Ripple Bg</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="portfolio.html">Portfolio Grid</a></li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                <li><a href="portfolio-details-gallery.html">Portfolio Details Gallery</a></li>
-                                                <li><a href="portfolio-details-video.html">Portfolio Details Video</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Pagelist 2</a>
-                                            <ul>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                                <li><a href="service-details-left-sidebar.html">Service Details Left
-                                                        Sidebar</a></li>
-                                                <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                <li><a href="blog-3-column.html">Blog 3 Column</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                                <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Pagelist 3</a>
-                                            <ul>
-                                                <li><a href="blog-details-without-sidebar.html">Blog Details Without
-                                                        Sidebar</a></li>
-                                                <li><a href="blog-details-audio.html">Blog Details Audio</a></li>
-                                                <li><a href="blog-details-video.html">Blog Details Video</a></li>
-                                                <li><a href="blog-details-gallery.html">Blog Details Gallery</a></li>
-                                                <li><a href="shop.html">Products Right Sidebar</a></li>
-                                                <li><a href="shop-left-sidebar.html">Products Left Sidebar</a></li>
-                                                <li><a href="shop-4-column.html">Products 4 Column</a></li>
-                                                <li><a href="shop-without-sidebar.html">Products Without Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Pagelist 4</a>
-                                            <ul>
-                                                <li><a href="product-details.html">Products Details</a>
-                                                <li><a href="product-details-left-sidebar.html">Product Details Left
-                                                        Sidebar</a></li>
-                                                <li><a href="product-details-variable.html">Product Details Variable</a></li>
-                                                <li><a href="product-details-without-sidebar.html">Product Details
-                                                        Without Sidebar</a></li>
-                                                <li><a href="cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="my-account.html">My account</a></li>
-                                                <li><a href="faq.html">Frequently Ask Question</a></li>
-                                                <li><a href="contact-us.html">Contact Us</a></li>
-                                                <li><a href="404.html">404 Page</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact-us.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <div class="header-icons">
-                            <ul>
-                                <li>
-                                    <button title="Search" class="header-searchtrigger"><i class="fa fa-search"></i></button>
-                                </li>
-                                <li>
-                                    <a href="cart.html" title="Shopping Cart"><i class="fa fa-shopping-cart"></i></a>
-                                </li>
-                                <li>
-                                    <button title="Login / Register" class="header-loginformtrigger" type="button"
-                                        data-toggle="modal" data-target="#tm-loginregister-popup"><i class="fa fa-user"></i></button>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Header Searchform -->
-                        <div class="header-searchbox">
-                            <form action="#" class="header-searchform">
-                                <input type="text" placeholder="Enter search keyword..">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                            </form>
-                        </div>
-                        <!--// Header Searchform -->
-
-                    </div>
-                    <div class="header-mobilemenu clearfix">
-                        <div class="tm-mobilenav"></div>
-                    </div>
-                </div>
-            </div>
-            <!--// Header Bottom Area -->
-
-        </div>
+        <?php  involve('header'); ?>
         <!--// Header -->
 
         <!-- Breadcrumb Area -->
-        <div class="tm-breadcrumb-area tm-padding-section text-center" data-overlay="1" data-bgimage="assets/images/bg/bg-breadcrumb.jpg">
+        <div class="tm-breadcrumb-area tm-padding-section text-center" data-overlay="1" data-bgimage="main/assets/images/hero/1.jpg">
             <div class="container">
                 <div class="tm-breadcrumb">
                     <h2 class="tm-breadcrumb-title">Our Services</h2>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="main/index.html">Home</a></li>
                         <li>Services</li>
                     </ul>
                 </div>
@@ -247,8 +57,18 @@
         <main class="main-content">
 
             <!-- Services Area -->
-            <div class="tm-section services-area bg-white tm-padding-section">
+            <div class="tm-section services-area bg-grey tm-padding-section">
                 <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-7 col-md-10 col-12">
+                            <div class="tm-section-title text-center">
+                                <h2>OUR SERVICES</h2>
+                                <span class="divider"><i class="fa fa-superpowers"></i></span>
+                                <!-- <p>Molestiae voluptatem dolorem commodi ipsum. Odit et rerum praesentium. Dolorem animi
+                                    ullam.</p> -->
+                            </div>
+                        </div>
+                    </div>
                     <div class="row mt-30-reverse">
 
                         <!-- Single Service -->
@@ -261,10 +81,10 @@
                                     <i class="flaticon-analysis"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="service-details.html">Financial Analysis</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Financial Consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -280,10 +100,10 @@
                                     <i class="flaticon-consulting"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="service-details.html">Business Consulting</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Business Consulting</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -299,10 +119,10 @@
                                     <i class="flaticon-growth"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="service-details.html">Corporate Finance</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">IT consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -318,10 +138,10 @@
                                     <i class="flaticon-planning"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="service-details.html">Financial Planning</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Education consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -337,10 +157,10 @@
                                     <i class="flaticon-money"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="service-details.html">Business Growth</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Marketing consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -356,10 +176,90 @@
                                     <i class="flaticon-management"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="service-details.html">Wealth Management</a></h5>
-                                    <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                    <h5><a href="main/service-details.html">Customer service consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="service-details.html" class="tm-readmore">Read More</a>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Service -->
+
+                        <!-- Single Service -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-30">
+                            <div class="tm-service text-center wow fadeInUp">
+                                <span class="tm-service-bgicon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <span class="tm-service-icon">
+                                    <i class="flaticon-growth"></i>
+                                </span>
+                                <div class="tm-service-content">
+                                    <h5><a href="main/service-details.html">Social marketing consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                        similique sed perspiciatis.</p>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Service -->
+
+
+                        <!-- Single Service -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-30">
+                            <div class="tm-service text-center wow fadeInUp">
+                                <span class="tm-service-bgicon">
+                                    <i class="flaticon-planning"></i>
+                                </span>
+                                <span class="tm-service-icon">
+                                    <i class="flaticon-planning"></i>
+                                </span>
+                                <div class="tm-service-content">
+                                    <h5><a href="main/service-details.html">Land consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                        similique sed perspiciatis.</p>
+                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Service -->
+
+
+                        <!-- Single Service -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-30">
+                            <div class="tm-service text-center wow fadeInUp">
+                                <span class="tm-service-bgicon">
+                                    <i class="flaticon-consulting"></i>
+                                </span>
+                                <span class="tm-service-icon">
+                                    <i class="flaticon-consulting"></i>
+                                </span>
+                                <div class="tm-service-content">
+                                    <h5><a href="main/service-details.html">Documentations</a></h5>
+                                    <p ><ul style="text-align: justify;">
+                                        <li>Affidavit</li>
+                                        <li>Gazetting</li>
+                                        <li>birth certificate</li>
+                                        <li>Business certificate</li>
+                                        <li>online passport application</li>
+                                        <li>Receipt for the sale of building</li>
+                                        <li>Farm Tenancy Agreement</li>
+                                        <li>Land Tenancy Agreement</li>
+                                        <li>Deed of cocoa pledge</li>
+                                        <li>Promissory note</li>
+                                        <li>Full Receipt</li>
+                                        <li>Rent Tenancy Agreement</li>
+                                        <li>Deed of gift</li>
+                                        <li>Letter of Attorney</li>
+                                        <li>Menu random of Agreement</li>
+                                        <li>withdrawal of police case</li>
+                                        <li>Adjournment of court case</li>
+                                        <li>Discharge of patients from hopital letter</li>
+                                        <li>Petitions</li>
+                                        
+                                    </ul></p>
+                                    <!-- <a href="services" class="tm-readmore">Read More</a> -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -456,13 +356,13 @@
                         <div class="col-lg-3 col-md-6 col-12 mt-30">
                             <div class="tm-member wow fadeInUp">
                                 <div class="tm-member-top">
-                                    <img src="assets/images/team/team-member-1.jpg" alt="team member">
+                                    <img src="main/assets/images/team/team-member-1.jpg" alt="team member">
                                     <div class="tm-member-social">
                                         <ul>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -478,13 +378,13 @@
                         <div class="col-lg-3 col-md-6 col-12 mt-30">
                             <div class="tm-member wow fadeInUp">
                                 <div class="tm-member-top">
-                                    <img src="assets/images/team/team-member-2.jpg" alt="team member">
+                                    <img src="main/assets/images/team/team-member-2.jpg" alt="team member">
                                     <div class="tm-member-social">
                                         <ul>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -500,13 +400,13 @@
                         <div class="col-lg-3 col-md-6 col-12 mt-30">
                             <div class="tm-member wow fadeInUp">
                                 <div class="tm-member-top">
-                                    <img src="assets/images/team/team-member-3.jpg" alt="team member">
+                                    <img src="main/assets/images/team/team-member-3.jpg" alt="team member">
                                     <div class="tm-member-social">
                                         <ul>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -522,13 +422,13 @@
                         <div class="col-lg-3 col-md-6 col-12 mt-30">
                             <div class="tm-member wow fadeInUp">
                                 <div class="tm-member-top">
-                                    <img src="assets/images/team/team-member-4.jpg" alt="team member">
+                                    <img src="main/assets/images/team/team-member-4.jpg" alt="team member">
                                     <div class="tm-member-social">
                                         <ul>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
+                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -556,7 +456,7 @@
                         </div>
                         <div class="col-lg-3 col-md-4 col-12">
                             <div class="tm-cta-button">
-                                <a href="contact-us.html" class="tm-button tm-button-white">Contact Us <b></b></a>
+                                <a href="main/contact-us.html" class="tm-button tm-button-white">Contact Us <b></b></a>
                             </div>
                         </div>
                     </div>
@@ -578,12 +478,12 @@
                         <div class="col-lg-3 col-md-6 col-12">
                             <!-- Single Widget (Widget Info) -->
                             <div class="single-widget widget-info">
-                                <a href="index.html" class="widget-info-logo">
-                                    <img src="assets/images/logo/logo-white.png" alt="footer logo">
+                                <a href="main/index.html" class="widget-info-logo">
+                                    <img src="main/assets/images/logo/logo-white.png" alt="footer logo">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Rerum harum ipsum
                                     quibusdam quas qui ratione inventore dolore natus recusandae assumenda.</p>
-                                <a href="about-us.html" class="tm-button">Read More<b></b></a>
+                                <a href="main/about-us.html" class="tm-button">Read More<b></b></a>
                             </div>
                             <!--// Single Widget (Widget Info) -->
                         </div>
@@ -593,12 +493,12 @@
                             <div class="single-widget widget-quicklinks">
                                 <h5 class="widget-title">Quick Links</h5>
                                 <ul>
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="services.html">Our Services</a></li>
-                                    <li><a href="contact-us.html">Contact With Us</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Case Studies</a></li>
-                                    <li><a href="#">Support Center</a></li>
+                                    <li><a href="main/about-us.html">About Us</a></li>
+                                    <li><a href="main/services.html">Our Services</a></li>
+                                    <li><a href="main/contact-us.html">Contact With Us</a></li>
+                                    <li><a href="main/#">Terms & Conditions</a></li>
+                                    <li><a href="main/#">Case Studies</a></li>
+                                    <li><a href="main/#">Support Center</a></li>
                                 </ul>
                             </div>
                             <!--// Single Widget (Widget Contact) -->
@@ -610,30 +510,30 @@
                                 <h5 class="widget-title">Recent Posts</h5>
                                 <ul>
                                     <li>
-                                        <a href="blog-details.html" class="widget-recentpost-image">
-                                            <img src="assets/images/blog/thumbnails/blog-thumbnail-1.jpg" alt="blog thumbnail">
+                                        <a href="main/blog-details.html" class="widget-recentpost-image">
+                                            <img src="main/assets/images/blog/thumbnails/blog-thumbnail-1.jpg" alt="blog thumbnail">
                                         </a>
                                         <div class="widget-recentpost-content">
-                                            <h6><a href="blog-details.html">Architecto earum maxime deleniti qui
+                                            <h6><a href="main/blog-details.html">Architecto earum maxime deleniti qui
                                                     debitis</a></h6>
                                             <span>August 01, 2018</span>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="blog-details.html" class="widget-recentpost-image">
-                                            <img src="assets/images/blog/thumbnails/blog-thumbnail-2.jpg" alt="blog thumbnail">
+                                        <a href="main/blog-details.html" class="widget-recentpost-image">
+                                            <img src="main/assets/images/blog/thumbnails/blog-thumbnail-2.jpg" alt="blog thumbnail">
                                         </a>
                                         <div class="widget-recentpost-content">
-                                            <h6><a href="blog-details.html">Minus omnis eos eaque illum dolo</a></h6>
+                                            <h6><a href="main/blog-details.html">Minus omnis eos eaque illum dolo</a></h6>
                                             <span>August 01, 2018</span>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="blog-details.html" class="widget-recentpost-image">
-                                            <img src="assets/images/blog/thumbnails/blog-thumbnail-3.jpg" alt="blog thumbnail">
+                                        <a href="main/blog-details.html" class="widget-recentpost-image">
+                                            <img src="main/assets/images/blog/thumbnails/blog-thumbnail-3.jpg" alt="blog thumbnail">
                                         </a>
                                         <div class="widget-recentpost-content">
-                                            <h6><a href="blog-details.html">Corporis eaque illum dolo</a></h6>
+                                            <h6><a href="main/blog-details.html">Corporis eaque illum dolo</a></h6>
                                             <span>August 01, 2018</span>
                                         </div>
                                     </li>
@@ -673,16 +573,16 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12">
-                            <p class="footer-copyright">Copyright ©2018 <a href="#">Thememarch</a>. All Rights Reserved</p>
+                            <p class="footer-copyright">Copyright ©2018 <a href="main/#">Thememarch</a>. All Rights Reserved</p>
                         </div>
                         <div class="col-md-4 col-12">
                             <div class="footer-copyrightsocial">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                    <li><a href="main/#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="main/#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
                                                 class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Skype"><i class="fa fa-skype"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
+                                    <li><a href="main/#" data-toggle="tooltip" data-placement="top" title="Skype"><i class="fa fa-skype"></i></a></li>
+                                    <li><a href="main/#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
                                                 class="fa fa-pinterest-p"></i></a></li>
                                 </ul>
                             </div>
@@ -708,11 +608,11 @@
                                     </button>
                                     <ul class="nav tm-tabgroup" id="bstab1" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active" id="bstab1-area1-tab" data-toggle="tab" href="#bstab1-area1"
+                                            <a class="nav-link active" id="bstab1-area1-tab" data-toggle="tab" href="main/#bstab1-area1"
                                                 role="tab" aria-controls="bstab1-area1" aria-selected="true">Login</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="bstab1-area2-tab" data-toggle="tab" href="#bstab1-area2"
+                                            <a class="nav-link" id="bstab1-area2-tab" data-toggle="tab" href="main/#bstab1-area2"
                                                 role="tab" aria-controls="bstab1-area2" aria-selected="false">Register</a>
                                         </li>
                                     </ul>
@@ -739,7 +639,7 @@
                                                         <button type="submit" class="tm-button">Login <b></b></button>
                                                     </div>
                                                     <div class="tm-form-field">
-                                                        <a href="#">Forgot your password?</a>
+                                                        <a href="main/#">Forgot your password?</a>
                                                     </div>
                                                 </div>
                                             </form>
@@ -788,12 +688,12 @@
     <!--// Wrapper -->
 
     <!-- Js Files -->
-    <script src="assets/js/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="main/assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="main/assets/js/jquery.min.js"></script>
+    <script src="main/assets/js/popper.min.js"></script>
+    <script src="main/assets/js/bootstrap.min.js"></script>
+    <script src="main/assets/js/plugins.js"></script>
+    <script src="main/assets/js/main.js"></script>
     <!--// Js Files -->
 </body>
 
