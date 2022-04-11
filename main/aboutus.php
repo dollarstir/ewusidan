@@ -217,7 +217,7 @@
                                 </div>
                                 <div class="tm-member-bottom">
                                     <h5>Daniel Ewusi</h5>
-                                    <p>CEO & FOunder</p>
+                                    <p>CEO & Founder</p>
                                 </div>
                             </div>
                         </div>
