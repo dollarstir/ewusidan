@@ -97,10 +97,10 @@
                                     <i class="flaticon-analysis"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Financial Consultancy</a></h5>
+                                    <h5><a href="services">Financial Consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -116,10 +116,10 @@
                                     <i class="flaticon-consulting"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Business Consulting</a></h5>
+                                    <h5><a href="services">Business Consulting</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -135,10 +135,10 @@
                                     <i class="flaticon-growth"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">IT consultancy</a></h5>
+                                    <h5><a href="services">IT consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -154,10 +154,10 @@
                                     <i class="flaticon-planning"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Education consultancy</a></h5>
+                                    <h5><a href="services">Education consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -173,10 +173,10 @@
                                     <i class="flaticon-money"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Marketing consultancy</a></h5>
+                                    <h5><a href="services">Marketing consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -192,10 +192,10 @@
                                     <i class="flaticon-management"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Customer service consultancy</a></h5>
+                                    <h5><a href="services">Customer service consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -211,10 +211,10 @@
                                     <i class="flaticon-growth"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Social marketing consultancy</a></h5>
+                                    <h5><a href="services">Social marketing consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -231,10 +231,10 @@
                                     <i class="flaticon-planning"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Land consultancy</a></h5>
+                                    <h5><a href="services">Land consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -251,7 +251,7 @@
                                     <i class="flaticon-consulting"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Documentations</a></h5>
+                                    <h5><a href="services">Documentations</a></h5>
                                     <p ><ul style="text-align: justify;">
                                         <li>Affidavit</li>
                                         <li>Gazetting</li>
@@ -267,7 +267,7 @@
                                         <li>Rent Tenancy Agreement</li>
                                         <li>Deed of gift</li>
                                         <li>Letter of Attorney</li>
-                                        <li>Menu random of Agreement</li>
+                                        <li>Memorandum of Agreement</li>
                                         <li>withdrawal of police case</li>
                                         <li>Adjournment of court case</li>
                                         <li>Discharge of patients from hopital letter</li>

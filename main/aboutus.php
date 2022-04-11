@@ -106,27 +106,27 @@
             <!--// About Us Area -->
 
             <!-- Video Callback -->
-            <!-- <div class="tm-section video-area tm-padding-section" data-bgimage="assets/images/bg/bg-image-1.jpg"
+            <div class="tm-section video-area tm-padding-section" data-bgimage="main/assets/images/hero/1.jpg"
                 data-overlay="9">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-8 col-lg-9 col-md-11 col-12">
                             <div class="tm-video text-center">
                                 <div class="tm-videobutton tm-videobutton-lg">
-                                    <a href="main/https://www.youtube.com/embed/XWcjIahn7xI">
-                                        <span><i class="fa fa-play"></i></span>
+                                    <a href="main/assets/videos/video.mp4">
+                                        <span><i class="    fa fa-play"></i></span>
                                     </a>
                                 </div>
                                 <div class="tm-video-content">
                                     <h2>Play the video to know more about us</h2>
-                                    <p>Tempora maiores amet quasi temporibus impedit. Asperiores earum maiores at.
-                                        Sed autem non reiciendis qui. Sapiente necessitatibus saepe ad corporis.</p>
+                                    <!-- <p>Tempora maiores amet quasi temporibus impedit. Asperiores earum maiores at.
+                                        Sed autem non reiciendis qui. Sapiente necessitatibus saepe ad corporis.</p> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <!--// Video Callback -->
 
             <!-- Request Callback Area -->
