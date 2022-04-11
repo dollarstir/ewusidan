@@ -389,8 +389,8 @@ if (isset($_POST['snd'])) {
                                 <div class="tm-service-content">
                                     <h5><a href="services">Land consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
+                                        similique sed perspiciatis.</p>-->
+                                    <a href="services" class="tm-readmore">Read More</a>
                                 </div>
                             </div>
                         </div>
