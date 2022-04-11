@@ -228,6 +228,32 @@ if (isset($_POST['snd'])) {
             </div>
             <!--// About Us Area -->
 
+             <!-- Video Callback -->
+             <div class="tm-section video-area tm-padding-section" data-bgimage="main/assets/images/hero/1.jpg"
+                data-overlay="9">
+                <!-- <iframe src="main/assets/videos/video.mp4" width="100%" frameborder="0">sfddf</iframe> -->
+               
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8 col-lg-9 col-md-11 col-12">
+                            <div class="tm-video text-center">
+                                <div class="tm-videobutton tm-videobutton-lg">
+                                <video controls width="100%">
+                    <source src="main/assets/videos/video.mp4">
+                </video>
+                                </div>
+                                <div class="tm-video-content">
+                                    <h2>Play the video to know more about us</h2>
+                                    <!-- <p>Tempora maiores amet quasi temporibus impedit. Asperiores earum maiores at.
+                                        Sed autem non reiciendis qui. Sapiente necessitatibus saepe ad corporis.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Video Callback -->
+
             <!-- Services Area -->
             <div class="tm-section services-area bg-grey tm-padding-section">
                 <div class="container">
@@ -420,6 +446,28 @@ if (isset($_POST['snd'])) {
                 </div>
             </div>
             <!--// Services Area -->
+
+
+
+
+            <!-- Video Callback -->
+            <div class="tm-section video-area tm-padding-section" data-bgimage="main/assets/images/flyer.jpg"
+                data-overlay="9">
+               
+               
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8 col-lg-9 col-md-11 col-12">
+                        <img src="main/assets/images/flyer.jpg" alt="flyer"/>
+                            <!-- <div class="tm-video text-center">
+                           
+                               
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Video Callback -->
 
             <!-- Request Callback Area -->
             <div class="tm-section callback-area bg-white tm-padding-section">

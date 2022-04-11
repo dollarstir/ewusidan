@@ -108,14 +108,16 @@
             <!-- Video Callback -->
             <div class="tm-section video-area tm-padding-section" data-bgimage="main/assets/images/hero/1.jpg"
                 data-overlay="9">
+                <!-- <iframe src="main/assets/videos/video.mp4" width="100%" frameborder="0">sfddf</iframe> -->
+               
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-8 col-lg-9 col-md-11 col-12">
                             <div class="tm-video text-center">
                                 <div class="tm-videobutton tm-videobutton-lg">
-                                    <a href="main/assets/videos/video.mp4">
-                                        <span><i class="    fa fa-play"></i></span>
-                                    </a>
+                                <video controls width="100%">
+                    <source src="main/assets/videos/video.mp4">
+                </video>
                                 </div>
                                 <div class="tm-video-content">
                                     <h2>Play the video to know more about us</h2>
