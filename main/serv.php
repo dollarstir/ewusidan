@@ -97,33 +97,22 @@
                                     <i class="flaticon-analysis"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">Financial Consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
+                                    <h5>Financial & Business Consultancy</h5>
+                                     <p>
+                                         <ul style="text-align:justify">
+                                             <li>How to apply for a loan</li>
+                                             <li>The various types of Account</li>
+                                             <li>How to generate capital for business</li>
+                                             <li>Continuity concept of business</li>
+                                         </ul>
+                                     </p>
+                                    
                                 </div>
                             </div>
                         </div>
                         <!--// Single Service -->
 
-                        <!-- Single Service -->
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-service text-center wow fadeInUp">
-                                <span class="tm-service-bgicon">
-                                    <i class="flaticon-consulting"></i>
-                                </span>
-                                <span class="tm-service-icon">
-                                    <i class="flaticon-consulting"></i>
-                                </span>
-                                <div class="tm-service-content">
-                                    <h5><a href="services">Business Consulting</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Service -->
+                        
 
                         <!-- Single Service -->
                         <div class="col-lg-4 col-md-6 col-12 mt-30">
@@ -135,10 +124,16 @@
                                     <i class="flaticon-growth"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">IT consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
+                                    <h5>Information Technology consultancy</h5>
+                                    <p>
+                                         <ul style="text-align:justify">
+                                             <li> ICT training</li>
+                                             <li>App development</li>
+                                             <li>Website development</li>
+                                             <li> Graphic designing </li>
+                                             <li>Windows installation</li>
+                                         </ul>
+                                     </p>
                                 </div>
                             </div>
                         </div>
@@ -154,10 +149,16 @@
                                     <i class="flaticon-planning"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">Education consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
+                                    <h5>Education consultancy</h5>
+                                    <p>
+                                         <ul style="text-align:justify">
+                                             <li> How to identify your strength for a particular program at school</li>
+                                             <li>Various program at the secondary and Tertiary level.</li>
+                                             <li>Various private and public Tertiary schools in Ghana</li>
+                                             <li> Graphic designing </li>
+                                             <li>project work</li>
+                                         </ul>
+                                     </p>
                                 </div>
                             </div>
                         </div>
@@ -173,52 +174,28 @@
                                     <i class="flaticon-money"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">Marketing consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
+                                    <h5>Identifaction Cards Consultancy</h5>
+                                    <p>
+                                   <em> Ghana card/Driving license/Health insurance/SSNIT/VOTER ID</em>
+                                         <ul style="text-align:justify">
+                                             <li> Wrong spellings on the card</li>
+                                             <li>Wrong arrangement of name</li>
+                                             <li>Wrong date of birth</li>
+                                             <li> Wrong name </li>
+                                             <li>Change of name</li>
+                                             <li>Missing card</li>
+                                             <li>Damaged card</li>
+                                             <li>Linking Ghana card to NHIS</li>
+                                             <li>Linking Ghana card to SSNIT</li>
+                                         </ul>
+                                     </p>
+                                    
                                 </div>
                             </div>
                         </div>
                         <!--// Single Service -->
 
-                        <!-- Single Service -->
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-service text-center wow fadeInUp">
-                                <span class="tm-service-bgicon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <span class="tm-service-icon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <div class="tm-service-content">
-                                    <h5><a href="services">Customer service consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Service -->
-
-                        <!-- Single Service -->
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-service text-center wow fadeInUp">
-                                <span class="tm-service-bgicon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <span class="tm-service-icon">
-                                    <i class="flaticon-growth"></i>
-                                </span>
-                                <div class="tm-service-content">
-                                    <h5><a href="services">Social marketing consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Service -->
+                        
 
 
                         <!-- Single Service -->
@@ -231,10 +208,16 @@
                                     <i class="flaticon-planning"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">Land consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="services" class="tm-readmore">Read More</a> -->
+                                    <h5>Land consultancy</h5>
+                                    <p>
+                                         <ul style="text-align:justify">
+                                             <li> Cadastral plan</li>
+                                             <li>Indenture documentation</li>
+                                             <li>Document for  transfer of ownership of land or building</li>
+                                             <li> Land Tenancy Agreement</li>
+                                             
+                                         </ul>
+                                     </p>
                                 </div>
                             </div>
                         </div>
@@ -251,7 +234,7 @@
                                     <i class="flaticon-consulting"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">Documentations</a></h5>
+                                    <h5>Documentations</h5>
                                     <p ><ul style="text-align: justify;">
                                         <li>Affidavit</li>
                                         <li>Gazetting</li>
@@ -274,7 +257,7 @@
                                         <li>Petitions</li>
                                         
                                     </ul></p>
-                                    <!-- <a href="services" class="tm-readmore">Read More</a> -->
+                                    
                                     
                                 </div>
                             </div>
