@@ -433,13 +433,12 @@ if (isset($_POST['snd'])) {
                                         </div>
                                         <div class="tm-form-field">
                                             <select name="services">
-                                                <option value="Financial consultancy">Financial consultancy</option>
-                                                <option value="Business consultancy">Business consultancy</option>
+                                                <option value="Financial & Business consultancy">Financial & Business consultancy</option>
+                                                
                                                 <option value="IT consultancy">IT consultancy</option>
                                                 <option value="Education consultancy">Education consultancy</option>
-                                                <option value="Marketing consultancy">Marketing consultancy</option>
-                                                <option value="Customer service consultancy">Customer service consultancy</option>
-                                                <option value=" Social marketing consultancy"> Social marketing consultancy</option>
+                                                <option value="Identifaction Cards consultancy">Identifaction Cards consultancy</option>
+                                                
                                                 <option value="Documentations">Documentations</option>
                                                 <option value="Land consultancy">Land consultancy</option>
                                             </select>
@@ -493,11 +492,11 @@ if (isset($_POST['snd'])) {
                     <div class="tm-portfolio-buttons text-center">
                         <button data-filter="*" class="is-active">All</button>
                         <button data-filter=".portfolio-filter-documentation">Documentation</button>
-                        <button data-filter=".portfolio-filter-business">Business</button>
-                        <button data-filter=".portfolio-filter-financial">Financial</button>
-                        <!-- <button data-filter=".portfolio-filter-investment">Documentation</button> -->
-                        <button data-filter=".portfolio-filter-careative">Education</button>
-                        <button data-filter=".portfolio-filter-technology">Technology</button>
+                        <button data-filter=".portfolio-filter-business">Financial & Business</button>
+                       
+                        <button data-filter=".portfolio-filter-education">Education</button>
+                        <button data-filter=".portfolio-filter-technology">ID Cards</button>
+                        
                     </div>
 
                     <div class="row tm-portfolio-wrapper mt-30-reverse">
@@ -633,6 +632,34 @@ if (isset($_POST['snd'])) {
                             </div>
                         </div>
                         <!--// Portfolio Single -->
+
+
+
+
+                        <!-- Portfolio Single -->
+                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-technology">
+                            <div class="tm-portfolio mt-30 wow fadeInUp">
+                                <div class="tm-portfolio-image">
+                                    <img src="main/assets/images/id.jpg" alt="portfolio image" style="height: 304px;">
+                                    <ul class="tm-portfolio-actions">
+                                        <li class="link-button">
+                                            <a href=""><i class="fa fa-link"></i></a>
+                                        </li>
+                                        <li class="zoom-button">
+                                            <a href="main/assets/images/id.jpg"><i class="fa fa-search-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tm-portfolio-content">
+                                    <h5><a href="main/portfolio-details.html">ID cards</a></h5>
+                                    <h6><a href="">ID Cards</a></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Portfolio Single -->
+
+
+                        
 
                     </div>
                     <!-- <div class="row">
