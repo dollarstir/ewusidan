@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['snd'])) {
     extract($_POST);
-    $res = sendmail('www.phpyolk.com', $subject, 'phone: '.$contact.' Email: '.$email.' Services: '.$services.' Date : '.$date.'  ', 'Ewusidan Website', ['kpin463@gmail.com','danielewusi2@gmail.com']);
+    $res = sendmail('www.phpyolk.com', $subject, 'phone: '.$contact.' Email: '.$email.' Services: '.$services.' Date : '.$date.'  ', 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
     echo '<script>alert("Request sent successfuly")</script>';
 }
@@ -443,7 +443,7 @@ if (isset($_POST['snd'])) {
                                             <input type="text" name="email" placeholder="Enter Email*" required>
                                         </div>
                                         <div class="tm-form-field">
-                                            <select name="service">
+                                            <select name="services">
                                                 <option value="Financial consultancy">Financial consultancy</option>
                                                 <option value="Business consultancy">Business consultancy</option>
                                                 <option value="IT consultancy">IT consultancy</option>
