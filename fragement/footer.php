@@ -109,8 +109,9 @@ echo '<div class="footer fixed-footer">
             <div class="col-md-4 col-12">
                 <div class="footer-copyrightsocial">
                     <ul>
+                        <li><a target="blank" href="https://youtube.com/channel/UCi8A6mMfQxjCVJl1X1yv0gA" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                        <li><a target="blank" href="https://www.facebook.com/profile.php?id=100080348678615" data-toggle="tooltip" data-placement="top" title="Facebook"><i
                                     class="fa fa-facebook-f"></i></a></li>
                         <li><a href="" data-toggle="tooltip" data-placement="top" title="Skype"><i class="fa fa-skype"></i></a></li>
                         <li><a href="" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
