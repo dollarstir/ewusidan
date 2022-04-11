@@ -278,7 +278,7 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-analysis"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">Financial Consultancy</a></h5>
+                                    <h5><a href="services">Financial & Business Consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>-->
                                     <a href="services" class="tm-readmore">Read More</a> 
@@ -288,22 +288,7 @@ if (isset($_POST['snd'])) {
                         <!--// Single Service -->
 
                         <!-- Single Service -->
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-service text-center wow fadeInUp">
-                                <span class="tm-service-bgicon">
-                                    <i class="flaticon-consulting"></i>
-                                </span>
-                                <span class="tm-service-icon">
-                                    <i class="flaticon-consulting"></i>
-                                </span>
-                                <div class="tm-service-content">
-                                    <h5><a href="services">Business Consulting</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>-->
-                                    <a href="services" class="tm-readmore">Read More</a> 
-                                </div>
-                            </div>
-                        </div>
+                        
                         <!--// Single Service -->
 
                         <!-- Single Service -->
@@ -354,7 +339,7 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-money"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="services">Marketing consultancy</a></h5>
+                                    <h5><a href="services"> Identifaction Cards consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>-->
                                     <a href="services" class="tm-readmore">Read More</a>
@@ -363,43 +348,7 @@ if (isset($_POST['snd'])) {
                         </div>
                         <!--// Single Service -->
 
-                        <!-- Single Service -->
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-service text-center wow fadeInUp">
-                                <span class="tm-service-bgicon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <span class="tm-service-icon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <div class="tm-service-content">
-                                    <h5><a href="services">Customer service consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>-->
-                                    <a href="services" class="tm-readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Service -->
-
-                        <!-- Single Service -->
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-service text-center wow fadeInUp">
-                                <span class="tm-service-bgicon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <span class="tm-service-icon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <div class="tm-service-content">
-                                    <h5><a href="services">Social marketing consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>-->
-                                    <a href="services" class="tm-readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Service -->
+                       
 
 
                         <!-- Single Service -->
