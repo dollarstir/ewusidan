@@ -207,10 +207,11 @@
                                     <img src="main/assets/images/team/ceo.jpg" alt="team member">
                                     <div class="tm-member-social">
                                         <ul>
-                                            <li><a href="main/#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-facebook-f"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-skype"></i></a></li>
-                                            <li><a href="main/#"><i class="fa fa-pinterest-p"></i></a></li>
+                                             <li><a href="https://youtube.com/channel/UCi8A6mMfQxjCVJl1X1yv0gA" target="blank"><i class="fa fa-youtube"></i></a></li>
+                                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="https://www.facebook.com/profile.php?id=100080348678615" target="blank"><i class="fa fa-facebook-f"></i></a></li>
+                                            
+                                            <li><a href=""><i class="fa fa-pinterest-p"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
