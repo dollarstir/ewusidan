@@ -408,14 +408,7 @@ if (isset($_POST['snd'])) {
                                 </span>
                                 <div class="tm-service-content">
                                     <h5><a href="services">Documentations</a></h5>
-                                    <p><ul style="text-align: justify;">
-                                        <li>Affidavit</li>
-                                        <!-- <li>Gazetting</li> -->
-                                        <li>birth certificate</li>
-                                        <li>Business certificate</li>
-                                        <li>online passport application</li>
-                                        
-                                    </ul></p>
+                                    <!-- <p><</p> -->
                                     <a href="services" class="tm-readmore">Read More</a>
                                     
                                 </div>
