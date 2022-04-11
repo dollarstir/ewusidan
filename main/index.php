@@ -274,8 +274,8 @@ if (isset($_POST['snd'])) {
                                 <div class="tm-service-content">
                                     <h5><a href="services">Business Consulting</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                        similique sed perspiciatis.</p>-->
+                                    <a href="services" class="tm-readmore">Read More</a> 
                                 </div>
                             </div>
                         </div>
@@ -291,10 +291,10 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-growth"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">IT consultancy</a></h5>
+                                    <h5><a href="services">IT consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                        similique sed perspiciatis.</p>-->
+                                    <a href="services" class="tm-readmore">Read More</a> 
                                 </div>
                             </div>
                         </div>
@@ -310,10 +310,10 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-planning"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Education consultancy</a></h5>
+                                    <h5><a href="services">Education consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                        similique sed perspiciatis.</p>-->
+                                    <a href="services" class="tm-readmore">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -329,10 +329,10 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-money"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Marketing consultancy</a></h5>
+                                    <h5><a href="services">Marketing consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                        similique sed perspiciatis.</p>-->
+                                    <a href="services" class="tm-readmore">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -348,10 +348,10 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-management"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Customer service consultancy</a></h5>
+                                    <h5><a href="services">Customer service consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                        similique sed perspiciatis.</p>-->
+                                    <a href="services" class="tm-readmore">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -367,30 +367,10 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-management"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Social marketing consultancy</a></h5>
+                                    <h5><a href="services">Social marketing consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Service -->
-
-
-                        <!-- Single Service -->
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-service text-center wow fadeInUp">
-                                <span class="tm-service-bgicon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <span class="tm-service-icon">
-                                    <i class="flaticon-management"></i>
-                                </span>
-                                <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Land consultancy</a></h5>
-                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                    <a href="services" class="tm-readmore">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -407,7 +387,27 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-management"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Documentations</a></h5>
+                                    <h5><a href="services">Land consultancy</a></h5>
+                                    <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
+                                        similique sed perspiciatis.</p>
+                                    <a href="services" class="tm-readmore">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Service -->
+
+
+                        <!-- Single Service -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-30">
+                            <div class="tm-service text-center wow fadeInUp">
+                                <span class="tm-service-bgicon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <span class="tm-service-icon">
+                                    <i class="flaticon-management"></i>
+                                </span>
+                                <div class="tm-service-content">
+                                    <h5><a href="services">Documentations</a></h5>
                                     <p><ul style="text-align: justify;">
                                         <li>Affidavit</li>
                                         <!-- <li>Gazetting</li> -->
