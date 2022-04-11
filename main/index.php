@@ -210,13 +210,12 @@ if (isset($_POST['snd'])) {
                                 <span class="divider"><i class="fa fa-superpowers"></i></span>
                                 <p>consultancy firm that provide Business, Education, Financial, Documentation and information technology consultation to people.</p>
                                 <ul class="stylish-list">
-                                    <li><i class="fa fa-check-square-o"></i> Financial consultancy.</li>
-                                    <li><i class="fa fa-check-square-o"></i>Business consultancy </li>
+                                    <li><i class="fa fa-check-square-o"></i> Financial & Business consultancy.</li>
+                                    
                                     <li><i class="fa fa-check-square-o"></i>IT consultancy</li>
                                     <li><i class="fa fa-check-square-o"></i>Education consultancy</li>
-                                    <li><i class="fa fa-check-square-o"></i> Marketing consultancy</li>
-                                    <li><i class="fa fa-check-square-o"></i> Customer service consultancy</li>
-                                    <li><i class="fa fa-check-square-o"></i> Social marketing consultancy</li>
+                                    <li><i class="fa fa-check-square-o"></i> Identifaction Cards Consultancy</li>
+                                   
                                     <li><i class="fa fa-check-square-o"></i> Documentations</li>
                                     <li><i class="fa fa-check-square-o"></i>Land consultancy</li>
                                 </ul>
