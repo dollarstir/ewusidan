@@ -253,10 +253,10 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-analysis"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Financial Consultancy</a></h5>
+                                    <h5><a href="services">Financial Consultancy</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
-                                        similique sed perspiciatis.</p>
-                                    <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
+                                        similique sed perspiciatis.</p>-->
+                                    <a href="services" class="tm-readmore">Read More</a> 
                                 </div>
                             </div>
                         </div>
@@ -272,7 +272,7 @@ if (isset($_POST['snd'])) {
                                     <i class="flaticon-consulting"></i>
                                 </span>
                                 <div class="tm-service-content">
-                                    <h5><a href="main/service-details.html">Business Consulting</a></h5>
+                                    <h5><a href="services">Business Consulting</a></h5>
                                     <!-- <p>Quia et dolore. Et esse ut quas quisquam. Et impedit fugiat debitis eveniet
                                         similique sed perspiciatis.</p>
                                     <a href="main/service-details.html" class="tm-readmore">Read More</a> -->
