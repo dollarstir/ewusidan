@@ -41,17 +41,18 @@ echo '<div class="header sticky-header">
                 <ul>
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
+                    <li class="tm-navigation-dropdown"><a href="">Apply FOR</a>
+                    <ul>
+                    <li><a href="applypassport">Passport</a></li>
+                    <li><a href="applypassport">Birth Certificate</a></li>
+                    <li><a href="applypassport">Business Certificate</a></li>
+                    </ul>
+                </li>
                     <li><a href="about">About</a></li>
                     <li><a href="contact">Contact Us</a></li>
-                    <!--<li class="tm-navigation-dropdown"><a href="main/portfolio.html">Portfolio</a>
-                        <ul>
-                            <li><a href="main/portfolio.html">Portfolio Grid</a></li>
-                            <li><a href="main/portfolio-details.html">Portfolio Details</a></li>
-                            <li><a href="main/portfolio-details-gallery.html">Portfolio Details Gallery</a></li>
-                            <li><a href="main/portfolio-details-video.html">Portfolio Details Video</a></li>
-                        </ul>
-                    </li>
-                    <li class="tm-navigation-dropdown"><a href="main/shop.html">Shop</a>
+                    
+                   
+                    <!--<li class="tm-navigation-dropdown"><a href="main/shop.html">Shop</a>
                         <ul>
                             <li><a href="main/shop.html">Products Right Sidebar</a></li>
                             <li><a href="main/shop-left-sidebar.html">Products Left Sidebar</a></li>

@@ -582,7 +582,7 @@ if (isset($_POST['snd'])) {
                                     </ul>
                                 </div>
                                 <div class="tm-portfolio-content">
-                                    <h5><a href="main/portfolio-details.html">Busineaa Certificate</a></h5>
+                                    <h5><a href="main/portfolio-details.html">business Certificate</a></h5>
                                     <h6><a href="">Documentation</a></h6>
                                 </div>
                             </div>
