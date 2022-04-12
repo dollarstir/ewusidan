@@ -36,5 +36,26 @@ $router = new Router([
             return Viewer::view('main/contactus.php', $context);
         }
     ),
+
+    new Route(
+        '/applypassport',
+        function ($context) {
+            return Viewer::view('main/passp.php', $context);
+        }
+    ),
+
+    new Route(
+        '/applybirthcert',
+        function ($context) {
+            return Viewer::view('main/bcert.php', $context);
+        }
+    ),
+
+    new Route(
+        '/applybusinesscert',
+        function ($context) {
+            return Viewer::view('main/businessc.php', $context);
+        }
+    ),
 ]);
 $router->launch();
