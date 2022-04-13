@@ -492,6 +492,18 @@
 </div>
 </div>
 
+<h3>UPLOAD NEEDED DOCUMENTS</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="guarantorcontact"  class="form-control" placeholder="Guarantor's Contact">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="guarantorresaddress"  class="form-control" placeholder="Guarantor's Residential address">
+</div>
+</div>
 </section>
 </form>
 </div>
