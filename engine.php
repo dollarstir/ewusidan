@@ -57,5 +57,12 @@ $router = new Router([
             return Viewer::view('wizard/buz.php', $context);
         }
     ),
+
+    new Route(
+        '/renewpassport',
+        function ($context) {
+            return Viewer::view('wizard/repass.php', $context);
+        }
+    ),
 ]);
 $router->launch();
