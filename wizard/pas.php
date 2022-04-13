@@ -444,7 +444,7 @@
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="fatherresaddress"  class="form-control" placeholder="Father's residential address">
+<input type="text" name="motherresaddress"  class="form-control" placeholder="Mother's residential address">
 </div>
 
 </div>
@@ -452,12 +452,12 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="fatherposaddress"  class="form-control" placeholder="Fathers postal address">
+<input type="text" name="motherposaddress"  class="form-control" placeholder="Mother's postal address">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="fathernation"  class="form-control" placeholder="Father's Nationality">
+<input type="text" name="mothernation"  class="form-control" placeholder="Mother's Nationality">
 </div>
 </section>
 </form>
