@@ -468,12 +468,12 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="motherposaddress"  class="form-control" placeholder="Mother's postal address">
+<input type="text" name="guarantorname"  class="form-control" placeholder="Guarantor's Name">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="mothernation"  class="form-control" placeholder="Mother's Nationality">
+<input type="text" name="guarantoroccupation"  class="form-control" placeholder="Guarantor's Occupation">
 </div>
 </div>
 
@@ -481,12 +481,12 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="motherposaddress"  class="form-control" placeholder="Mother's postal address">
+<input type="text" name="guarantorcontact"  class="form-control" placeholder="Guarantor's Contact">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="mothernation"  class="form-control" placeholder="Mother's Nationality">
+<input type="text" name="guarantorresaddress"  class="form-control" placeholder="Guarantor's Residential address">
 </div>
 </div>
 
