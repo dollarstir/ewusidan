@@ -44,10 +44,18 @@ echo '<div class="header sticky-header">
                     <li class="tm-navigation-dropdown"><a href="">Apply FOR</a>
                     <ul>
                     <li><a href="applypassport">Passport</a></li>
-                    <li><a href="applybirthcert">Birth Certificate</a></li>
-                    <li><a href="applybusinesscert">Business Certificate</a></li>
+                    <li><a href="">Birth Certificate</a></li>
+                    <li><a href="">Business Certificate</a></li>
                     </ul>
-                </li>
+                    </li>
+
+                    <li class="tm-navigation-dropdown"><a href="">Renewals</a>
+                    <ul>
+                    <li><a href="renewpassport">Passport</a></li>
+                    <li><a href="">Birth Certificate</a></li>
+                    <li><a href="">Business Certificate</a></li>
+                    </ul>
+                    </li>
                     <li><a href="about">About</a></li>
                     <li><a href="contact">Contact Us</a></li>
                     
