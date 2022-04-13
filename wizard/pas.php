@@ -405,50 +405,59 @@
 
 <h4></h4>
 <section>
-<h3>Cart Totals</h3>
-<div class="cart_totals">
-<table cellspacing="0" class="shop_table shop_table_responsive">
-<tr class="cart-subtotal">
-<th>Subtotal</th>
-<td data-title="Subtotal">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>110.00
-</span>
-</td>
-</tr>
-<tr class="cart-subtotal shipping">
-<th>Shipping:</th>
-<td data-title="Subtotal">
-<div class="checkbox">
-<label>
-<input type="radio" name="shipping" checked> Free Shipping
-<span class="checkmark"></span>
-</label>
-<label>
-<input type="radio" name="shipping"> Local pickup: <span>$</span><span>0.00</span>
-<span class="checkmark"></span>
-</label>
+<h3>MOTHER DETAILS</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="mothername"  class="form-control" placeholder="Mother's name">
 </div>
-<span>Calculate shipping</span>
-</td>
-</tr>
-<tr class="cart-subtotal">
-<th>Service <span>(estimated for Vietnam)</span></th>
-<td data-title="Subtotal">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>5.60
-</span>
-</td>
-</tr>
-<tr class="order-total border-0">
-<th>Total</th>
-<td data-title="Total">
-<span class="woocommerce-Price-amount amount">
- <span class="woocommerce-Price-currencySymbol">$</span>64.69
-</span>
-</td>
-</tr>
-</table>
+
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="motheralive" class="mysl" aria-label="Default select example">
+  <option value="">Is your mother alive?</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="mothercontact"  class="form-control" placeholder="Phone Number">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="motheremail"  class="form-control" placeholder="Mother's email">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="mothertown"  class="form-control" placeholder="Mother's hometown">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatherresaddress"  class="form-control" placeholder="Father's residential address">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatherposaddress"  class="form-control" placeholder="Fathers postal address">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathernation"  class="form-control" placeholder="Father's Nationality">
 </div>
 </section>
 </form>
