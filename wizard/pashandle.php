@@ -202,22 +202,22 @@ if (isset($_POST['requestid'])) {
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Fathers postal address </td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Nationality</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td><strong>Grand Parent Info</strong></td>
+                <td><strong>--------</strong></td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Name of grand parent</td>
                 <td>'.$.'</td>
                 </tr>
 
