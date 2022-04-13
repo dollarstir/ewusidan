@@ -44,8 +44,8 @@ echo '<div class="header sticky-header">
                     <li class="tm-navigation-dropdown"><a href="">Apply FOR</a>
                     <ul>
                     <li><a href="applypassport">Passport</a></li>
-                    <li><a href="applypassport">Birth Certificate</a></li>
-                    <li><a href="applypassport">Business Certificate</a></li>
+                    <li><a href="applybirthcert">Birth Certificate</a></li>
+                    <li><a href="applybusinesscert">Business Certificate</a></li>
                     </ul>
                 </li>
                     <li><a href="about">About</a></li>
