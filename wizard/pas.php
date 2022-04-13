@@ -227,7 +227,7 @@
 
 <div class="form-holder">
 <i class="zmdi zmdi-arrows"></i>
-<input type="text" name="suburb"  class="form-control" placeholder="Suburb">
+<input type="text" name="Street"  class="form-control" placeholder="Street Name">
 </div>
 
 </div>

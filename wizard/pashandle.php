@@ -4,6 +4,8 @@ if (isset($_POST['requestid'])) {
     $rid = $_POST['requestid'];
     extract($_POST);
 
+    $subject = 'New Passport  Request';
+
     $message = '<table style="width:100%;border-collapse:collapse;" >
 
                 <tr>
@@ -13,157 +15,162 @@ if (isset($_POST['requestid'])) {
 
                 <tr>
                 <td>surname</td>
-                <td>'.$.'</td>
+                <td>'.$lname.'</td>
                 </tr>
 
                 <tr>
                 <td>First name</td>
-                <td>'.$.'</td>
+                <td>'.$fname.'</td>
                 </tr>
 
                 <tr>
                 <td>Other name </td>
-                <td>'.$.'</td>
+                <td>'.$oname.'</td>
                 </tr>
 
                 <tr>
                 <td>Gender</td>
-                <td>'.$.'</td>
+                <td>'.$gender.'</td>
                 </tr>
 
                 <tr>
                 <td>Date of birth</td>
-                <td>'.$.'</td>
+                <td>'.$dob.'</td>
                 </tr>
 
                 <tr>
                 <td>City or town of birth</td>
-                <td>'.$.'</td>
+                <td>'.$pob.'</td>
                 </tr>
 
                 <tr>
                 <td>Country of birth</td>
-                <td>'.$.'</td>
+                <td>'.$cob.'</td>
+                </tr>
+
+                <tr>
+                <td>Region of birth</td>
+                <td>'.$rob.'</td>
                 </tr>
 
                 <tr>
                 <td>Height</td>
-                <td>'.$.'</td>
+                <td>'.$height.'</td>
                 </tr>
 
                 <tr>
                 <td>Colour of eyes</td>
-                <td>'.$.'</td>
+                <td>'.$eyecolor.'</td>
                 </tr>
 
                 <tr>
                 <td>Colour of hair</td>
-                <td>'.$.'</td>
+                <td>'.$haircolor.'</td>
                 </tr>
 
                 <tr>
                 <td>Nationality</td>
-                <td>'.$.'</td>
+                <td>'.$nationality.'</td>
                 </tr>
 
                 <tr>
                 <td>Profession</td>
-                <td>'.$.'</td>
+                <td>'.$profession.'</td>
                 </tr>
 
                 <tr>
                 <td>Marrital status</td>
-                <td>'.$.'</td>
+                <td>'.$mstatus.'</td>
                 </tr>
 
                 <tr>
                 <td>Previous profession </td>
-                <td>'.$.'</td>
+                <td>'.$prevpro.'</td>
                 </tr>
 
                 <tr>
                 <td>Birthcert Number</td>
-                <td>'.$.'</td>
+                <td>'.$bcert.'</td>
                 </tr>
 
                 <tr>
                 <td>Date of issue</td>
-                <td>'.$.'</td>
+                <td>'.$bcertdoi.'</td>
                 </tr>
 
                 <tr>
                 <td>Place of issue</td>
-                <td>'.$.'</td>
+                <td>'.$bcertpoi.'</td>
                 </tr>
 
                 <tr>
                 <td>National ID</td>
-                <td>'.$.'</td>
+                <td>'.$nidtype.'</td>
                 </tr>
 
                 <tr>
                 <td>National ID Number</td>
-                <td>'.$.'</td>
+                <td>'.$nidnumber.'</td>
                 </tr>
 
                 <tr>
                 <td>Telephone number</td>
-                <td>'.$.'</td>
+                <td>'.$phone.'</td>
                 </tr>
 
                 <tr>
                 <td>Email Address </td>
-                <td>'.$.'</td>
+                <td>'.$email.'</td>
                 </tr>
 
                 <tr>
                 <td>House number</td>
-                <td>'.$.'</td>
+                <td></td>
                 </tr>
 
                 <tr>
                 <td>Street name</td>
-                <td>'.$.'</td>
+                <td>'.$Street.'</td>
                 </tr>
 
                 <tr>
                 <td>Postal Address </td>
-                <td>'.$.'</td>
+                <td>'.$postal.'</td>
                 </tr>
 
                 <tr>
                 <td>Suburb</td>
-                <td>'.$.'</td>
+                <td>'.$suburb.'</td>
                 </tr>
 
                 <tr>
                 <td>City of residence</td>
-                <td>'.$.'</td>
+                <td>'.$currentcity.'</td>
                 </tr>
 
                 <tr>
                 <td>Country of residence</td>
-                <td>'.$.'</td>
+                <td>'.$currentcountry.'</td>
                 </tr>
 
                 <tr>
                 <td>Institution attended:</td>
-                <td>'.$.'</td>
+                <td>'.$isntitute.'</td>
                 </tr>
 
                 <tr>
                 <td>Year of commence:</td>
-                <td>'.$.'</td>
+                <td>'.$yearstarted.'</td>
                 </tr>
 
                 <tr>
                 <td>Year of completion:</td>
-                <td>'.$.'</td>
+                <td>'.$yearended.'</td>
                 </tr>
 
                 <tr>
                 <td>Address:</td>
-                <td>'.$.'</td>
+                <td>'.$address.'</td>
                 </tr>
 
                 <tr>
@@ -173,42 +180,42 @@ if (isset($_POST['requestid'])) {
 
                 <tr>
                 <td>Fathers name</td>
-                <td>'.$.'</td>
+                <td>'.$fathername.'</td>
                 </tr>
 
                 <tr>
                 <td>Living/dead</td>
-                <td>'.$.'</td>
+                <td>'.$fatheralive.'</td>
                 </tr>
 
                 <tr>
                 <td>Contacts</td>
-                <td>'.$.'</td>
+                <td>'.$fathercontact.'</td>
                 </tr>
 
                 <tr>
                 <td>Fathers email</td>
-                <td>'.$.'</td>
+                <td>'.$fatheremail.'</td>
                 </tr>
 
                 <tr>
                 <td>Father\'s hometown </td>
-                <td>'.$.'</td>
+                <td>'.$fathertown.'</td>
                 </tr>
 
                 <tr>
                 <td>Father\'s residential address</td>
-                <td>'.$.'</td>
+                <td>'.$fatherresaddress.'</td>
                 </tr>
 
                 <tr>
                 <td>Fathers postal address </td>
-                <td>'.$.'</td>
+                <td>'.$fatherposaddress.'</td>
                 </tr>
 
                 <tr>
                 <td>Nationality</td>
-                <td>'.$.'</td>
+                <td>'.$fathernation.'</td>
                 </tr>
 
                 <tr>
@@ -218,112 +225,112 @@ if (isset($_POST['requestid'])) {
 
                 <tr>
                 <td>Name of grand parent</td>
-                <td>'.$.'</td>
+                <td>'.$grandpname.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Living or dead</td>
+                <td>'.$grandpalive.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Telephone</td>
+                <td>'.$grandptelephone.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Email</td>
+                <td>'.$grandpemail.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Hometown   </td>
+                <td>'.$grandptown.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>residential address</td>
+                <td>'.$grandpresaddress.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>postal address</td>
+                <td>'.$grandppostaladdress.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Nationality</td>
+                <td>'.$grandpnational.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td><strong>Mothers details </strong></td>
+                <td><strong>----------</strong></td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Mothers name</td>
+                <td>'.$mothername.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Living/ dead</td>
+                <td>'.$motheralive.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Telephone</td>
+                <td>'.$mothercontact.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Email</td>
+                <td>'.$motheremail.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Hometown</td>
+                <td>'.$mothertown.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Residential address</td>
+                <td>'.$motherresaddress.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Postal Address </td>
+                <td>'.$motherposaddress.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Nationality</td>
+                <td>'.$mothernation.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td><strong>Guarantor Info</strong></td>
+                <td>------</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Name</td>
+                <td>'.$guarantorname.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Occupation</td>
+                <td>'.$guarantoroccupation.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td>Contact</td>
+                <td>'.$guarantorcontact.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
+                <td><Residential address/td>
+                <td>'.$guarantorresaddress.'</td>
                 </tr>
     
         </table>';
