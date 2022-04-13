@@ -51,7 +51,7 @@
 <body>
 <div class="wrapper">
     <h3>Passport application form (New applicant)</h3>
-<form action="" id="wizard" class="addpassport">
+<form action="handler" id="wizard" class="addpassport" enctype="multipart/form-data">
 
 <h4></h4>
 <section>
@@ -60,6 +60,8 @@
 <div class="form-holder">
 <i class="zmdi zmdi-account"></i>
 <input type="text" name="fname" class="form-control" placeholder="First Name">
+
+<input type="hidden" name="requestid" class="form-control" placeholder="">
 </div>
 <div class="form-holder">
 <i class="zmdi zmdi-account"></i>
