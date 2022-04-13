@@ -6,331 +6,331 @@ if (isset($_POST['requestid'])) {
 
     $subject = 'New Passport  Request';
 
-    $message = '<table style="width:100%;border-collapse:collapse;" >
+    $message = '<table style="width:100%;border-collapse:collapse;border:1px solid;" >
 
                 <tr>
-                <th style="border-collapse:collapse;">Question</th>
-                <th style="border-collapse:collapse;">Answers</th>
+                <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                <th style="border-collapse:collapse;border:1px solid;">Answers</th>
                 </tr>
 
                 <tr>
-                <td>surname</td>
-                <td>'.$lname.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">surname</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$lname.'</td>
                 </tr>
 
                 <tr>
-                <td>First name</td>
-                <td>'.$fname.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">First name</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fname.'</td>
                 </tr>
 
                 <tr>
-                <td>Other name </td>
-                <td>'.$oname.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Other name </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$oname.'</td>
                 </tr>
 
                 <tr>
-                <td>Gender</td>
-                <td>'.$gender.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Gender</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$gender.'</td>
                 </tr>
 
                 <tr>
-                <td>Date of birth</td>
-                <td>'.$dob.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Date of birth</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$dob.'</td>
                 </tr>
 
                 <tr>
-                <td>City or town of birth</td>
-                <td>'.$pob.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">City or town of birth</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$pob.'</td>
                 </tr>
 
                 <tr>
-                <td>Country of birth</td>
-                <td>'.$cob.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Country of birth</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$cob.'</td>
                 </tr>
 
                 <tr>
-                <td>Region of birth</td>
-                <td>'.$rob.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
                 </tr>
 
                 <tr>
-                <td>Height</td>
-                <td>'.$height.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Height</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$height.'</td>
                 </tr>
 
                 <tr>
-                <td>Colour of eyes</td>
-                <td>'.$eyecolor.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Colour of eyes</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$eyecolor.'</td>
                 </tr>
 
                 <tr>
-                <td>Colour of hair</td>
-                <td>'.$haircolor.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Colour of hair</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$haircolor.'</td>
                 </tr>
 
                 <tr>
-                <td>Nationality</td>
-                <td>'.$nationality.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Nationality</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$nationality.'</td>
                 </tr>
 
                 <tr>
-                <td>Profession</td>
-                <td>'.$profession.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Profession</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$profession.'</td>
                 </tr>
 
                 <tr>
-                <td>Marrital status</td>
-                <td>'.$mstatus.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Marrital status</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$mstatus.'</td>
                 </tr>
 
                 <tr>
-                <td>Previous profession </td>
-                <td>'.$prevpro.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Previous profession </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$prevpro.'</td>
                 </tr>
 
                 <tr>
-                <td>Birthcert Number</td>
-                <td>'.$bcert.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Birthcert Number</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$bcert.'</td>
                 </tr>
 
                 <tr>
-                <td>Date of issue</td>
-                <td>'.$bcertdoi.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Date of issue</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$bcertdoi.'</td>
                 </tr>
 
                 <tr>
-                <td>Place of issue</td>
-                <td>'.$bcertpoi.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Place of issue</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$bcertpoi.'</td>
                 </tr>
 
                 <tr>
-                <td>National ID</td>
-                <td>'.$nidtype.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">National ID</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$nidtype.'</td>
                 </tr>
 
                 <tr>
-                <td>National ID Number</td>
-                <td>'.$nidnumber.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">National ID Number</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$nidnumber.'</td>
                 </tr>
 
                 <tr>
-                <td>Telephone number</td>
-                <td>'.$phone.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Telephone number</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$phone.'</td>
                 </tr>
 
                 <tr>
-                <td>Email Address </td>
-                <td>'.$email.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Email Address </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$email.'</td>
                 </tr>
 
                 <tr>
-                <td>House number</td>
-                <td></td>
+                <td style="border-collapse:collapse;border:1px solid;">House number</td>
+                <td style="border-collapse:collapse;border:1px solid;"></td>
                 </tr>
 
                 <tr>
-                <td>Street name</td>
-                <td>'.$Street.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Street name</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$Street.'</td>
                 </tr>
 
                 <tr>
-                <td>Postal Address </td>
-                <td>'.$postal.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Postal Address </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
                 </tr>
 
                 <tr>
-                <td>Suburb</td>
-                <td>'.$suburb.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Suburb</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$suburb.'</td>
                 </tr>
 
                 <tr>
-                <td>City of residence</td>
-                <td>'.$currentcity.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">City of residence</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$currentcity.'</td>
                 </tr>
 
                 <tr>
-                <td>Country of residence</td>
-                <td>'.$currentcountry.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Country of residence</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$currentcountry.'</td>
                 </tr>
 
                 <tr>
-                <td>Institution attended:</td>
-                <td>'.$isntitute.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Institution attended:</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$isntitute.'</td>
                 </tr>
 
                 <tr>
-                <td>Year of commence:</td>
-                <td>'.$yearstarted.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Year of commence:</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$yearstarted.'</td>
                 </tr>
 
                 <tr>
-                <td>Year of completion:</td>
-                <td>'.$yearended.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Year of completion:</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$yearended.'</td>
                 </tr>
 
                 <tr>
-                <td>Address:</td>
-                <td>'.$address.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Address:</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$address.'</td>
                 </tr>
 
                 <tr>
-                <td><strong>Father Info</strong></td>
-                <td><strong>-----------</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>Father Info</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>-----------</strong></td>
                 </tr>
 
                 <tr>
-                <td>Fathers name</td>
-                <td>'.$fathername.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Fathers name</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fathername.'</td>
                 </tr>
 
                 <tr>
-                <td>Living/dead</td>
-                <td>'.$fatheralive.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Living/dead</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fatheralive.'</td>
                 </tr>
 
                 <tr>
-                <td>Contacts</td>
-                <td>'.$fathercontact.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Contacts</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fathercontact.'</td>
                 </tr>
 
                 <tr>
-                <td>Fathers email</td>
-                <td>'.$fatheremail.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Fathers email</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fatheremail.'</td>
                 </tr>
 
                 <tr>
-                <td>Father\'s hometown </td>
-                <td>'.$fathertown.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Father\'s hometown </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fathertown.'</td>
                 </tr>
 
                 <tr>
-                <td>Father\'s residential address</td>
-                <td>'.$fatherresaddress.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Father\'s residential address</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fatherresaddress.'</td>
                 </tr>
 
                 <tr>
-                <td>Fathers postal address </td>
-                <td>'.$fatherposaddress.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Fathers postal address </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fatherposaddress.'</td>
                 </tr>
 
                 <tr>
-                <td>Nationality</td>
-                <td>'.$fathernation.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Nationality</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$fathernation.'</td>
                 </tr>
 
                 <tr>
-                <td><strong>Grand Parent Info</strong></td>
-                <td><strong>--------</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>Grand Parent Info</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>--------</strong></td>
                 </tr>
 
                 <tr>
-                <td>Name of grand parent</td>
-                <td>'.$grandpname.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Name of grand parent</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandpname.'</td>
                 </tr>
 
                 <tr>
-                <td>Living or dead</td>
-                <td>'.$grandpalive.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Living or dead</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandpalive.'</td>
                 </tr>
 
                 <tr>
-                <td>Telephone</td>
-                <td>'.$grandptelephone.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Telephone</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandptelephone.'</td>
                 </tr>
 
                 <tr>
-                <td>Email</td>
-                <td>'.$grandpemail.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Email</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandpemail.'</td>
                 </tr>
 
                 <tr>
-                <td>Hometown   </td>
-                <td>'.$grandptown.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Hometown   </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandptown.'</td>
                 </tr>
 
                 <tr>
-                <td>residential address</td>
-                <td>'.$grandpresaddress.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">residential address</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandpresaddress.'</td>
                 </tr>
 
                 <tr>
-                <td>postal address</td>
-                <td>'.$grandppostaladdress.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">postal address</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandppostaladdress.'</td>
                 </tr>
 
                 <tr>
-                <td>Nationality</td>
-                <td>'.$grandpnational.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Nationality</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$grandpnational.'</td>
                 </tr>
 
                 <tr>
-                <td><strong>Mothers details </strong></td>
-                <td><strong>----------</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>Mothers details </strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>----------</strong></td>
                 </tr>
 
                 <tr>
-                <td>Mothers name</td>
-                <td>'.$mothername.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Mothers name</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$mothername.'</td>
                 </tr>
 
                 <tr>
-                <td>Living/ dead</td>
-                <td>'.$motheralive.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Living/ dead</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$motheralive.'</td>
                 </tr>
 
                 <tr>
-                <td>Telephone</td>
-                <td>'.$mothercontact.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Telephone</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$mothercontact.'</td>
                 </tr>
 
                 <tr>
-                <td>Email</td>
-                <td>'.$motheremail.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Email</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$motheremail.'</td>
                 </tr>
 
                 <tr>
-                <td>Hometown</td>
-                <td>'.$mothertown.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Hometown</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$mothertown.'</td>
                 </tr>
 
                 <tr>
-                <td>Residential address</td>
-                <td>'.$motherresaddress.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Residential address</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$motherresaddress.'</td>
                 </tr>
 
                 <tr>
-                <td>Postal Address </td>
-                <td>'.$motherposaddress.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Postal Address </td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$motherposaddress.'</td>
                 </tr>
 
                 <tr>
-                <td>Nationality</td>
-                <td>'.$mothernation.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Nationality</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$mothernation.'</td>
                 </tr>
 
                 <tr>
-                <td><strong>Guarantor Info</strong></td>
-                <td>------</td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>Guarantor Info</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;">------</td>
                 </tr>
 
                 <tr>
-                <td>Name</td>
-                <td>'.$guarantorname.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Name</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$guarantorname.'</td>
                 </tr>
 
                 <tr>
-                <td>Occupation</td>
-                <td>'.$guarantoroccupation.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Occupation</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$guarantoroccupation.'</td>
                 </tr>
 
                 <tr>
-                <td>Contact</td>
-                <td>'.$guarantorcontact.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Contact</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$guarantorcontact.'</td>
                 </tr>
 
                 <tr>
-                <td><Residential address/td>
-                <td>'.$guarantorresaddress.'</td>
+                <td style="border-collapse:collapse;border:1px solid;"><Residential address/td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$guarantorresaddress.'</td>
                 </tr>
     
         </table>';
