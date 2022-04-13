@@ -337,6 +337,6 @@ if (isset($_POST['requestid'])) {
 
     switch ($rid) {
         case '1':
-            echo sendmail();
+            echo sendmail('www.ewusidanconsult.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com']);
     }
 }
