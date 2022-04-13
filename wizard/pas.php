@@ -324,7 +324,24 @@
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name=""  class="form-control" placeholder="">
+<input type="text" name="fathernation"  class="form-control" placeholder="Father's Nationality">
+</div>
+
+</div>
+<h3>One Grand parent Info</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpname"  class="form-control" placeholder="Name of grand parent">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="grandpalive" class="mysl" aria-label="Default select example">
+  <option value="">Is your Grandparent alive?</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
 </div>
 
 </div>
@@ -332,12 +349,12 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name=""  class="form-control" placeholder="">
+<input type="text" name="grandptelephone"  class="form-control" placeholder="Grand Parent Telephone">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name=""  class="form-control" placeholder="">
+<input type="text" name="grandpemail"  class="form-control" placeholder=" Grand Parent Email">
 </div>
 
 </div>
@@ -345,15 +362,45 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name=""  class="form-control" placeholder="">
+<input type="text" name="grandptown"  class="form-control" placeholder="Grand Parent Hometown">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name=""  class="form-control" placeholder="">
+<input type="text" name="grandpresaddress"  class="form-control" placeholder=" Grand Parent residential address">
 </div>
 
 </div>
+
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandppostaladdress"  class="form-control" placeholder="Grand Parent postal address">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpnational"  class="form-control" placeholder=" Grand Parent Nationality">
+</div>
+
+</div>
+
+
+
+<!-- <div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandptelephone"  class="form-control" placeholder="Grand Parent Telephone">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpemail"  class="form-control" placeholder=" Grand Parent Email">
+</div>
+
+</div> -->
 </section>
 
 <h4></h4>
