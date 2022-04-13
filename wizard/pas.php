@@ -124,7 +124,7 @@
 </div>
 <div class="form-holder">
 <i class="zmdi zmdi-email"></i>
-<input type="text" class="form-control" placeholder="Email Address">
+<input type="text" name="email" class="form-control" placeholder="Email Address">
 </div>
 </div>
 
@@ -132,12 +132,35 @@
 
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-smartphone-android"></i>
-<input type="text" name="phone"  class="form-control" placeholder="Phone Number">
+<i class="zmdi zmdi-male-alt"></i>
+<input type="text" name="height"  class="form-control" placeholder="Height">
 </div>
 <div class="form-holder">
-<i class="zmdi zmdi-email"></i>
-<input type="text" class="form-control" placeholder="Email Address">
+<i class="zmdi zmdi-eye"></i>
+<input type="text" name="eyecolor" class="form-control" placeholder="Colour of eyes">
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-face"></i>
+<input type="text" name="haircolor"  class="form-control" placeholder="Colour of hair">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="nationality" class="form-control" placeholder="Nationality">
+</div>
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-account-circle"></i>
+<input type="text" name="profession"  class="form-control" placeholder="Profession">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-account-circle"></i>
+<input type="text" name="prevpro" class="form-control" placeholder="Previous profession">
 </div>
 </div>
 </section>
