@@ -43,17 +43,17 @@ echo '<div class="header sticky-header">
                     <li><a href="services">Services</a></li>
                     <li class="tm-navigation-dropdown"><a href="">Apply FOR</a>
                     <ul>
-                    <li><a href="applypassport">Passport</a></li>
-                    <li><a href="">Birth Certificate</a></li>
-                    <li><a href="">Business Certificate</a></li>
+                    <li><a href="applypassport" target="blank">Passport</a></li>
+                    <li><a href="" target="blank">Birth Certificate</a></li>
+                    <li><a href="" target="blank">Business Certificate</a></li>
                     </ul>
                     </li>
 
                     <li class="tm-navigation-dropdown"><a href="">Renewals</a>
                     <ul>
-                    <li><a href="renewpassport">Passport</a></li>
-                    <li><a href="">Birth Certificate</a></li>
-                    <li><a href="">Business Certificate</a></li>
+                    <li><a href="renewpassport" target="blank">Passport</a></li>
+                    <li><a href="" target="blank">Birth Certificate</a></li>
+                    <li><a href="" target="blank">Business Certificate</a></li>
                     </ul>
                     </li>
                     <li><a href="about">About</a></li>
