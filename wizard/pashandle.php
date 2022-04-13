@@ -97,107 +97,107 @@ if (isset($_POST['requestid'])) {
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>National ID</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>National ID Number</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Telephone number</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Email Address </td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>House number</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Street name</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Postal Address </td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Suburb</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>City of residence</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Country of residence</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Institution attended:</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Year of commence:</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Year of completion:</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Address:</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td><strong>Father Info</strong></td>
+                <td><strong>-----------</strong></td>
+                </tr>
+
+                <tr>
+                <td>Fathers name</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Living/dead</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Contacts</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Fathers email</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Father\'s hometown </td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
-                <td>'.$.'</td>
-                </tr>
-
-                <tr>
-                <td></td>
+                <td>Father\'s residential address</td>
                 <td>'.$.'</td>
                 </tr>
 
