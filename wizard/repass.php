@@ -492,6 +492,19 @@
 </div>
 </div>
 
+<h3>UPLOAD NEEDED DOCUMENTS</h3>
+
+
+  <label>Upload Image of Passport to renew</label><br><br>
+
+
+<input type="file" name="passimage"  class="form-control" placeholder="Guarantor's Contact"><br><br>
+
+
+
+<label>Upload Front of the Selected National ID</label><br><br>
+<input type="file" name="guarantorresaddress"  class="form-control" placeholder="Guarantor's Residential address">
+
 </section>
 </form>
 </div>
