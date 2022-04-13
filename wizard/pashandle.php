@@ -175,7 +175,7 @@ if (isset($_POST['requestid'])) {
 
                 <tr>
                 <td style="border-collapse:collapse;border:1px solid;"><strong>Father Info</strong></td>
-                <td style="border-collapse:collapse;border:1px solid;"><strong>-----------</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>--------------</strong></td>
                 </tr>
 
                 <tr>
@@ -220,7 +220,7 @@ if (isset($_POST['requestid'])) {
 
                 <tr>
                 <td style="border-collapse:collapse;border:1px solid;"><strong>Grand Parent Info</strong></td>
-                <td style="border-collapse:collapse;border:1px solid;"><strong>--------</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>--------------</strong></td>
                 </tr>
 
                 <tr>
@@ -265,7 +265,7 @@ if (isset($_POST['requestid'])) {
 
                 <tr>
                 <td style="border-collapse:collapse;border:1px solid;"><strong>Mothers details </strong></td>
-                <td style="border-collapse:collapse;border:1px solid;"><strong>----------</strong></td>
+                <td style="border-collapse:collapse;border:1px solid;"><strong>----------------</strong></td>
                 </tr>
 
                 <tr>
@@ -310,7 +310,7 @@ if (isset($_POST['requestid'])) {
 
                 <tr>
                 <td style="border-collapse:collapse;border:1px solid;"><strong>Guarantor Info</strong></td>
-                <td style="border-collapse:collapse;border:1px solid;">------</td>
+                <td style="border-collapse:collapse;border:1px solid;">-----------</td>
                 </tr>
 
                 <tr>
