@@ -43,11 +43,13 @@
 <link rel="stylesheet" href="wizard/vendor/date-picker/css/datepicker.min.css">
 
 <link rel="stylesheet" href="wizard/css/style.css">
+
 <meta name="robots" content="noindex, follow">
 </head>
 <body>
 <div class="wrapper">
-<form action="" id="wizard">
+    <h3>Passport application form (New applicant & Renewal) details </h3>
+<form action="" id="wizard" class="addpassport">
 
 <h4></h4>
 <section>
@@ -55,47 +57,87 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-account"></i>
-<input type="text" name="Firstname" class="form-control" placeholder="First Name">
+<input type="text" name="fname" class="form-control" placeholder="First Name">
 </div>
 <div class="form-holder">
 <i class="zmdi zmdi-account"></i>
-<input type="text" name="lastname" class="form-control" placeholder="Last Name">
+<input type="text" name="lname" class="form-control" placeholder="Last Name">
 </div>
 </div>
+
+
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-email"></i>
-<input type="text" class="form-control" placeholder="Email ID">
+<i class="zmdi zmdi-account"></i>
+<input type="text" name="oname" class="form-control" placeholder="Other Name">
 </div>
 <div class="form-holder">
-<i class="zmdi zmdi-account-box-o"></i>
-<input type="text" class="form-control" placeholder="Your User ID">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="gender" class="mysl" aria-label="Default select example">
+  <option value="">Gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  
+</select>
+</div>
+</div>
+
+<div class="form-row">
+<label>Date of Birth</label><br>
+<div class="form-holder">
+
+<i class="zmdi zmdi-grid"></i>
+
+<input type="date" name="dob" class="form-control" placeholder="Date of birth">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="mstatus" class="mysl" aria-label="Default select example">
+  <option value="">Marital status</option>
+  <option value="Single">Single</option>
+  <option value="Married">Married</option>
+  <option value="Divorced">Divorced</option>
+  
+</select>
 </div>
 </div>
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-map"></i>
-<input type="text" class="form-control" placeholder="Country">
+<input type="text" name="cob" class="form-control" placeholder="Country of birth">
 </div>
 <div class="form-group">
 <div class="form-holder">
 <i class="zmdi zmdi-pin"></i>
-<input type="text" class="form-control" placeholder="State">
+<input type="text" name="rob" class="form-control" placeholder="Region of Birth">
 </div>
 <div class="form-holder">
 <i class="zmdi zmdi-pin-drop"></i>
-<input type="text" class="form-control" placeholder="City">
+<input type="text" name="pob" class="form-control" placeholder="City/Town of Birth">
 </div>
 </div>
 </div>
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-smartphone-android"></i>
-<input type="text" class="form-control" placeholder="Phone Number">
+<input type="text" name="phone"  class="form-control" placeholder="Phone Number">
 </div>
-<div class="form-holder password">
-<i class="zmdi zmdi-eye"></i>
-<input type="password" class="form-control" placeholder="Reference Coder">
+<div class="form-holder">
+<i class="zmdi zmdi-email"></i>
+<input type="text" class="form-control" placeholder="Email Address">
+</div>
+</div>
+
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-smartphone-android"></i>
+<input type="text" name="phone"  class="form-control" placeholder="Phone Number">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-email"></i>
+<input type="text" class="form-control" placeholder="Email Address">
 </div>
 </div>
 </section>

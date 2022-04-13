@@ -8,25 +8,44 @@ $(function(){
     transitionEffectSpeed:300,
     labels:{next:"Continue",
     previous:"Back",
-    finish:'Proceed to checkout'},
+    finish:'submit'},
     onFinished: function() {
         $("#wizard").submit();
         
     },
     onStepChanging:function(event,currentIndex,newIndex){
         if(newIndex>=1)
-        {$('.steps ul li:first-child a img').attr('src','images/step-1.png');}else{$('.steps ul li:first-child a img').attr('src','images/step-1-active.png');
+        {
+            // $('.steps ul li:first-child a img').attr('src','wizard/images/item-1.jpg');
+            $('.steps ul li:first-child a img').attr('class','');
+        }
+        else{
+            // $('.steps ul li:first-child a img').attr('src','wizard/images/item-2.jpg');
+            $('.steps ul li:first-child a img').attr('class','iactive');
         }
     if(newIndex===1)
-    {$('.steps ul li:nth-child(2) a img').attr('src','images/step-2-active.png');}else{$('.steps ul li:nth-child(2) a img').attr('src','images/step-2.png');
+    {
+        $('.steps ul li:nth-child(2) a img').attr('class','iactive');
+    }
+    else{
+        $('.steps ul li:nth-child(2) a img').attr('class','');
     }
     if(newIndex===2)
-    {$('.steps ul li:nth-child(3) a img').attr('src','images/step-3-active.png');}else{$('.steps ul li:nth-child(3) a img').attr('src','images/step-3.png');
+    {
+        $('.steps ul li:nth-child(3) a img').attr('class','iactive');
     }
-    if(newIndex===3){$('.steps ul li:nth-child(4) a img').attr('src','images/step-4-active.png');$('.actions ul').addClass('step-4');}else{$('.steps ul li:nth-child(4) a img').attr('src','images/step-4.png');$('.actions ul').removeClass('step-4');
+    else{
+        $('.steps ul li:nth-child(3) a img').attr('class','');
+    }
+    if(newIndex===3)
+    {
+        $('.steps ul li:nth-child(4) a img').attr('class','iactive');
+    }
+    else{
+        $('.steps ul li:nth-child(4) a img').attr('class','');
     }
 return true;}});$('.forward').click(function(){$("#wizard").steps('next');})
 $('.backward').click(function(){$("#wizard").steps('previous');})
 $('.password i').click(function(){if($('.password input').attr('type')==='password'){$(this).next().attr('type','text');}else{$('.password input').attr('type','password');}})
-$('.steps ul li:first-child').append('<img src="images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="images/step-1-active.png" alt=""> ').append('<span class="step-order">Step 01</span>');$('.steps ul li:nth-child(2').append('<img src="images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="images/step-2.png" alt="">').append('<span class="step-order">Step 02</span>');$('.steps ul li:nth-child(3)').append('<img src="images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="images/step-3.png" alt="">').append('<span class="step-order">Step 03</span>');$('.steps ul li:last-child a').append('<img src="images/step-4.png" alt="">').append('<span class="step-order">Step 04</span>');$(".quantity span").on("click",function(){var $button=$(this);var oldValue=$button.parent().find("input").val();if($button.hasClass('plus')){var newVal=parseFloat(oldValue)+1;}else{if(oldValue>0){var newVal=parseFloat(oldValue)-1;}else{newVal=0;}}
+$('.steps ul li:first-child').append('<img src="wizard/images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="wizard/images/step-1.png" alt="" class="iactive"> ').append('<span class="step-order">Step 01</span>');$('.steps ul li:nth-child(2').append('<img src="wizard/images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="wizard/images/step-2.png" alt="">').append('<span class="step-order">Step 02</span>');$('.steps ul li:nth-child(3)').append('<img src="wizard/images/step-arrow.png" alt="" class="step-arrow">').find('a').append('<img src="images/step-3.png" alt="">').append('<span class="step-order">Step 03</span>');$('.steps ul li:last-child a').append('<img src="images/step-4.png" alt="">').append('<span class="step-order">Step 04</span>');$(".quantity span").on("click",function(){var $button=$(this);var oldValue=$button.parent().find("input").val();if($button.hasClass('plus')){var newVal=parseFloat(oldValue)+1;}else{if(oldValue>0){var newVal=parseFloat(oldValue)-1;}else{newVal=0;}}
 $button.parent().find("input").val(newVal);});})
