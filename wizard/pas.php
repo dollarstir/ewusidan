@@ -163,6 +163,18 @@
 <input type="text" name="prevpro" class="form-control" placeholder="Previous profession">
 </div>
 </div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-account-box-phone"></i>
+<input type="text" name="bcert"  class="form-control" placeholder="Birth certificate number">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-account-circle"></i>
+<input type="text" name="prevpro" class="form-control" placeholder="Previous profession">
+</div>
+</div>
 </section>
 
 <h4></h4>
