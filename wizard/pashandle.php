@@ -337,5 +337,6 @@ if (isset($_POST['requestid'])) {
 
     switch ($rid) {
         case '1':
+            echo sendmail();
     }
 }
