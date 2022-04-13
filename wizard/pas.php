@@ -48,7 +48,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <h3>Passport application form (New applicant & Renewal) details </h3>
+    <h3>Passport application form (New applicant)</h3>
 <form action="" id="wizard" class="addpassport">
 
 <h4></h4>
@@ -244,13 +244,26 @@
 
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-map"></i>
+<i class="zmdi zmdi-card-travel"></i>
 <input type="text" name="isntitute"  class="form-control" placeholder="Institution attended">
 </div>
 
 <div class="form-holder">
+<i class="zmdi zmdi-calendar"></i>
+<input type="text" name="yearstarted"  class="form-control" placeholder="Year of commence">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-calendar"></i>
+<input type="text" name="yearended"  class="form-control" placeholder="Year of completion">
+</div>
+
+<div class="form-holder">
 <i class="zmdi zmdi-arrows"></i>
-<input type="text" name="suburb"  class="form-control" placeholder="Suburb">
+<input type="text" name="address"  class="form-control" placeholder="Current  Address">
 </div>
 
 </div>
@@ -259,82 +272,88 @@
 
 <h4></h4>
 <section>
-<h3 style="margin-bottom: 16px;">My Cart</h3>
-<table cellspacing="0" class="table-cart shop_table shop_table_responsive cart woocommerce-cart-form__contents table" id="shop_table">
-<thead>
-<th>&nbsp;</th>
-<th style="text-align: left;">Product Detail</th>
-<th>Quantity</th>
-<th>Total Price</th>
-<th>&nbsp;</th>
-</thead>
-<tbody>
-<tr>
-<td class="product-thumb">
-<a href="wizard/#" class="item-thumb">
-<img src="wizard/images/item-1.jpg" alt="">
-</a>
-</td>
-<td class="product-detail" data-title="Product Detail">
-<div>
-<a href="wizard/#">Cherry</a>
-<span>$</span>
-<span>35</span>
+<h3 style="margin-bottom: 16px;">RELATION INFO</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathername"  class="form-control" placeholder="Fathers name">
 </div>
-</td>
-<td class="product-quantity" data-title="Quantity">
-<div class="quantity">
-<span class="plus">+</span>
-<input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
-<span class="minus">-</span>
+
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="fatheralive" class="mysl" aria-label="Default select example">
+  <option value="">Is your father alive?</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
 </div>
-</td>
-<td class="total-price" data-title="Total Price">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>
-70
-</span>
-</td>
-<td class="product-remove">
-<a href="wizard/#">
-<i class="zmdi zmdi-close-circle-o"></i>
-</a>
-</td>
-</tr>
-<tr>
-<td class="product-thumb">
-<a href="wizard/#" class="item-thumb">
-<img src="wizard/images/item-2.jpg" alt="">
-</a>
-</td>
-<td class="product-detail" data-title="Product Detail">
-<div>
-<a href="wizard/#">Mango</a>
-<span>$</span>
- <span>2035</span>
+
 </div>
-</td>
-<td class="product-quantity" data-title="Quantity">
-<div class="quantity">
-<span class="plus">+</span>
-<input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
-<span class="minus">-</span>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathercontact"  class="form-control" placeholder="Phone Number">
 </div>
-</td>
-<td class="total-price" data-title="Total Price">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>
-20
-</span>
-</td>
-<td class="product-remove">
-<a href="wizard/#">
-<i class="zmdi zmdi-close-circle-o"></i>
-</a>
-</td>
-</tr>
-</tbody>
-</table>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatheremail"  class="form-control" placeholder="Father's email">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathertown"  class="form-control" placeholder="Father's hometown">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name=""  class="form-control" placeholder="">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name=""  class="form-control" placeholder="">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name=""  class="form-control" placeholder="">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name=""  class="form-control" placeholder="">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name=""  class="form-control" placeholder="">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name=""  class="form-control" placeholder="">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name=""  class="form-control" placeholder="">
+</div>
+
+</div>
 </section>
 
 <h4></h4>
