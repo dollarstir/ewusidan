@@ -40,21 +40,21 @@ $router = new Router([
     new Route(
         '/applypassport',
         function ($context) {
-            return Viewer::view('main/passp.php', $context);
+            return Viewer::view('wizard/pas.php', $context);
         }
     ),
 
     new Route(
         '/applybirthcert',
         function ($context) {
-            return Viewer::view('main/bcert.php', $context);
+            return Viewer::view('wizard/bcert.php', $context);
         }
     ),
 
     new Route(
         '/applybusinesscert',
         function ($context) {
-            return Viewer::view('main/businessc.php', $context);
+            return Viewer::view('wizard/businessc.php', $context);
         }
     ),
 ]);
