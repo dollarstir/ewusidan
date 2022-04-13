@@ -130,6 +130,13 @@
 
 
 
+
+</section>
+
+<h4></h4>
+<section>
+<h3>Other Details </h3>
+
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-male-alt"></i>
@@ -170,40 +177,25 @@
 <i class="zmdi zmdi-account-box-phone"></i>
 <input type="text" name="bcert"  class="form-control" placeholder="Birth certificate number">
 </div>
+<label>Date of Issue</label><br>
+<div class="form-holder">
+<i class="zmdi zmdi-grid"></i>
+<input type="date" name="bcertdoi" class="form-control" placeholder="Date of issue">
+</div>
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="bcertpoi"  class="form-control" placeholder="Place of issue">
+</div>
 <div class="form-holder">
 <i class="zmdi zmdi-account-circle"></i>
 <input type="text" name="prevpro" class="form-control" placeholder="Previous profession">
 </div>
 </div>
-</section>
 
-<h4></h4>
-<section>
-<h3>Password change</h3>
-<div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="Current Password">
-<i class="zmdi zmdi-lock-open"></i>
-</div>
-</div>
-<div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="Enter the Current Password">
-<i class="zmdi zmdi-lock-open"></i>
-</div>
-</div>
-<div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="New Password">
-<i class="zmdi zmdi-lock-open"></i>
-</div>
-</div>
-<div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="Confirm New Password">
-<i class="zmdi zmdi-lock-open"></i>
-</div>
-</div>
 </section>
 
 <h4></h4>
