@@ -190,10 +190,69 @@
 <i class="zmdi zmdi-map"></i>
 <input type="text" name="bcertpoi"  class="form-control" placeholder="Place of issue">
 </div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="postal"  class="form-control" placeholder="Postal Address">
+</div>
+
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="nidtype" class="mysl" aria-label="Default select example">
+  <option value="">Select Nation ID Type</option>
+  <option value="Ghana Card">Ghana Card</option>
+  <option value="Voters ID">Voters ID</option>
+</select>
+</div>
 <div class="form-holder">
 <i class="zmdi zmdi-account-circle"></i>
-<input type="text" name="prevpro" class="form-control" placeholder="Previous profession">
+<input type="text" name="nidnumber" class="form-control" placeholder="Enter National ID's Number">
 </div>
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="currentcity"  class="form-control" placeholder="City of residence">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="suburb"  class="form-control" placeholder="Suburb">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="currentcountry"  class="form-control" placeholder="Country of residence ">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="suburb"  class="form-control" placeholder="Suburb">
+</div>
+
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="isntitute"  class="form-control" placeholder="Institution attended">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="suburb"  class="form-control" placeholder="Suburb">
+</div>
+
 </div>
 
 </section>
