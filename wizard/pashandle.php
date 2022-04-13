@@ -329,7 +329,7 @@ if (isset($_POST['requestid'])) {
                 </tr>
 
                 <tr>
-                <td style="border-collapse:collapse;border:1px solid;"><Residential address</td>
+                <td style="border-collapse:collapse;border:1px solid;">Residential Address</td>
                 <td style="border-collapse:collapse;border:1px solid;">'.$guarantorresaddress.'</td>
                 </tr>
     
