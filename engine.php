@@ -54,7 +54,7 @@ $router = new Router([
     new Route(
         '/applybusinesscert',
         function ($context) {
-            return Viewer::view('wizard/businessc.php', $context);
+            return Viewer::view('wizard/buz.php', $context);
         }
     ),
 ]);
