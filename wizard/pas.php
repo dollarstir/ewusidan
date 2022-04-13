@@ -311,7 +311,7 @@
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name=""  class="form-control" placeholder="">
+<input type="text" name="fatherresaddress"  class="form-control" placeholder="Father's residential address">
 </div>
 
 </div>
@@ -319,7 +319,7 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name=""  class="form-control" placeholder="">
+<input type="text" name="fatherposaddress"  class="form-control" placeholder="Fathers postal address">
 </div>
 
 <div class="form-holder">
