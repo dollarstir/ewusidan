@@ -12,87 +12,87 @@ if (isset($_POST['requestid'])) {
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>surname</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>First name</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Other name </td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Gender</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Date of birth</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>City or town of birth</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Country of birth</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Height</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Colour of eyes</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Colour of hair</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Nationality</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Profession</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Marrital status</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Previous profession </td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Birthcert Number</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Date of issue</td>
                 <td>'.$.'</td>
                 </tr>
 
                 <tr>
-                <td></td>
+                <td>Place of issue</td>
                 <td>'.$.'</td>
                 </tr>
 
