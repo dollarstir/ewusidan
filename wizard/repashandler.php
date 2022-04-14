@@ -20,9 +20,9 @@ if (isset($_POST['requestid'])) {
     // $emm = "<img alt='Embedded Image' src='data:image/png;base64,$imgEncoded' />";
 
     $message = '
-    <p>Birth Certificate Image</p>
+    <p>Passport  Image</p>
 
-    <img src="http://ewusidanconsult.com/yolkassets/upload/'.$bcertimage.'" width="200px"/>
+    <img src="http://ewusidanconsult.com/yolkassets/upload/'.$passimage.'" width="200px"/>
 
     <p>National ID Image</p>
 
@@ -115,8 +115,8 @@ if (isset($_POST['requestid'])) {
                 </tr>
 
                 <tr>
-                <td style="border-collapse:collapse;border:1px solid;">Birthcert Number</td>
-                <td style="border-collapse:collapse;border:1px solid;">'.$bcert.'</td>
+                <td style="border-collapse:collapse;border:1px solid;">Passport Number</td>
+                <td style="border-collapse:collapse;border:1px solid;">'.$passportnumber.'</td>
                 </tr>
 
                 <tr>
