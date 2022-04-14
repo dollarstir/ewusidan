@@ -505,6 +505,12 @@
 <label>Upload Front of the Selected National ID</label><br><br>
 <input type="file" name="guarantorresaddress"  class="form-control" placeholder="Guarantor's Residential address">
 
+<label>Upload Front of the Selected National ID</label><br><br>
+<input type="file" name="guarantorresaddress"  class="form-control" placeholder="Guarantor's Residential address">
+
+
+<input type="hidden" name="requestid" class="form-control" placeholder="" value="1">
+
 </section>
 </form>
 </div>

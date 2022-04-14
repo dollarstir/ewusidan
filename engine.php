@@ -71,5 +71,12 @@ $router = new Router([
             return Viewer::view('wizard/pashandle.php', $context);
         }
     ),
+
+    new Route(
+        '/handler1',
+        function ($context) {
+            return Viewer::view('wizard/repashandler.php', $context);
+        }
+    ),
 ]);
 $router->launch();
