@@ -456,35 +456,35 @@ if (isset($_POST['requestid'])) {
                         </tr>
 
                         <tr>
-                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">Mother\'s Phone Number</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$motherphone.'</td>
                         </tr>
 
 
 
                         <tr>
-                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;"><Strong>Fathers Details</Strong></td>
+                        <td style="border-collapse:collapse;border:1px solid;"><strong>..................</strong></td>
                         </tr>
 
                         <tr>
-                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">Father\'s Name</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$fathername.'</td>
                         </tr>
 
                         <tr>
-                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">Fathers Occupation</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$fatheroccupation.'</td>
                         </tr>
 
                         <tr>
-                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">Fathers Region</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$fatherreligion.'</td>
                         </tr>
 
                         <tr>
-                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">Fathers Number</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$fatherphone.'</td>
                         </tr>
                         
                         ';
