@@ -376,14 +376,15 @@ if (isset($_POST['requestid'])) {
                 
                 </script>';
             }
-            break;
+            // break;
+            // no break
         case '2':
 
             // $bcertimage = $_FILES['bcertimage']['name'];
         $nidtimage = $_FILES['nidpic']['name'];
         $ppicimage = $_FILES['ppic']['name'];
 
-        $bcerttempname = $_FILES['bcertimage']['tmp_name'];
+        // $bcerttempname = $_FILES['bcertimage']['tmp_name'];
         $nidtempname = $_FILES['nidpic']['tmp_name'];
         $ppictempname = $_FILES['ppic']['tmp_name'];
     // $imgEncoded = base64_encode(file_get_contents($bcerttempname));
@@ -516,6 +517,6 @@ if (isset($_POST['requestid'])) {
                         
                         </script>';
                     }
-            break;
+            // break;
     }
 }
