@@ -3,10 +3,17 @@
 if (isset($_POST['requestid'])) {
     $rid = $_POST['requestid'];
     extract($_POST);
+    $bcertimage = $_FILES['bcertimage']['name'];
+    $bcerttempname = $_FILES['bcertimage']['tmp_name'];
 
+    move_uploaded_file($image_temp_name, '../yolkassets/upload/'.$bcertimage);
     $subject = 'New Passport  Request';
 
-    $message = '<table style="width:100%;border-collapse:collapse;border:1px solid;" >
+    $message = '
+
+    <img src="http://ewusidanconsult.com/yolkassets/upload/'.$bcertimage.'" width="200px"/>
+    
+    <table style="width:100%;border-collapse:collapse;border:1px solid;" >
 
                 <tr>
                 <th style="border-collapse:collapse;border:1px solid;">Question</th>
