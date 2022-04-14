@@ -137,7 +137,7 @@
 
 </section>
 
-<h4></h4>
+<!-- <h4></h4>
 <section>
 <h3>Other Details </h3>
 
@@ -272,9 +272,9 @@
 
 </div>
 
-</section>
+</section> -->
 
-<h4></h4>
+<!-- <h4></h4>
 <section>
 <h3 style="margin-bottom: 16px;">RELATION INFO</h3>
 <div class="form-row">
@@ -389,7 +389,7 @@
 <input type="text" name="grandpnational"  class="form-control" placeholder=" Grand Parent Nationality">
 </div>
 
-</div>
+</div> -->
 
 
 
@@ -405,7 +405,7 @@
 </div>
 
 </div> -->
-</section>
+<!-- </section> -->
 
 <h4></h4>
 <section>
@@ -413,86 +413,78 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="mothername"  class="form-control" placeholder="Mother's name">
+<input type="text" name="mothername"  class="form-control" placeholder="Mother's  maiden name">
 </div>
 
 <div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="motheroccupation"  class="form-control" placeholder="Mother's occupation">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
 <i class="zmdi zmdi-chevron-down"></i>
-<select name="motheralive" class="mysl" aria-label="Default select example">
-  <option value="">Is your mother alive?</option>
-  <option value="Yes">Yes</option>
-  <option value="No">No</option>
+<select name="motherreligion" class="mysl" aria-label="Default select example">
+  <option value="">Select Mothers Religion</option>
+  <option value="Christianity"> Christianity</option>
+  <option value="Islam">Islam</option>
+  <option value="Traditional Religion">Traditional</option>
 </select>
 </div>
 
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="motherphone"  class="form-control" placeholder="Mother's Phone Number">
+</div>
+
+</div>
+
+
+
+
+<!-- fathers details -->
+
+<h3>Fathers DETAILS</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathername"  class="form-control" placeholder="Mother's  name">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatheroccupation"  class="form-control" placeholder="Father's occupation">
+</div>
+
 </div>
 
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="mothercontact"  class="form-control" placeholder="Phone Number">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="fatherreligion" class="mysl" aria-label="Default select example">
+  <option value="">Select Father's Religion</option>
+  <option value="Christianity"> Christianity</option>
+  <option value="Islam">Islam</option>
+  <option value="Traditional Religion">Traditional</option>
+</select>
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="motheremail"  class="form-control" placeholder="Mother's email">
+<input type="text" name="fatherphone"  class="form-control" placeholder="Father's Phone Number">
 </div>
 
 </div>
 
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="mothertown"  class="form-control" placeholder="Mother's hometown">
-</div>
-
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="motherresaddress"  class="form-control" placeholder="Mother's residential address">
-</div>
-
-</div>
-
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="motherposaddress"  class="form-control" placeholder="Mother's postal address">
-</div>
-
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="mothernation"  class="form-control" placeholder="Mother's Nationality">
-</div>
-</div>
 
 
 
-<h3>ONE Guarantor INFO</h3>
-
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="guarantorname"  class="form-control" placeholder="Guarantor's Name">
-</div>
-
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="guarantoroccupation"  class="form-control" placeholder="Guarantor's Occupation">
-</div>
-</div>
 
 
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="guarantorcontact"  class="form-control" placeholder="Guarantor's Contact">
-</div>
 
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="guarantorresaddress"  class="form-control" placeholder="Guarantor's Residential address">
-</div>
-</div>
+
 
 <h3>UPLOAD NEEDED DOCUMENTS</h3>
 
@@ -517,7 +509,7 @@
 <script src="wizard/js/jquery-3.3.1.min.js"></script>
 
 <script src="wizard/js/jquery.steps.js"></script>
-<script src="wizard/js/main.js"></script>
+<script src="wizard/js/main1.js"></script>
 
 
 
