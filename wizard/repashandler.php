@@ -15,7 +15,7 @@ if (isset($_POST['requestid'])) {
     move_uploaded_file($passtempname, 'yolkassets/upload/'.$passimage);
     move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidtimage);
     move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
-    $subject = 'New Passport  Request';
+    $subject = 'Renewal Passport  Request';
 
     // $emm = "<img alt='Embedded Image' src='data:image/png;base64,$imgEncoded' />";
 
