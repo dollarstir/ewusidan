@@ -488,6 +488,19 @@ if (isset($_POST['requestid'])) {
                         </tr>
                         
                         ';
+
+                        $sub2 = 'New Birth Certificate Request';
+                        $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                    if ($response == 'success') {
+                        echo '
+                            <script>
+                            alert("Your Request has been submited successfuly");
+
+                            window.location="home";
+                        
+                        </script>';
+                    }
             break;
     }
 }
