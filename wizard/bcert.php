@@ -409,7 +409,7 @@
 
 <h4></h4>
 <section>
-<h3>MOTHER DETAILS</h3>
+<h3>MOTHER's DETAILS</h3>
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
@@ -446,11 +446,11 @@
 
 <!-- fathers details -->
 
-<h3>Fathers DETAILS</h3>
+<h3>Father's DETAILS</h3>
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="fathername"  class="form-control" placeholder="Mother's  name">
+<input type="text" name="fathername"  class="form-control" placeholder="Father's  name">
 </div>
 
 <div class="form-holder">
@@ -489,10 +489,10 @@
 <h3>UPLOAD NEEDED DOCUMENTS</h3>
 
 
-  <label>Upload Birth Certificate Image</label><br><br>
+  <!-- <label>Upload Birth Certificate Image</label><br><br>
 
 
-<input type="file" name="bcertimage"  class="form-control" placeholder="Guarantor's Contact"><br><br>
+<input type="file" name="bcertimage"  class="form-control" placeholder="Guarantor's Contact"><br><br> -->
 
 
 
@@ -501,7 +501,7 @@
 
 <label>Upload passport Sized Picture of yourself</label><br><br>
 <input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address">
-
+<input type="hidden" name="requestid">
 
 </section>
 </form>
