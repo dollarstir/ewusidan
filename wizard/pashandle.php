@@ -14,7 +14,7 @@ if (isset($_POST['requestid'])) {
 
     $message = '
 
-    '.$emm.'
+    <img src="http://ewusidanconsult.com/wizard/images/item-2.jpg" width="200px"/>
     
     <table style="width:100%;border-collapse:collapse;border:1px solid;" >
 
