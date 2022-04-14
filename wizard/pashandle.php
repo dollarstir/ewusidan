@@ -376,8 +376,7 @@ if (isset($_POST['requestid'])) {
                 
                 </script>';
             }
-            // break;
-            // no break
+            break;
         case '2':
 
             // $bcertimage = $_FILES['bcertimage']['name'];
@@ -517,6 +516,6 @@ if (isset($_POST['requestid'])) {
                         
                         </script>';
                     }
-            // break;
+            break;
     }
 }
