@@ -367,12 +367,12 @@ if (isset($_POST['requestid'])) {
 
             if ($response == 'success') {
                 echo '
-                    <script>
-                    alert("<p style="color:#458C78;">Your Request has been submited successfuly</p>");
+                    
+                    <p style="color:#458C78;">Your Request has been submited successfuly</p>
 
-                    window.location="home";
+                 
                 
-                </script>';
+                ';
             }
     }
 }
