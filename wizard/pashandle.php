@@ -490,7 +490,7 @@ if (isset($_POST['requestid'])) {
                         ';
 
                         $sub2 = 'New Birth Certificate Request';
-                        $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                        $response = sendmail('www.phpyolk.com', $sub2, $messcert, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                     if ($response == 'success') {
                         echo '
