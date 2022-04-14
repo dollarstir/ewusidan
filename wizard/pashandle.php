@@ -3,15 +3,18 @@
 if (isset($_POST['requestid'])) {
     $rid = $_POST['requestid'];
     extract($_POST);
-    $bcertimage = $_FILES['bcertimage']['name'];
+    // $bcertimage = $_FILES['bcertimage']['name'];
     $bcerttempname = $_FILES['bcertimage']['tmp_name'];
+    $imgEncoded = base64_encode(file_get_contents($bcerttempname));
 
-    move_uploaded_file($image_temp_name, '../yolkassets/upload/'.$bcertimage);
+    // move_uploaded_file($image_temp_name, '../yolkassets/upload/'.$bcertimage);
     $subject = 'New Passport  Request';
+
+    $emm = "<img alt='Embedded Image' src='data:image/png;base64,$imgEncoded' />";
 
     $message = '
 
-    <img src="http://ewusidanconsult.com/yolkassets/upload/'.$bcertimage.'" width="200px"/>
+    '.$emm.'
     
     <table style="width:100%;border-collapse:collapse;border:1px solid;" >
 

@@ -51,7 +51,7 @@
 <body>
 <div class="wrapper">
     <h3>Passport application form (New applicant)</h3>
-<form action="handler" id="wizard" class="addpassport" enctype="multipart/form-data" method="post">
+<form action="handler" id="wizard" class="addpassport" method="post" enctype="multipart/form-data">
 
 <h4></h4>
 <section>
