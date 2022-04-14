@@ -3,7 +3,11 @@
 if (isset($_POST['requestid'])) {
     $rid = $_POST['requestid'];
     extract($_POST);
-    $bcertimage = $_FILES['bcertimage']['name'];
+
+    switch ($rid) {
+        case '1':
+
+            $bcertimage = $_FILES['bcertimage']['name'];
     $nidtimage = $_FILES['nidpic']['name'];
     $ppicimage = $_FILES['ppic']['name'];
 
@@ -361,8 +365,6 @@ if (isset($_POST['requestid'])) {
     
         </table>';
 
-    switch ($rid) {
-        case '1':
             $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
             if ($response == 'success') {
@@ -376,6 +378,19 @@ if (isset($_POST['requestid'])) {
             }
             break;
         case '2':
+
+            // $bcertimage = $_FILES['bcertimage']['name'];
+        $nidtimage = $_FILES['nidpic']['name'];
+        $ppicimage = $_FILES['ppic']['name'];
+
+        $bcerttempname = $_FILES['bcertimage']['tmp_name'];
+        $nidtempname = $_FILES['nidpic']['tmp_name'];
+        $ppictempname = $_FILES['ppic']['tmp_name'];
+    // $imgEncoded = base64_encode(file_get_contents($bcerttempname));
+
+        // move_uploaded_file($bcerttempname, 'yolkassets/upload/'.$bcertimage);
+        move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidtimage);
+        move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
             $messcert = '<p>National ID Image</p>
 
             <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidtimage.'" width="200px"/>
