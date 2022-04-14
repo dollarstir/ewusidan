@@ -374,5 +374,62 @@ if (isset($_POST['requestid'])) {
                 
                 </script>';
             }
+            break;
+        case '2':
+            $messcert = '<p>National ID Image</p>
+
+            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidtimage.'" width="200px"/>
+        
+            <p>Passport Size Picture</p>
+        
+            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/>
+            
+            <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+        
+                        <tr>
+                        <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                        <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">surname</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$lname.'</td>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">First name</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$fname.'</td>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Other name </td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$oname.'</td>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Gender</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$gender.'</td>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Date of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$dob.'</td>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">City or town of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$pob.'</td>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Country of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$cob.'</td>
+                        </tr>
+        
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        </tr>';
+            break;
     }
 }
