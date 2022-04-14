@@ -14,7 +14,7 @@ if (isset($_POST['requestid'])) {
 
     $message = '
 
-    <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ $bcertimage.'" width="200px"/>
+    <img src="http://ewusidanconsult.com/yolkassets/upload/'.$bcertimage.'" width="200px"/>
     
     <table style="width:100%;border-collapse:collapse;border:1px solid;" >
 
