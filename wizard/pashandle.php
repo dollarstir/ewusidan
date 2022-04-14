@@ -363,6 +363,16 @@ if (isset($_POST['requestid'])) {
 
     switch ($rid) {
         case '1':
-            echo sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+            $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+            if ($response == 'success') {
+                echo '
+                    <script>
+                    alert("Your Request has been submited successfuly");
+
+                    window.location="home";
+                
+                </script>';
+            }
     }
 }
