@@ -429,7 +429,65 @@ if (isset($_POST['requestid'])) {
                         <tr>
                         <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
                         <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
-                        </tr>';
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;"><strong>Mother Details</strong></td>
+                        <td style="border-collapse:collapse;border:1px solid;"><strong>--------------</strong></td>
+                        
+                        </tr>
+
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Mother Maiden Name</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$mothername.'</td>
+                        </tr>
+
+
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Mother Occupation</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$motheroccupation.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Mothers Region</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$motherreligion.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        </tr>
+
+
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region of birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$rob.'</td>
+                        </tr>
+                        
+                        ';
             break;
     }
 }
