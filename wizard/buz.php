@@ -503,6 +503,16 @@
 
 </div>
 
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="gps"  class="form-control" placeholder="GPS Address">
+</div>
+
+
+
+</div>
+
 
 
 

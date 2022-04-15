@@ -879,6 +879,7 @@ if (isset($_POST['snd'])) {
     <!--// Wrapper -->
 
     <!-- Js Files -->
+    <?php echo YolK::uicore('corejs'); ?>
     <script src="main/assets/js/modernizr-3.6.0.min.js"></script>
     <script src="main/assets/js/jquery.min.js"></script>
     <script src="main/assets/js/popper.min.js"></script>
