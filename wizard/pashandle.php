@@ -381,23 +381,23 @@ if (isset($_POST['requestid'])) {
 
             // $bcertimage = $_FILES['bcertimage']['name'];
         $nidtimage = $_FILES['nidpic']['name'];
-        $ppicimage = $_FILES['ppic']['name'];
+        // $ppicimage = $_FILES['ppic']['name'];
 
         // $bcerttempname = $_FILES['bcertimage']['tmp_name'];
         $nidtempname = $_FILES['nidpic']['tmp_name'];
-        $ppictempname = $_FILES['ppic']['tmp_name'];
+        // $ppictempname = $_FILES['ppic']['tmp_name'];
     // $imgEncoded = base64_encode(file_get_contents($bcerttempname));
 
         // move_uploaded_file($bcerttempname, 'yolkassets/upload/'.$bcertimage);
         move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidtimage);
-        move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+        // move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
             $messcert = '<p>National ID Image</p>
 
             <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidtimage.'" width="200px"/>
         
-            <p>Passport Size Picture</p>
+            
         
-            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/>
+            
             
             <table style="width:100%;border-collapse:collapse;border:1px solid;" >
         
