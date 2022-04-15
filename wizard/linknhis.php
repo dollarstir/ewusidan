@@ -89,6 +89,18 @@
 </div>
 </div>
 
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-file"></i>
+<input type="text" name="ghanano" class="form-control" placeholder="Ghana Card Number">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-file"></i>
+<input type="text" name="nhisno" class="form-control" placeholder="NHIS Card Number">
+</div>
+</div>
+
 </section>
 
 
