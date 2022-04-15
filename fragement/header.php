@@ -47,7 +47,7 @@ echo '<div class="header sticky-header">
                     <li><a href="applybirthcert" target="blank">Birth Certificate</a></li>
                     <li><a href="applybusinesscert" target="blank">Business Certificate</a></li>
                     <li><a href="chnagename" target="blank">Affidavit (change of name)</a></li>
-                    <li><a href="" target="blank">Affidavit (change of date of birth)</a></li>
+                    <li><a href="changedateofbirth" target="blank">Affidavit (change of date of birth)</a></li>
                     <li><a href="gazette" target="blank">Gazette</a></li>
                     <li><a href="nhistoghanacard" target="blank">Link NHIS TO GHANA CARD</a></li>
                     </ul>
