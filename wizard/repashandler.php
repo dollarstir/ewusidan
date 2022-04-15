@@ -364,7 +364,9 @@ if (isset($_POST['requestid'])) {
         
                 </table>';
                 if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name']) || empty($_FILES['passimage']['name'])) {
-                    echo  '<script>alert("Upload required documents")</script>';
+                    echo  '<script>alert("Upload required documents");
+                    window.location="renewpassport";                      
+                    </script>';
                 } else {
                     $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
@@ -547,7 +549,9 @@ if (isset($_POST['requestid'])) {
             ';
 
             if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name'])) {
-                echo  '<script>alert("Upload required documents")</script>';
+                echo  '<script>alert("Upload required documents");
+                window.location="applybusinesscert";  
+                </script>';
             } else {
                 $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 

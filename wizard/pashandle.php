@@ -366,7 +366,10 @@ if (isset($_POST['requestid'])) {
         </table>';
 
         if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name']) || empty($_FILES['bcertimage']['name'])) {
-            echo  '<script>alert("Upload required documents")</script>';
+            echo  '<script>alert("Upload required documents");
+            window.location="applypassport";
+            
+            </script>';
         } else {
             $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
@@ -510,7 +513,11 @@ if (isset($_POST['requestid'])) {
 
                         $sub2 = 'New Birth Certificate Request';
                         if (empty($_FILES['nidpic']['name'])) {
-                            echo  '<script>alert("Upload required documents")</script>';
+                            echo  '<script>alert("Upload required documents");
+                            window.location="applybirthcert";  
+                            </script>
+                                                      
+                            ';
                         } else {
                             $response = sendmail('www.phpyolk.com', $sub2, $messcert, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
