@@ -50,114 +50,44 @@
 </head>
 <body>
 <div class="wrapper">
-    <h3>BUSINESS Certificate application form</h3>
+    <h3>LINK NHIS TO GHANA CARD</h3>
 <form action="handler1" id="wizard" class="addpassport" method="post" enctype="multipart/form-data">
 
 <h4></h4>
 <section>
 <h3>Basic details</h3>
 <div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-account"></i>
-<input type="text" name="fname" class="form-control" placeholder="First Name">
+        <div class="form-holder">
+        <i class="zmdi zmdi-account"></i>
+        <input type="text" name="nameghanacard" class="form-control" placeholder="Name on Ghana card">
+
+        </div>
 
 
-</div>
-<div class="form-holder">
-<i class="zmdi zmdi-account"></i>
-<input type="text" name="lname" class="form-control" placeholder="Last Name">
-</div>
+    <label>Date of Birth on Ghana Card</label><br>
+    <div class="form-holder">
+
+    <i class="zmdi zmdi-grid"></i>
+
+    <input type="date" name="dobgh" class="form-control" placeholder="Date of birth">
+    </div>
+
 </div>
 
 
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-account"></i>
-<input type="text" name="oname" class="form-control" placeholder="Other Name">
+<input type="text" name="namenhis" class="form-control" placeholder="Name on NHIS">
 </div>
-<div class="form-holder">
-<i class="zmdi zmdi-chevron-down"></i>
-<select name="gender" class="mysl" aria-label="Default select example">
-  <option value="">Gender</option>
-  <option value="Male">Male</option>
-  <option value="Female">Female</option>
-  
-</select>
-</div>
-</div>
-
-<div class="form-row">
-<label>Date of Birth</label><br>
+<label>Date of Birth on NHIS</label><br>
 <div class="form-holder">
 
 <i class="zmdi zmdi-grid"></i>
 
-<input type="date" name="dob" class="form-control" placeholder="Date of birth">
-</div>
-<div class="form-holder">
-<i class="zmdi zmdi-chevron-down"></i>
-<select name="mstatus" class="mysl" aria-label="Default select example">
-  <option value="">Marital status</option>
-  <option value="Single">Single</option>
-  <option value="Married">Married</option>
-  <option value="Divorced">Divorced</option>
-  
-</select>
+<input type="date" name="dobnhis" class="form-control" placeholder="Date of birth on NHIS">
 </div>
 </div>
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-map"></i>
-<input type="text" name="street" class="form-control" placeholder="Street">
-</div>
-<div class="form-group">
-<div class="form-holder">
-<i class="zmdi zmdi-pin"></i>
-<input type="text" name="city" class="form-control" placeholder="City/town">
-</div>
-<div class="form-holder">
-<i class="zmdi zmdi-pin-drop"></i>
-<input type="text" name="district" class="form-control" placeholder="District">
-</div>
-</div>
-</div>
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-pin"></i>
-<input type="text" name="region"  class="form-control" placeholder="Region">
-</div>
-<div class="form-holder">
-<i class="zmdi zmdi-pin"></i>
-<input type="text" name="postaladdress" class="form-control" placeholder="Postal Address">
-</div>
-</div>
-
-
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-smartphone-android"></i>
-<input type="text" name="phone"  class="form-control" placeholder="Phone Number">
-</div>
-<div class="form-holder">
-<i class="zmdi zmdi-email"></i>
-<input type="text" name="email" class="form-control" placeholder="Email Address">
-</div>
-</div>  
-
-
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-account"></i>
-<input type="text" name="nationality"  class="form-control" placeholder="Nationality">
-</div>
-<div class="form-holder">
-<i class="zmdi zmdi-account"></i>
-<input type="text" name="occupation" class="form-control" placeholder="Occupation">
-</div>
-</div>  
-
-
-
 
 </section>
 
