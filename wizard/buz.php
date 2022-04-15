@@ -437,30 +437,25 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="mothername"  class="form-control" placeholder="Mother's  maiden name">
+<input type="text" name="name1"  class="form-control" placeholder="Business Name (First Choice)">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="motheroccupation"  class="form-control" placeholder="Mother's occupation">
+<input type="text" name="name2"  class="form-control" placeholder="Business Name (Second Choice)">
 </div>
 
 </div>
 
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-chevron-down"></i>
-<select name="motherreligion" class="mysl" aria-label="Default select example">
-  <option value="">Select Mothers Religion</option>
-  <option value="Christianity"> Christianity</option>
-  <option value="Islam">Islam</option>
-  <option value="Traditional Religion">Traditional</option>
-</select>
+<i class="zmdi zmdi-"></i>
+<input type="text" name="name3"  class="form-control" placeholder="Business Name (Last Choice)">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="motherphone"  class="form-control" placeholder="Mother's Phone Number">
+<textarea name="activities"  class="form-control" placeholder="Enter principal activities of company"></textarea>
 </div>
 
 </div>
@@ -470,34 +465,39 @@
 
 <!-- fathers details -->
 
-<h3>Father's DETAILS</h3>
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="fathername"  class="form-control" placeholder="Father's  name">
-</div>
-
-<div class="form-holder">
-<i class="zmdi zmdi-"></i>
-<input type="text" name="fatheroccupation"  class="form-control" placeholder="Father's occupation">
-</div>
-
-</div>
 
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-chevron-down"></i>
-<select name="fatherreligion" class="mysl" aria-label="Default select example">
-  <option value="">Select Father's Religion</option>
-  <option value="Christianity"> Christianity</option>
-  <option value="Islam">Islam</option>
-  <option value="Traditional Religion">Traditional</option>
-</select>
+<i class="zmdi zmdi-"></i>
+<input type="text" name="numemployee"  class="form-control" placeholder="No. employee Envisaged">
 </div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="tin"  class="form-control" placeholder="TIN No (if you have)">
+</div>
+
+</div>
+
+<div class="form-row">
+
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
 <input type="text" name="fatherphone"  class="form-control" placeholder="Father's Phone Number">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="buiztype" class="mysl" aria-label="Default select example">
+  <option value="">Select Business Type</option>
+  <option value="Sole Proprietorship.">Sole Proprietorship.</option>
+  <option value="Incorporated Partnership">Incorporated Partnership</option>
+  <option value="External Company"></option>
+  <option value=""></option>
+  <option value=""></option>
+  <option value=""></option>
+</select>
 </div>
 
 </div>
