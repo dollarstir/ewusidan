@@ -65,7 +65,7 @@
 
 
         <div class="form-holder">
-        <i class="zmdi zmdi-pin"></i>
+        <i class="zmdi zmdi-account"></i>
         <input type="text" name="newname" class="form-control" placeholder="New Name">
 
         </div>
