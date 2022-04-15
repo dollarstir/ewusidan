@@ -491,12 +491,13 @@
 <i class="zmdi zmdi-chevron-down"></i>
 <select name="buiztype" class="mysl" aria-label="Default select example">
   <option value="">Select Business Type</option>
-  <option value="Sole Proprietorship.">Sole Proprietorship.</option>
+  <option value="Sole Proprietorship">Sole Proprietorship</option>
   <option value="Incorporated Partnership">Incorporated Partnership</option>
-  <option value="External Company"></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
+  <option value="External Company">External Company</option>
+  <option value="Corporation">Corporation</option>
+  <option value="Company Limited Shares">Company Limited Shares</option>
+  <option value="Company Limited by Guarantee">Company Limited by Guarantee</option>
+  <option value="Company Unlimited by Shares">Company Unlimited by Shares</option>
 </select>
 </div>
 
