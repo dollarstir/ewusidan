@@ -78,5 +78,12 @@ $router = new Router([
             return Viewer::view('wizard/repashandler.php', $context);
         }
     ),
+
+    new Route(
+        '/nhistoghanacard',
+        function ($context) {
+            return Viewer::view('wizard/repashandler.php', $context);
+        }
+    ),
 ]);
 $router->launch();
