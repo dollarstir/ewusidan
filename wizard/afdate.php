@@ -57,11 +57,14 @@
 <section>
 <h3>Basic details</h3>
 <div class="form-row">
+
+<label>New Date of Birth</label><br>
         <div class="form-holder">
         <i class="zmdi zmdi-account"></i>
-        <input type="text" name="name" class="form-control" placeholder="Full Name">
+        <input type="date" name="newdob" class="form-control" placeholder="New dob">
 
         </div>
+        
 
 <label>Old Date of Birth</label><br>
         <div class="form-holder">
@@ -74,12 +77,11 @@
 
 
 <div class="form-row">
-        <label>New Date of Birth</label><br>
-        <div class="form-holder">
+<div class="form-holder">
         <i class="zmdi zmdi-account"></i>
-        <input type="date" name="newdob" class="form-control" placeholder="New dob">
+        <input type="text" name="name" class="form-control" placeholder="Full Name">
 
-        </div>
+        </div>  
 
 </div>
 
