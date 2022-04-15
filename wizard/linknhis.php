@@ -92,17 +92,8 @@
 </section>
 
 
-
 <h4></h4>
 <section>
-
-
-
-
-
-
-
-
 
 
 <h3>UPLOAD NEEDED DOCUMENTS</h3>
@@ -115,10 +106,10 @@
 
 
 
-<label>Upload image of Front of Ghana Card</label><br><br>
+<label>Upload image of Ghana Card</label><br><br>
 <input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br>
 
-<label>Upload image of Back of Ghana Card</label><br><br>
+<label>Upload image of NHIS CARD</label><br><br>
 <input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address">
 <input type="hidden" name="requestid" value="3">
 

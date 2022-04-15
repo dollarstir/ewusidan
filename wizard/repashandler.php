@@ -383,16 +383,12 @@ if (isset($_POST['requestid'])) {
                 // no break
         case '2':
 
-            // $passimage = $_FILES['passimage']['name'];
         $nidtimage = $_FILES['nidpic']['name'];
         $ppicimage = $_FILES['ppic']['name'];
 
-        // $passtempname = $_FILES['passimage']['tmp_name'];
         $nidtempname = $_FILES['nidpic']['tmp_name'];
         $ppictempname = $_FILES['ppic']['tmp_name'];
-        // $imgEncoded = base64_encode(file_get_contents($bcerttempname));
 
-        // move_uploaded_file($passtempname, 'yolkassets/upload/'.$passimage);
         move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidtimage);
         move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
             $subject = 'New Business Certificate Request';
@@ -543,6 +539,79 @@ if (isset($_POST['requestid'])) {
                         <td style="border-collapse:collapse;border:1px solid;">GPS</td>
                         <td style="border-collapse:collapse;border:1px solid;">'.$gps.'</td>
                         </tr> 
+            
+                    </table>
+            
+            ';
+
+            if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name'])) {
+                echo  '<script>alert("Upload required documents");
+                window.location="applybusinesscert";  
+                </script>';
+            } else {
+                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                if ($response == 'success') {
+                    echo '
+                        <script>
+                        alert("Your Request has been submited successfuly");
+
+                        window.location="home";
+                    
+                    </script>';
+                }
+            }
+            break;
+
+        case '3':
+            $nidtimage = $_FILES['nidpic']['name'];
+        $ppicimage = $_FILES['ppic']['name'];
+
+        $nidtempname = $_FILES['nidpic']['tmp_name'];
+        $ppictempname = $_FILES['ppic']['tmp_name'];
+
+        move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidtimage);
+        move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+            $subject = 'New Business Certificate Request';
+            $message = '
+            <p>GHANA CARD </p>
+
+            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidtimage.'" width="200px"/>
+    
+            <p>NHIS CARD </p>
+    
+            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/>
+            
+            <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+    
+                        <tr>
+                        <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                        <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                        </tr>
+    
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Name on Ghana card:</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$lname.'</td>
+                        </tr>
+    
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Date of birth on Ghana card</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$fname.'</td>
+                        </tr>
+    
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Name on NHIS</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$oname.'</td>
+                        </tr>
+    
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Date of birth on NHIS</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$gender.'</td>
+                        </tr>
+    
+                        
+    
+                        
             
                     </table>
             
