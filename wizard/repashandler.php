@@ -572,7 +572,7 @@ if (isset($_POST['requestid'])) {
 
         move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidtimage);
         move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
-            $subject = 'New Business Certificate Request';
+            $subject = 'New NHIS LINKING  Request';
             $message = '
             <p>GHANA CARD </p>
 
@@ -619,7 +619,7 @@ if (isset($_POST['requestid'])) {
 
             if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name'])) {
                 echo  '<script>alert("Upload required documents");
-                window.location="applybusinesscert";  
+                window.location="nhistoghanacard";  
                 </script>';
             } else {
                 $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
