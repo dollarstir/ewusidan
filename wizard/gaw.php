@@ -59,47 +59,46 @@
 <div class="form-row">
         <div class="form-holder">
         <i class="zmdi zmdi-account"></i>
-        <input type="text" name="nameghanacard" class="form-control" placeholder="Name on Ghana card">
+        <input type="text" name="occupation" class="form-control" placeholder="Occupation">
 
         </div>
 
 
-    <label>Date of Birth on Ghana Card</label><br>
-    <div class="form-holder">
+        <div class="form-holder">
+        <i class="zmdi zmdi-pin"></i>
+        <input type="text" name="place" class="form-control" placeholder="Place of work">
 
-    <i class="zmdi zmdi-grid"></i>
-
-    <input type="date" name="dobgh" class="form-control" placeholder="Date of birth">
-    </div>
+        </div>
 
 </div>
 
 
 <div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-account"></i>
-<input type="text" name="namenhis" class="form-control" placeholder="Name on NHIS">
-</div>
-<label>Date of Birth on NHIS</label><br>
-<div class="form-holder">
+        <div class="form-holder">
+        <i class="zmdi zmdi-pin"></i>
+        <input type="text" name="postal" class="form-control" placeholder="Postal address">
 
-<i class="zmdi zmdi-grid"></i>
+        </div>
 
-<input type="date" name="dobnhis" class="form-control" placeholder="Date of birth on NHIS">
+
+        <div class="form-holder">
+        <i class="zmdi zmdi-file"></i>
+        <input type="text" name="wid" class="form-control" placeholder="Work ID">
+
+        </div>
+
 </div>
-</div>
+
 
 
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-file"></i>
-<input type="text" name="ghanano" class="form-control" placeholder="Ghana Card Number">
+<i class="zmdi zmdi-email"></i>
+<input type="text" name="email" class="form-control" placeholder="Email">
 </div>
-<div class="form-holder">
-<i class="zmdi zmdi-file"></i>
-<input type="text" name="nhisno" class="form-control" placeholder="NHIS Card Number">
+
 </div>
-</div>
+
 
 </section>
 
@@ -118,12 +117,12 @@
 
 
 
-<label>Upload image of Ghana Card</label><br><br>
-<input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br>
+<!-- <label>Upload image of Ghana Card</label><br><br>
+<input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br> -->
 
-<label>Upload image of NHIS CARD</label><br><br>
+<label>Upload Picture of affidavit</label><br><br>
 <input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address">
-<input type="hidden" name="requestid" value="3">
+<input type="hidden" name="requestid" value="4">
 
 </section>
 </form>

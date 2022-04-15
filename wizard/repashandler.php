@@ -564,7 +564,7 @@ if (isset($_POST['requestid'])) {
             break;
 
         case '3':
-            $nidtimage = $_FILES['nidpic']['name'];
+        $nidtimage = $_FILES['nidpic']['name'];
         $ppicimage = $_FILES['ppic']['name'];
 
         $nidtempname = $_FILES['nidpic']['tmp_name'];
@@ -644,6 +644,76 @@ if (isset($_POST['requestid'])) {
                     </script>';
                 }
             }
+            break;
+        case '4':
+
+            $ppicimage = $_FILES['ppic']['name'];
+
+            $ppictempname = $_FILES['ppic']['tmp_name'];
+
+            move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+                $subject = 'New Gazette  Request';
+                $message = '
+                
+        
+                <p>Picture of Gazette </p>
+        
+                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
+                
+                <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+        
+                            <tr>
+                            <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                            <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                            </tr>
+        
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Occupation</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$occupation.'</td>
+                            </tr>
+    
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Place of work</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$place.'</td>
+                            </tr>
+        
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                            </tr>
+        
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Work ID</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$wid.'</td>
+                            </tr>
+    
+                           
+        
+                            
+        
+                            
+                
+                        </table>
+                
+                ';
+
+                if (empty($_FILES['ppic']['name'])) {
+                    echo  '<script>alert("Upload required documents");
+                    window.location="nhistoghanacard";  
+                    </script>';
+                } else {
+                    $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                    if ($response == 'success') {
+                        echo '
+                            <script>
+                            alert("Your Request has been submited successfuly");
+    
+                            window.location="home";
+                        
+                        </script>';
+                    }
+                }
             break;
     }
 }

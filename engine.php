@@ -89,7 +89,7 @@ $router = new Router([
     new Route(
         '/gazette',
         function ($context) {
-            return Viewer::view('wizard/linknhis.php', $context);
+            return Viewer::view('wizard/gaw.php', $context);
         }
     ),
 
