@@ -58,6 +58,13 @@
 <h3>Basic details</h3>
 <div class="form-row">
 
+<label>Old Date of Birth</label><br>
+        <div class="form-holder">
+        <i class="zmdi zmdi-account"></i>
+        <input type="date" name="olddob" class="form-control" placeholder="Old Date of Birth">
+
+        </div>
+
 <label>New Date of Birth</label><br>
         <div class="form-holder">
         <i class="zmdi zmdi-account"></i>
@@ -66,12 +73,7 @@
         </div>
         
 
-<label>Old Date of Birth</label><br>
-        <div class="form-holder">
-        <i class="zmdi zmdi-account"></i>
-        <input type="date" name="olddob" class="form-control" placeholder="Old Date of Birth">
 
-        </div>
 
 </div>
 
