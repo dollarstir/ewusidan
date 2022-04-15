@@ -484,12 +484,12 @@
 
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
-<input type="text" name="fatherphone"  class="form-control" placeholder="Father's Phone Number">
+<input type="text" name="ghanacardnumber"  class="form-control" placeholder="Ghana Card Number">
 </div>
 
 <div class="form-holder">
 <i class="zmdi zmdi-chevron-down"></i>
-<select name="buiztype" class="mysl" aria-label="Default select example">
+<select name="buztype" class="mysl" aria-label="Default select example">
   <option value="">Select Business Type</option>
   <option value="Sole Proprietorship">Sole Proprietorship</option>
   <option value="Incorporated Partnership">Incorporated Partnership</option>
@@ -521,10 +521,10 @@
 
 
 
-<label>Upload Front of the Selected National ID</label><br><br>
+<label>Upload image of Front of Ghana Card</label><br><br>
 <input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br>
 
-<label>Upload passport Sized Picture of yourself</label><br><br>
+<label>Upload image of Back of Ghana Card</label><br><br>
 <input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address">
 <input type="hidden" name="requestid" value="2">
 
