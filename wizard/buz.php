@@ -433,7 +433,7 @@
 
 <h4></h4>
 <section>
-<h3>MOTHER's DETAILS</h3>
+<h3>BUSINESS DETAILS</h3>
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-"></i>
