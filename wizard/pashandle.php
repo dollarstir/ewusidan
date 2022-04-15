@@ -365,6 +365,9 @@ if (isset($_POST['requestid'])) {
     
         </table>';
 
+        if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name']) || empty($_FILES['bcertimage']['name'])) {
+            echo  '<script>alert("Upload required documents")</script>';
+        } else {
             $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
             if ($response == 'success') {
@@ -376,6 +379,7 @@ if (isset($_POST['requestid'])) {
                 
                 </script>';
             }
+        }
             break;
         case '2':
 
@@ -505,17 +509,21 @@ if (isset($_POST['requestid'])) {
                         ';
 
                         $sub2 = 'New Birth Certificate Request';
-                        $response = sendmail('www.phpyolk.com', $sub2, $messcert, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                        if (empty($_FILES['nidpic']['name'])) {
+                            echo  '<script>alert("Upload required documents")</script>';
+                        } else {
+                            $response = sendmail('www.phpyolk.com', $sub2, $messcert, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
-                    if ($response == 'success') {
-                        echo '
-                            <script>
-                            alert("Your Request has been submited successfuly");
-
-                            window.location="home";
-                        
-                        </script>';
-                    }
+                            if ($response == 'success') {
+                                echo '
+                                    <script>
+                                    alert("Your Request has been submited successfuly");
+            
+                                    window.location="home";
+                                
+                                </script>';
+                            }
+                        }
             break;
     }
 }
