@@ -363,18 +363,22 @@ if (isset($_POST['requestid'])) {
                     </tr>
         
                 </table>';
-                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name']) || empty($_FILES['passimage']['name'])) {
+                    echo  '<script>alert("Upload required documents")</script>';
+                } else {
+                    $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
-                if ($response == 'success') {
-                    echo '
-                        <script>
-                        alert("Your Request has been submited successfuly");
-
-                        window.location="home";
-                    
-                    </script>';
+                    if ($response == 'success') {
+                        echo '
+                            <script>
+                            alert("Your Request has been submited successfuly");
+    
+                            window.location="home";
+                        
+                        </script>';
+                    }
                 }
-                break;
+                // no break
         case '2':
 
             // $passimage = $_FILES['passimage']['name'];
