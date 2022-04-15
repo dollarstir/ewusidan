@@ -715,5 +715,73 @@ if (isset($_POST['requestid'])) {
                     }
                 }
             break;
+            case '5':
+
+                // $ppicimage = $_FILES['ppic']['name'];
+
+                // $ppictempname = $_FILES['ppic']['tmp_name'];
+
+                // move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+                    $subject = 'New Affidavit of Name  Request';
+                    $message = '
+                    
+            
+                    
+                    
+                    <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+            
+                                <tr>
+                                <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                                <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                                </tr>
+            
+                                <tr>
+                                <td style="border-collapse:collapse;border:1px solid;">Old Name</td>
+                                <td style="border-collapse:collapse;border:1px solid;">'.$oldname.'</td>
+                                </tr>
+        
+                                <tr>
+                                <td style="border-collapse:collapse;border:1px solid;">New Name</td>
+                                <td style="border-collapse:collapse;border:1px solid;">'.$newname.'</td>
+                                </tr>
+            
+                                <tr>
+                                <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                                <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                                </tr>
+            
+                                <tr>
+                                <td style="border-collapse:collapse;border:1px solid;">Region</td>
+                                <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
+                                </tr>
+
+                                <tr>
+                                <td style="border-collapse:collapse;border:1px solid;">Town</td>
+                                <td style="border-collapse:collapse;border:1px solid;">'.$town.'</td>
+                                </tr>
+        
+                               
+            
+                                
+            
+                                
+                    
+                            </table>
+                    
+                    ';
+
+                        $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                        if ($response == 'success') {
+                            echo '
+                                <script>
+                                alert("Your Request has been submited successfuly");
+        
+                                window.location="home";
+                            
+                            </script>';
+                        }
+
+                break;
     }
 }
