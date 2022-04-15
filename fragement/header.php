@@ -45,7 +45,7 @@ echo '<div class="header sticky-header">
                     <ul>
                     <li><a href="applypassport" target="blank">Passport</a></li>
                     <li><a href="applybirthcert" target="blank">Birth Certificate</a></li>
-                    <li><a href="" target="blank">Business Certificate</a></li>
+                    <li><a href="applybusinesscert" target="blank">Business Certificate</a></li>
                     </ul>
                     </li>
 

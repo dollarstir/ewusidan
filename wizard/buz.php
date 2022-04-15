@@ -2,7 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>EWUSIDAN CONSULT - BUSINESS CERTIFCATE</title>
+
 <!-- favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="main/assets/icons.ico/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="main/assets/icons.ico/apple-icon-60x60.png">
@@ -37,16 +40,18 @@
         content="EWUSIDAN CONSULT is a consultancy firm that provide Business, Education, Financial, Documentation and information technology consultation to people.">
     <meta property="twitter:image" content="main/assets/images/hero/2.jpg">
 
-<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+<link rel="stylesheet" href="wizard/fonts/material-design-iconic-font/css/material-design-iconic-font.css">
 
-<link rel="stylesheet" href="vendor/date-picker/css/datepicker.min.css">
+<link rel="stylesheet" href="wizard/vendor/date-picker/css/datepicker.min.css">
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="wizard/css/style.css">
+
 <meta name="robots" content="noindex, follow">
 </head>
 <body>
 <div class="wrapper">
-<form action="" id="wizard">
+    <h3>Birth Certificate application form</h3>
+<form action="handler" id="wizard" class="addpassport" method="post" enctype="multipart/form-data">
 
 <h4></h4>
 <section>
@@ -54,214 +59,457 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-account"></i>
-<input type="text" name="Firstname" class="form-control" placeholder="First Name">
+<input type="text" name="fname" class="form-control" placeholder="First Name">
+
+
 </div>
 <div class="form-holder">
 <i class="zmdi zmdi-account"></i>
-<input type="text" name="lastname" class="form-control" placeholder="Last Name">
+<input type="text" name="lname" class="form-control" placeholder="Last Name">
 </div>
 </div>
+
+
 <div class="form-row">
 <div class="form-holder">
-<i class="zmdi zmdi-email"></i>
-<input type="text" class="form-control" placeholder="Email ID">
+<i class="zmdi zmdi-account"></i>
+<input type="text" name="oname" class="form-control" placeholder="Other Name">
 </div>
 <div class="form-holder">
-<i class="zmdi zmdi-account-box-o"></i>
-<input type="text" class="form-control" placeholder="Your User ID">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="gender" class="mysl" aria-label="Default select example">
+  <option value="">Gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  
+</select>
+</div>
+</div>
+
+<div class="form-row">
+<label>Date of Birth</label><br>
+<div class="form-holder">
+
+<i class="zmdi zmdi-grid"></i>
+
+<input type="date" name="dob" class="form-control" placeholder="Date of birth">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="mstatus" class="mysl" aria-label="Default select example">
+  <option value="">Marital status</option>
+  <option value="Single">Single</option>
+  <option value="Married">Married</option>
+  <option value="Divorced">Divorced</option>
+  
+</select>
 </div>
 </div>
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-map"></i>
-<input type="text" class="form-control" placeholder="Country">
+<input type="text" name="cob" class="form-control" placeholder="Country of birth">
 </div>
 <div class="form-group">
 <div class="form-holder">
 <i class="zmdi zmdi-pin"></i>
-<input type="text" class="form-control" placeholder="State">
+<input type="text" name="rob" class="form-control" placeholder="Region of Birth">
 </div>
 <div class="form-holder">
 <i class="zmdi zmdi-pin-drop"></i>
-<input type="text" class="form-control" placeholder="City">
+<input type="text" name="pob" class="form-control" placeholder="City/Town of Birth">
 </div>
 </div>
 </div>
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-smartphone-android"></i>
-<input type="text" class="form-control" placeholder="Phone Number">
+<input type="text" name="phone"  class="form-control" placeholder="Phone Number">
 </div>
-<div class="form-holder password">
+<div class="form-holder">
+<i class="zmdi zmdi-email"></i>
+<input type="text" name="email" class="form-control" placeholder="Email Address">
+</div>
+</div>
+
+
+
+
+</section>
+
+<!-- <h4></h4>
+<section>
+<h3>Other Details </h3>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-male-alt"></i>
+<input type="text" name="height"  class="form-control" placeholder="Height">
+</div>
+<div class="form-holder">
 <i class="zmdi zmdi-eye"></i>
-<input type="password" class="form-control" placeholder="Reference Coder">
+<input type="text" name="eyecolor" class="form-control" placeholder="Colour of eyes">
 </div>
 </div>
-</section>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-face"></i>
+<input type="text" name="haircolor"  class="form-control" placeholder="Colour of hair">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="nationality" class="form-control" placeholder="Nationality">
+</div>
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-account-circle"></i>
+<input type="text" name="profession"  class="form-control" placeholder="Profession">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-account-circle"></i>
+<input type="text" name="prevpro" class="form-control" placeholder="Previous profession">
+</div>
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-account-box-phone"></i>
+<input type="text" name="bcert"  class="form-control" placeholder="Birth certificate number">
+</div>
+<label>Date of Issue</label><br>
+<div class="form-holder">
+<i class="zmdi zmdi-grid"></i>
+<input type="date" name="bcertdoi" class="form-control" placeholder="Date of issue">
+</div>
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="bcertpoi"  class="form-control" placeholder="Place of issue">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="postal"  class="form-control" placeholder="Postal Address">
+</div>
+
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="nidtype" class="mysl" aria-label="Default select example">
+  <option value="">Select Nation ID Type</option>
+  <option value="Ghana Card">Ghana Card</option>
+  <option value="Voters ID">Voters ID</option>
+</select>
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-account-circle"></i>
+<input type="text" name="nidnumber" class="form-control" placeholder="Enter National ID's Number">
+</div>
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="currentcity"  class="form-control" placeholder="City of residence">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="Street"  class="form-control" placeholder="Street Name">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-map"></i>
+<input type="text" name="currentcountry"  class="form-control" placeholder="Country of residence ">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="suburb"  class="form-control" placeholder="Suburb">
+</div>
+
+</div>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-card-travel"></i>
+<input type="text" name="isntitute"  class="form-control" placeholder="Institution attended">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-calendar"></i>
+<input type="text" name="yearstarted"  class="form-control" placeholder="Year of commence">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-calendar"></i>
+<input type="text" name="yearended"  class="form-control" placeholder="Year of completion">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-arrows"></i>
+<input type="text" name="address"  class="form-control" placeholder="Current  Address">
+</div>
+
+</div>
+
+</section> -->
+
+<!-- <h4></h4>
+<section>
+<h3 style="margin-bottom: 16px;">RELATION INFO</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathername"  class="form-control" placeholder="Fathers name">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="fatheralive" class="mysl" aria-label="Default select example">
+  <option value="">Is your father alive?</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathercontact"  class="form-control" placeholder="Phone Number">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatheremail"  class="form-control" placeholder="Father's email">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathertown"  class="form-control" placeholder="Father's hometown">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatherresaddress"  class="form-control" placeholder="Father's residential address">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatherposaddress"  class="form-control" placeholder="Fathers postal address">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathernation"  class="form-control" placeholder="Father's Nationality">
+</div>
+
+</div>
+<h3>One Grand parent Info</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpname"  class="form-control" placeholder="Name of grand parent">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="grandpalive" class="mysl" aria-label="Default select example">
+  <option value="">Is your Grandparent alive?</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandptelephone"  class="form-control" placeholder="Grand Parent Telephone">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpemail"  class="form-control" placeholder=" Grand Parent Email">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandptown"  class="form-control" placeholder="Grand Parent Hometown">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpresaddress"  class="form-control" placeholder=" Grand Parent residential address">
+</div>
+
+</div>
+
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandppostaladdress"  class="form-control" placeholder="Grand Parent postal address">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpnational"  class="form-control" placeholder=" Grand Parent Nationality">
+</div>
+
+</div> -->
+
+
+
+<!-- <div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandptelephone"  class="form-control" placeholder="Grand Parent Telephone">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="grandpemail"  class="form-control" placeholder=" Grand Parent Email">
+</div>
+
+</div> -->
+<!-- </section> -->
 
 <h4></h4>
 <section>
-<h3>Password change</h3>
+<h3>MOTHER's DETAILS</h3>
 <div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="Current Password">
-<i class="zmdi zmdi-lock-open"></i>
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="mothername"  class="form-control" placeholder="Mother's  maiden name">
 </div>
-</div>
-<div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="Enter the Current Password">
-<i class="zmdi zmdi-lock-open"></i>
-</div>
-</div>
-<div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="New Password">
-<i class="zmdi zmdi-lock-open"></i>
-</div>
-</div>
-<div class="form-row">
-<div class="form-holder w-100">
-<input type="password" class="form-control" placeholder="Confirm New Password">
-<i class="zmdi zmdi-lock-open"></i>
-</div>
-</div>
-</section>
 
-<h4></h4>
-<section>
-<h3 style="margin-bottom: 16px;">My Cart</h3>
-<table cellspacing="0" class="table-cart shop_table shop_table_responsive cart woocommerce-cart-form__contents table" id="shop_table">
-<thead>
-<th>&nbsp;</th>
-<th style="text-align: left;">Product Detail</th>
-<th>Quantity</th>
-<th>Total Price</th>
-<th>&nbsp;</th>
-</thead>
-<tbody>
-<tr>
-<td class="product-thumb">
-<a href="#" class="item-thumb">
-<img src="images/item-1.jpg" alt="">
-</a>
-</td>
-<td class="product-detail" data-title="Product Detail">
-<div>
-<a href="#">Cherry</a>
-<span>$</span>
-<span>35</span>
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="motheroccupation"  class="form-control" placeholder="Mother's occupation">
 </div>
-</td>
-<td class="product-quantity" data-title="Quantity">
-<div class="quantity">
-<span class="plus">+</span>
-<input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
-<span class="minus">-</span>
-</div>
-</td>
-<td class="total-price" data-title="Total Price">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>
-70
-</span>
-</td>
-<td class="product-remove">
-<a href="#">
-<i class="zmdi zmdi-close-circle-o"></i>
-</a>
-</td>
-</tr>
-<tr>
-<td class="product-thumb">
-<a href="#" class="item-thumb">
-<img src="images/item-2.jpg" alt="">
-</a>
-</td>
-<td class="product-detail" data-title="Product Detail">
-<div>
-<a href="#">Mango</a>
-<span>$</span>
- <span>2035</span>
-</div>
-</td>
-<td class="product-quantity" data-title="Quantity">
-<div class="quantity">
-<span class="plus">+</span>
-<input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
-<span class="minus">-</span>
-</div>
-</td>
-<td class="total-price" data-title="Total Price">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>
-20
-</span>
-</td>
-<td class="product-remove">
-<a href="#">
-<i class="zmdi zmdi-close-circle-o"></i>
-</a>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
 
-<h4></h4>
-<section>
-<h3>Cart Totals</h3>
-<div class="cart_totals">
-<table cellspacing="0" class="shop_table shop_table_responsive">
-<tr class="cart-subtotal">
-<th>Subtotal</th>
-<td data-title="Subtotal">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>110.00
-</span>
-</td>
-</tr>
-<tr class="cart-subtotal shipping">
-<th>Shipping:</th>
-<td data-title="Subtotal">
-<div class="checkbox">
-<label>
-<input type="radio" name="shipping" checked> Free Shipping
-<span class="checkmark"></span>
-</label>
-<label>
-<input type="radio" name="shipping"> Local pickup: <span>$</span><span>0.00</span>
-<span class="checkmark"></span>
-</label>
 </div>
-<span>Calculate shipping</span>
-</td>
-</tr>
-<tr class="cart-subtotal">
-<th>Service <span>(estimated for Vietnam)</span></th>
-<td data-title="Subtotal">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>5.60
-</span>
-</td>
-</tr>
-<tr class="order-total border-0">
-<th>Total</th>
-<td data-title="Total">
-<span class="woocommerce-Price-amount amount">
- <span class="woocommerce-Price-currencySymbol">$</span>64.69
-</span>
-</td>
-</tr>
-</table>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="motherreligion" class="mysl" aria-label="Default select example">
+  <option value="">Select Mothers Religion</option>
+  <option value="Christianity"> Christianity</option>
+  <option value="Islam">Islam</option>
+  <option value="Traditional Religion">Traditional</option>
+</select>
 </div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="motherphone"  class="form-control" placeholder="Mother's Phone Number">
+</div>
+
+</div>
+
+
+
+
+<!-- fathers details -->
+
+<h3>Father's DETAILS</h3>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fathername"  class="form-control" placeholder="Father's  name">
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatheroccupation"  class="form-control" placeholder="Father's occupation">
+</div>
+
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-chevron-down"></i>
+<select name="fatherreligion" class="mysl" aria-label="Default select example">
+  <option value="">Select Father's Religion</option>
+  <option value="Christianity"> Christianity</option>
+  <option value="Islam">Islam</option>
+  <option value="Traditional Religion">Traditional</option>
+</select>
+</div>
+
+<div class="form-holder">
+<i class="zmdi zmdi-"></i>
+<input type="text" name="fatherphone"  class="form-control" placeholder="Father's Phone Number">
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<h3>UPLOAD NEEDED DOCUMENTS</h3>
+
+
+  <!-- <label>Upload Birth Certificate Image</label><br><br>
+
+
+<input type="file" name="bcertimage"  class="form-control" placeholder="Guarantor's Contact"><br><br> -->
+
+
+
+<label>Upload Front of the Selected National ID</label><br><br>
+<input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br>
+
+<label>Upload passport Sized Picture of yourself</label><br><br>
+<input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address">
+<input type="hidden" name="requestid" value="2">
+
 </section>
 </form>
 </div>
-<script src="js/jquery-3.3.1.min.js"></script>
+<script src="wizard/js/jquery-3.3.1.min.js"></script>
 
-<script src="js/jquery.steps.js"></script>
-<script src="js/main.js"></script>
+<script src="wizard/js/jquery.steps.js"></script>
+<script src="wizard/js/main1.js"></script>
 
 
 
