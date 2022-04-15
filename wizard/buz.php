@@ -50,8 +50,8 @@
 </head>
 <body>
 <div class="wrapper">
-    <h3>Birth Certificate application form</h3>
-<form action="handler" id="wizard" class="addpassport" method="post" enctype="multipart/form-data">
+    <h3>BUSINESS Certificate application form</h3>
+<form action="handler1" id="wizard" class="addpassport" method="post" enctype="multipart/form-data">
 
 <h4></h4>
 <section>
@@ -108,19 +108,31 @@
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-map"></i>
-<input type="text" name="cob" class="form-control" placeholder="Country of birth">
+<input type="text" name="street" class="form-control" placeholder="Street">
 </div>
 <div class="form-group">
 <div class="form-holder">
 <i class="zmdi zmdi-pin"></i>
-<input type="text" name="rob" class="form-control" placeholder="Region of Birth">
+<input type="text" name="city" class="form-control" placeholder="City/town">
 </div>
 <div class="form-holder">
 <i class="zmdi zmdi-pin-drop"></i>
-<input type="text" name="pob" class="form-control" placeholder="City/Town of Birth">
+<input type="text" name="district" class="form-control" placeholder="District">
 </div>
 </div>
 </div>
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-pin"></i>
+<input type="text" name="region"  class="form-control" placeholder="Region">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-pin"></i>
+<input type="text" name="postaladdress" class="form-control" placeholder="Postal Address">
+</div>
+</div>
+
+
 <div class="form-row">
 <div class="form-holder">
 <i class="zmdi zmdi-smartphone-android"></i>
@@ -130,7 +142,7 @@
 <i class="zmdi zmdi-email"></i>
 <input type="text" name="email" class="form-control" placeholder="Email Address">
 </div>
-</div>
+</div>  
 
 
 
