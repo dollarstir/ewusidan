@@ -143,10 +143,10 @@ window.chartColors = {
 
     var color = Chart.helpers.color;
     var barChartData = {
-        labels: ['2014', '2015', '2016', '2017', '2018'],
+        labels: ['2017', '2018', '2019', '2020', '2021'],
         datasets: [{
             label: 'Progress',
-            backgroundColor: color('rgb(63, 81, 181)').alpha(0.9).rgbString(),
+            backgroundColor: color('rgb(10, 191, 191)').alpha(0.9).rgbString(),
             borderWidth: 0,
             stack: "s1a",
             data: [
