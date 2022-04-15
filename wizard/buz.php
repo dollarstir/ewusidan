@@ -145,6 +145,18 @@
 </div>  
 
 
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-account"></i>
+<input type="text" name="nationality"  class="form-control" placeholder="Nationality">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-account"></i>
+<input type="text" name="occupation" class="form-control" placeholder="Occupation">
+</div>
+</div>  
+
+
 
 
 </section>
