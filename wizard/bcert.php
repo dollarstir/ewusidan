@@ -499,8 +499,8 @@
 <label>Upload Front of the Selected National ID</label><br><br>
 <input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br>
 
-<label>Upload passport Sized Picture of yourself</label><br><br>
-<input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address">
+<!-- <label>Upload passport Sized Picture of yourself</label><br><br>
+<input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address"> -->
 <input type="hidden" name="requestid" value="2">
 
 </section>
