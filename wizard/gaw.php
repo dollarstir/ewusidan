@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>EWUSIDAN CONSULT - LINKING NHIS TO GHANA CARD</title>
+<title>EWUSIDAN CONSULT - GAZETTE</title>
 
 <!-- favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="main/assets/icons.ico/apple-icon-57x57.png">
@@ -50,7 +50,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <h3>LINK NHIS TO GHANA CARD</h3>
+    <h3>GAZETTE</h3>
 <form action="handler1" id="wizard" class="addpassport" method="post" enctype="multipart/form-data">
 
 <h4></h4>

@@ -85,5 +85,26 @@ $router = new Router([
             return Viewer::view('wizard/linknhis.php', $context);
         }
     ),
+
+    new Route(
+        '/gazette',
+        function ($context) {
+            return Viewer::view('wizard/linknhis.php', $context);
+        }
+    ),
+
+    new Route(
+        '/chnagename',
+        function ($context) {
+            return Viewer::view('wizard/afname.php', $context);
+        }
+    ),
+
+    new Route(
+        '/changedateofbirth',
+        function ($context) {
+            return Viewer::view('wizard/afdate.php', $context);
+        }
+    ),
 ]);
 $router->launch();
