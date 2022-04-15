@@ -82,7 +82,7 @@ $router = new Router([
     new Route(
         '/nhistoghanacard',
         function ($context) {
-            return Viewer::view('wizard/repashandler.php', $context);
+            return Viewer::view('wizard/linknhis.php', $context);
         }
     ),
 ]);
