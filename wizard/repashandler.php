@@ -591,22 +591,22 @@ if (isset($_POST['requestid'])) {
     
                         <tr>
                         <td style="border-collapse:collapse;border:1px solid;">Name on Ghana card:</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$lname.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$nameghanacard.'</td>
                         </tr>
     
                         <tr>
                         <td style="border-collapse:collapse;border:1px solid;">Date of birth on Ghana card</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$fname.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$dobgh.'</td>
                         </tr>
     
                         <tr>
                         <td style="border-collapse:collapse;border:1px solid;">Name on NHIS</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$oname.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$namenhis.'</td>
                         </tr>
     
                         <tr>
                         <td style="border-collapse:collapse;border:1px solid;">Date of birth on NHIS</td>
-                        <td style="border-collapse:collapse;border:1px solid;">'.$gender.'</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$dobnhis.'</td>
                         </tr>
     
                         
