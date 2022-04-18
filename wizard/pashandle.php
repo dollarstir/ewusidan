@@ -371,7 +371,7 @@ if (isset($_POST['requestid'])) {
             
             </script>';
         } else {
-            $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'jameslartey111@gmail.com']);
+            $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
             if ($response == 'success') {
                 echo '
