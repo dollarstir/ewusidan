@@ -552,6 +552,28 @@ if (isset($_POST['snd'])) {
                         <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-documentation">
                             <div class="tm-portfolio mt-30 wow fadeInUp">
                                 <div class="tm-portfolio-image">
+                                    <img src="main/assets/images/portfolio/7.jpg" alt="portfolio image" style="height: 304px;">
+                                    <ul class="tm-portfolio-actions">
+                                        <li class="link-button">
+                                            <a href=""><i class="fa fa-link"></i></a>
+                                        </li>
+                                        <li class="zoom-button">
+                                            <a href="main/assets/images/portfolio/7.jpg"><i class="fa fa-search-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tm-portfolio-content">
+                                    <h5><a href="main/portfolio-details.html">Passport</a></h5>
+                                    <h6><a href="">Documentation</a></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Portfolio Single -->
+
+                        <!-- Portfolio Single -->
+                        <div class="col-lg-4 col-md-6 col-12 tm-portfolio-item portfolio-filter-documentation">
+                            <div class="tm-portfolio mt-30 wow fadeInUp">
+                                <div class="tm-portfolio-image">
                                     <img src="main/assets/images/portfolio/3.jpg" alt="portfolio image" style="height: 304px;">
                                     <ul class="tm-portfolio-actions">
                                         <li class="link-button">
