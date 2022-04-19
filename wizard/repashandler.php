@@ -653,15 +653,15 @@ if (isset($_POST['requestid'])) {
             $nidtempname = $_FILES['nidpic']['tmp_name'];
             $ppictempname = $_FILES['ppic']['tmp_name'];
 
-            move_uploaded_file($nidtempname, 'yolkassets/upload/'.$ppicimage);
+            move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidimage);
             move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
                 $subject = 'New Gazette  Request';
                 $message = '
                 
         
-                <p>Picture of Gazette </p>
+                <p>Picture of ID CARD </p>
         
-                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
+                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidimage.'" width="200px"/><br>
 
 
                 <p>Picture of Gazette </p>
