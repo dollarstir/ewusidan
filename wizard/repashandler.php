@@ -725,11 +725,11 @@ if (isset($_POST['requestid'])) {
             break;
             case '5':
 
-                // $ppicimage = $_FILES['ppic']['name'];
+                $ppicimage = $_FILES['ppic']['name'];
 
-                // $ppictempname = $_FILES['ppic']['tmp_name'];
+                $ppictempname = $_FILES['ppic']['tmp_name'];
 
-                // move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+                move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
                     $subject = 'New Affidavit of Name  Request';
                     $message = '
                     
