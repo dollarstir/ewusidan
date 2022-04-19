@@ -117,8 +117,8 @@
 
 
 
-<!-- <label>Upload image of Ghana Card</label><br><br>
-<input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br> -->
+<label>Upload image of Ghana Card / Voters ID</label><br><br>
+<input type="file" name="nidpic"  class="form-control" placeholder="Guarantor's Residential address"><br><br>
 
 <label>Upload Picture of affidavit</label><br><br>
 <input type="file" name="ppic"  class="form-control" placeholder="Guarantor's Residential address">
