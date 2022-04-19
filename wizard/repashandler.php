@@ -725,16 +725,18 @@ if (isset($_POST['requestid'])) {
             break;
             case '5':
 
-                $ppicimage = $_FILES['ppic']['name'];
+                $ppicimage = $_FILES['nidpic']['name'];
 
-                $ppictempname = $_FILES['ppic']['tmp_name'];
+                $ppictempname = $_FILES['nidpic']['tmp_name'];
 
                 move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
                     $subject = 'New Affidavit of Name  Request';
                     $message = '
                     
             
-                    
+                    <p>Picture of ID CARD </p>
+        
+                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
                     
                     <table style="width:100%;border-collapse:collapse;border:1px solid;" >
             
@@ -793,15 +795,17 @@ if (isset($_POST['requestid'])) {
                 break;
                 case '6':
 
-                    // $ppicimage = $_FILES['ppic']['name'];
+                    $ppicimage = $_FILES['nidpic']['name'];
 
-                    // $ppictempname = $_FILES['ppic']['tmp_name'];
+                    $ppictempname = $_FILES['nidpic']['tmp_name'];
 
-                    // move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+                     move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
                         $subject = 'New Affidavit of Date of Birth  Request';
                         $message = '
                         
-                
+                        <p>Picture of ID CARD </p>
+        
+                        <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
                         
                         
                         <table style="width:100%;border-collapse:collapse;border:1px solid;" >
