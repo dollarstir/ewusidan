@@ -25,7 +25,9 @@ function begin($title)
     <link rel="icon" type="image/png" sizes="96x96" href="main/assets/icons.ico/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="main/assets/icons.ico/favicon-16x16.png">
     <link rel="manifest" href="main/assets/icons.ico/manifest.json">
+    '.Yolk::uicore('cssa').'
     <meta name="msapplication-TileColor" content="#ffffff">
+
     <meta name="msapplication-TileImage" content="main/assets/icons.ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     
@@ -53,4 +55,8 @@ function begin($title)
     
     <meta name="robots" content="noindex, follow">
     </head>';
+}
+function scripts()
+{
+    echo '';
 }
