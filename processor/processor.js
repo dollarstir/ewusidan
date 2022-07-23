@@ -1,7 +1,6 @@
 
 $(function(){
 
-  alert('hi');
 
 
     $(document).on('click', "#ddo",function(){
@@ -123,12 +122,12 @@ $(function(){
 
 
 
-$('.welcome').submit(function(e){
+$('.addberthcert').submit(function(e){
 
     e.preventDefault();
     // before();
     var staff = {
-        url: 'processor/processor.php?action=welcome',
+        url: 'processor/processor.php?action=addberthcert',
         type: 'post',
         data: new FormData(this),
         cache: false,
