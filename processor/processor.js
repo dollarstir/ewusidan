@@ -1,15 +1,8 @@
 
 $(function(){
-   $('#socl').click(function(){
-    swal({
-        title: "Done!",
-        text: "Record Deleted Successfully",
-        timer: 1000,
-        type: 'success',
-        padding: "2em",
-        // target: document.querySelector("html")
-      });
-   })
+
+  alert('hi');
+
 
     $(document).on('click', "#ddo",function(){
         swal({
