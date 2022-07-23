@@ -1,6 +1,6 @@
 <?php
 
-function addbirthcert()
+function addbirthcert($fname, $oname, $lname, $gender, $dob, $pob, $cob, $rob, $mothername, $motheroccupation, $motherreligion, $motherphone, $fathername, $fatheroccupation, $fatherreligion, $fatherphone)
 {
     if (empty(trim($fname)) || empty(trim($lname)) || empty(trim($phone))) {
         echo 'Name , and phone number must be field';
