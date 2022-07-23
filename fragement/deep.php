@@ -6,6 +6,8 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
         echo 'Name , and phone number must be field';
     } else {
         if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
+            $cc = customfetch('applcant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending']);
             $nidtimage = $_FILES['nidpic']['name'];
 
             $nidtempname = $_FILES['nidpic']['tmp_name'];
