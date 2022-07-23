@@ -7,7 +7,7 @@ if (isset($_POST['requestid'])) {
     switch ($rid) {
         case '1':
 
-            $bcertimage = $_FILES['bcertimage']['name'];
+    $bcertimage = $_FILES['bcertimage']['name'];
     $nidtimage = $_FILES['nidpic']['name'];
     $ppicimage = $_FILES['ppic']['name'];
 
