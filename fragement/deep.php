@@ -7,7 +7,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
     } else {
         if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
             $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
-            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending']);
+            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A')]);
             $nidtimage = $_FILES['nidpic']['name'];
 
             $nidtempname = $_FILES['nidpic']['tmp_name'];
@@ -140,7 +140,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
         } else {
             if (insert('applicant', ['name' => $fname.' '.$lname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
                 $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
-                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending']);
+                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A')]);
                 $nidtimage = $_FILES['nidpic']['name'];
 
                 $nidtempname = $_FILES['nidpic']['tmp_name'];
