@@ -280,7 +280,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
 function addpassport($fname, $oname, $lname, $phone, $email, $gender, $dob, $pob, $cob, $rob, $mothername, $motheroccupation, $motherreligion, $motherphone, $fathername, $fatheroccupation, $fatherreligion, $fatherphone)
 {
     if (empty(trim($fname)) || empty(trim($lname)) || empty(trim($phone))) {
-        echo 'Name , and phone number must be field';
+        echo 'Name  and phone number must be field';
     } else {
         if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
             $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
