@@ -141,7 +141,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
 
                 $nidtempname = $_FILES['nidpic']['tmp_name'];
 
-                move_uploaded_file($nidtempname, 'yolkassets/upload/'.$nidtimage);
+                move_uploaded_file($nidtempname, '../yolkassets/upload/'.$nidtimage);
 
                 $messcert = '<p>National ID Image</p>
     
