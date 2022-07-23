@@ -1,11 +1,11 @@
 <?php
 
-function addbirthcert($fname, $oname, $lname, $phone, $gender, $dob, $pob, $cob, $rob, $mothername, $motheroccupation, $motherreligion, $motherphone, $fathername, $fatheroccupation, $fatherreligion, $fatherphone)
+function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $pob, $cob, $rob, $mothername, $motheroccupation, $motherreligion, $motherphone, $fathername, $fatheroccupation, $fatherreligion, $fatherphone)
 {
     if (empty(trim($fname)) || empty(trim($lname)) || empty(trim($phone))) {
         echo 'Name , and phone number must be field';
     } else {
-        if (authenticate('applicant', [['phone', '=', $phone]]) == 'success') {
+        if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
             $nidtimage = $_FILES['nidpic']['name'];
 
             $nidtempname = $_FILES['nidpic']['tmp_name'];
@@ -136,7 +136,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $gender, $dob, $pob, $cob,
                 }
             }
         } else {
-            if (insert('applicant', ['name' => $fname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
+            if (insert('applicant', ['name' => $fname.' '.$lname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
                 $nidtimage = $_FILES['nidpic']['name'];
 
                 $nidtempname = $_FILES['nidpic']['tmp_name'];

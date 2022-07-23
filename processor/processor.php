@@ -8,7 +8,7 @@ if (isset($_GET['action'])) {
         case 'addbirthcert':
             extract($_POST);
 
-            addbirthcert($fname, $oname, $lname, $phone, $gender, $dob, $pob, $cob, $rob, $mothername, $motheroccupation, $motherreligion, $motherphone, $fathername, $fatheroccupation, $fatherreligion, $fatherphone);
+            addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $pob, $cob, $rob, $mothername, $motheroccupation, $motherreligion, $motherphone, $fathername, $fatheroccupation, $fatherreligion, $fatherphone);
 
             break;
 
