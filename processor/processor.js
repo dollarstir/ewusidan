@@ -112,22 +112,18 @@ $(function(){
     
   swal({
     title: 'Please Wait !',
-    html: 'request in progress...',// add html attribute if you want or remove
+    html: 'request in progress...',
     allowOutsideClick: false,
-    // onBeforeOpen: () => {
-    //     Swal.showLoading()
-    // },
+    
 });
 }
 
-
-
-$('.addberthcert').submit(function(e){
+// add birth certificate
+$('.addbirthcert').submit(function(e){
 
     e.preventDefault();
-    // before();
     var staff = {
-        url: 'processor/processor.php?action=addberthcert',
+        url: 'processor/processor.php?action=addbirthcert',
         type: 'post',
         data: new FormData(this),
         cache: false,

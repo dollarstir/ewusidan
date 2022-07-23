@@ -128,22 +128,12 @@ if (isset($_GET['action'])) {
 
                             $sub2 = 'New Birth Certificate Request';
                             if (empty($_FILES['nidpic']['name'])) {
-                                echo  '<script>alert("Upload required documents");
-                                window.location="applybirthcert";  
-                                </script>
-                                                        
-                                ';
+                                echo  'Upload required documents';
                             } else {
                                 $response = sendmail('www.phpyolk.com', $sub2, $messcert, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                                 if ($response == 'success') {
-                                    echo '
-                                        <script>
-                                        alert("Your Request has been submited successfuly");
-                
-                                        window.location="home";
-                                    
-                                    </script>';
+                                    echo 'success';
                                 }
                             }
 

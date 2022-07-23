@@ -5,7 +5,7 @@ begin('BIRTH CERTIFCATE');
 <body>
 <div class="wrapper">
     <h3>Birth Certificate application form</h3>
-<form  id="wizard" class="addberthcert" method="post" enctype="multipart/form-data">
+<form  id="wizard" class="addbirthcert" method="post" enctype="multipart/form-data">
 
 <h4></h4>
 <section>
