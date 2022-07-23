@@ -58,5 +58,11 @@ function begin($title)
 }
 function scripts()
 {
-    echo '';
+    echo '<script src="wizard/js/jquery-3.3.1.min.js"></script>
+
+    <script src="wizard/js/jquery.steps.js"></script>
+    '.Yolk::uicore('jsa').'
+    <script src="processor/processor.js"></script>
+    
+    ';
 }
