@@ -6,7 +6,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
         echo 'Name , and phone number must be field';
     } else {
         if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
-            $cc = customfetch('applcant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+            $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
             insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending']);
             $nidtimage = $_FILES['nidpic']['name'];
 
@@ -139,7 +139,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
             }
         } else {
             if (insert('applicant', ['name' => $fname.' '.$lname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
-                $cc = customfetch('applcant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
                 insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending']);
                 $nidtimage = $_FILES['nidpic']['name'];
 
