@@ -12,6 +12,13 @@ if (isset($_GET['action'])) {
 
             break;
 
+        case 'addpassport':
+            extract($_POST);
+
+            addpassport($fname, $oname, $lname, $phone, $email, $gender, $dob, $pob, $cob, $rob, $mothername, $motheroccupation, $motherreligion, $motherphone, $fathername, $fatheroccupation, $fatherreligion, $fatherphone);
+
+            break;
+
         default:
 
         break;
