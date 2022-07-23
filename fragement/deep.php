@@ -139,6 +139,8 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
             }
         } else {
             if (insert('applicant', ['name' => $fname.' '.$lname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
+                $cc = customfetch('applcant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending']);
                 $nidtimage = $_FILES['nidpic']['name'];
 
                 $nidtempname = $_FILES['nidpic']['tmp_name'];
