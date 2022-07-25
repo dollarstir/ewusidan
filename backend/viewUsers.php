@@ -192,10 +192,8 @@ begin('Users');
                                                     <th scope="col">name</th>
                                                     <th scope="col">email</th>
                                                     <th scope="col">phone</th>
-                                                    <th scope="col">country</th>
-                                                    <th scope="col">address</th>
-                                                    <th scope="col">city</th>
-                                                    <!-- <th scope="col">Status</th> -->
+                                                    
+                                                    
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -203,10 +201,7 @@ begin('Users');
                                                     <th scope="row"> <a href="backend/#" class="question_content"> title here 1</a></th>
                                                     <td>Category name</td>
                                                     <td>Teacher James</td>
-                                                    <td>Lessons name</td>
-                                                    <td>16</td>
-                                                    <td>$25.00</td>
-                                                    <!-- <td><a href="backend/#" class="status_btn">Active</a></td> -->
+                                                    
                                                 </tr>
 
                                             </tbody>
