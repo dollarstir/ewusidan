@@ -106,5 +106,12 @@ $router = new Router([
             return Viewer::view('wizard/afdate.php', $context);
         }
     ),
+
+    new Route(
+        '/myusers',
+        function ($context) {
+            return Viewer::view('backend/viewUsers.php', $context);
+        }
+    ),
 ]);
 $router->launch();
