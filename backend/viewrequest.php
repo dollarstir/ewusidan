@@ -189,9 +189,12 @@ begin('Orders');
                                         <table class="table lms_table_active ">
                                             <thead>
                                                 <tr>
-                                                    <th scope="col">name</th>
-                                                    <th scope="col">email</th>
-                                                    <th scope="col">phone</th>
+                                                    <th scope="col">Customer Name</th>
+                                                    <th scope="col">Request Type</th>
+                                                    <th scope="col">Payment Status</th>
+                                                    <th scope="col">Order Status</th>
+                                                    <th scope="col">Date Added</th>
+                                                    <th scope="col">Time Added</th>
                                                     
                                                     
                                                 </tr>
