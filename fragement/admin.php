@@ -84,6 +84,7 @@ function orders()
         <td>'.$row['status'].'</td>
         <td>'.$row['dateadded'].'</td>
         <td>'.$row['timeadded'].'</td>
+        <td><a href="updateactivity?token='.$row['timeadded'].'"></a></td>
         
     </tr>';
     }

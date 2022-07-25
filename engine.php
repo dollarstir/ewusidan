@@ -120,5 +120,12 @@ $router = new Router([
             return Viewer::view('backend/viewrequest.php', $context);
         }
     ),
+
+    new Route(
+        '/updateactivity',
+        function ($context) {
+            return Viewer::view('backend/status.php', $context);
+        }
+    ),
 ]);
 $router->launch();
