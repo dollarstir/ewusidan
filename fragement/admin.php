@@ -30,3 +30,29 @@ function begin($title)
         <link rel="stylesheet" href="backend/css/style1.css" />
     </head>';
 }
+
+function script()
+{
+    echo'<script src="backend/js/jquery1-3.4.1.min.js"></script>
+
+    <script src="backend/js/popper1.min.js"></script>
+
+    <script src="backend/js/bootstrap.min.js.php"></script>
+
+    <script src="backend/js/metisMenu.js"></script>
+
+    <script src="backend/vendors/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="backend/vendors/datatable/js/dataTables.responsive.min.js"></script>
+    <script src="backend/vendors/datatable/js/dataTables.buttons.min.js"></script>
+    <script src="backend/vendors/datatable/js/buttons.flash.min.js"></script>
+    <script src="backend/vendors/datatable/js/jszip.min.js"></script>
+    <script src="backend/vendors/datatable/js/pdfmake.min.js"></script>
+    <script src="backend/vendors/datatable/js/vfs_fonts.js"></script>
+    <script src="backend/vendors/datatable/js/buttons.php5.min.js"></script>
+    <script src="backend/vendors/datatable/js/buttons.print.min.js"></script>
+
+    <script src="backend/vendors/scroll/perfect-scrollbar.min.js"></script>
+    <script src="backend/vendors/scroll/scrollable-custom.js"></script>
+
+    <script src="backend/js/custom.js"></script>';
+}

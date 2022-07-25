@@ -349,28 +349,7 @@ begin('Users');
 
 
 
-    <script src="js/jquery1-3.4.1.min.js"></script>
-
-    <script src="js/popper1.min.js"></script>
-
-    <script src="js/bootstrap.min.js.php"></script>
-
-    <script src="js/metisMenu.js"></script>
-
-    <script src="vendors/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="vendors/datatable/js/dataTables.responsive.min.js"></script>
-    <script src="vendors/datatable/js/dataTables.buttons.min.js"></script>
-    <script src="vendors/datatable/js/buttons.flash.min.js"></script>
-    <script src="vendors/datatable/js/jszip.min.js"></script>
-    <script src="vendors/datatable/js/pdfmake.min.js"></script>
-    <script src="vendors/datatable/js/vfs_fonts.js"></script>
-    <script src="vendors/datatable/js/buttons.php5.min.js"></script>
-    <script src="vendors/datatable/js/buttons.print.min.js"></script>
-
-    <script src="vendors/scroll/perfect-scrollbar.min.js"></script>
-    <script src="vendors/scroll/scrollable-custom.js"></script>
-
-    <script src="js/custom.js"></script>
+    <?php script(); ?>
 </body>
 
 </html>
