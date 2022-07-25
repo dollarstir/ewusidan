@@ -197,7 +197,7 @@ begin('Users');
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                
+                                            <?php users(); ?>
 
                                             </tbody>
                                         </table>
