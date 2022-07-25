@@ -76,5 +76,12 @@ function orders()
     foreach ($res as $row) {
         $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
         $rr = $res2[0];
+
+        echo '<tr>
+        <th scope="row"> <a href="" class="question_content"> '.$rr['name'].'</a></th>
+        <td>'.$row['email'].'</td>
+        <td>'.$row['phone'].'</td>
+        
+    </tr>';
     }
 }
