@@ -79,8 +79,11 @@ function orders()
 
         echo '<tr>
         <th scope="row"> <a href="" class="question_content"> '.$rr['name'].'</a></th>
-        <td>'.$row['email'].'</td>
-        <td>'.$row['phone'].'</td>
+        <td>'.$row['type'].'</td>
+        <td>'.$row['paystatus'].'</td>
+        <td>'.$row['status'].'</td>
+        <td>'.$row['dateadded'].'</td>
+        <td>'.$row['timeadded'].'</td>
         
     </tr>';
     }
