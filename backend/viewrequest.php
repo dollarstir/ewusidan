@@ -200,7 +200,7 @@ begin('Orders');
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                            <?php users(); ?>
+                                            <?php orders(); ?>
 
                                             </tbody>
                                         </table>

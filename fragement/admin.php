@@ -69,3 +69,12 @@ function users()
     </tr>';
     }
 }
+
+function orders()
+{
+    $res = fetchall('activity');
+    foreach ($res as $row) {
+        $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
+        $rr = $res2[0];
+    }
+}
