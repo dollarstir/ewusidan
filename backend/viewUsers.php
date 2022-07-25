@@ -197,12 +197,7 @@ begin('Users');
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr>
-                                                    <th scope="row"> <a href="backend/#" class="question_content"> title here 1</a></th>
-                                                    <td>Category name</td>
-                                                    <td>Teacher James</td>
-                                                    
-                                                </tr>
+                                                
 
                                             </tbody>
                                         </table>

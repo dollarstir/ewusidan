@@ -56,3 +56,16 @@ function script()
 
     <script src="backend/js/custom.js"></script>';
 }
+
+function users()
+{
+    $res = fetchall('applicant');
+    foreach ($res as $row) {
+        echo '<tr>
+        <th scope="row"> <a href="" class="question_content"> '.$row['name'].'</a></th>
+        <td>'.$row['email'].'</td>
+        <td>'.$row['phone'].'</td>
+        
+    </tr>';
+    }
+}
