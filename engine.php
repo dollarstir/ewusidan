@@ -113,5 +113,12 @@ $router = new Router([
             return Viewer::view('backend/viewUsers.php', $context);
         }
     ),
+
+    new Route(
+        '/orders',
+        function ($context) {
+            return Viewer::view('backend/viewrequest.php', $context);
+        }
+    ),
 ]);
 $router->launch();
