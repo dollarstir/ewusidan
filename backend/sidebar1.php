@@ -29,162 +29,7 @@
         </ul>
     </li>
     
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Author</span>
-        </a>
-        <ul>
-            <li><a class="active" href="addAuthor.php">Add Author</a></li>
-            <li><a href="viewAuthor.php">view Author</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Books</span>
-        </a>
-        <ul>
-            <li><a class="active" href="addBooks.php">Add Books</a></li>
-            <li><a href="viewBooks.php">view Books</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Orders</span>
-        </a>
-        <ul>
-            <!-- <li><a class="active" href="addOrders.php">Add Orders</a></li> -->
-            <li><a href="viewOrders.php">view Orders</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Sales</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Sales</a></li>
-            <li><a href="viewSales.php">view Sales</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Transactions</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Transactions</a></li>
-            <li><a href="viewTransaction.php">view Transactions</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Reviews</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Reviews</a></li>
-            <li><a href="viewReview.php">view Reviews</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Coupons</span>
-        </a>
-        <ul>
-            <li><a class="active" href="addCoupons.php">Add Coupons</a></li>
-            <li><a href="viewCoupons.php">view Coupons</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Ads</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Ads</a></li>
-            <li><a href="index_2.php">view Ads</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Poems</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Poems</a></li>
-            <li><a href="index_2.php">view Poems</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Messages</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Messages</a></li>
-            <li><a href="index_2.php">view Messages</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Pages</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Pages</a></li>
-            <li><a href="index_2.php">view Pages</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
-    <li class="mm-active">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/dashboard.svg" alt="">
-            </div>
-            <span>Settings</span>
-        </a>
-        <ul>
-            <li><a class="active" href="index.php">Add Settings</a></li>
-            <li><a href="index_2.php">view Settings</a></li>
-            <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
-        </ul>
-    </li>
+    
     <!-- <li class="">
         <a class="has-arrow" href="#" aria-expanded="false">
             <div class="icon_menu">
@@ -219,20 +64,7 @@
             <li><a href="datepicker.php">Date Picker</a></li>
         </ul>
     </li> -->
-    <li class="">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/4.svg" alt="">
-            </div>
-            <span>forms</span>
-        </a>
-        <ul>
-            <li><a href="Basic_Elements.php">Basic Elements</a></li>
-            <li><a href="Groups.php">Groups</a></li>
-            <li><a href="Max_Length.php">Max Length</a></li>
-            <li><a href="Layouts.php">Layouts</a></li>
-        </ul>
-    </li> 
+    
     <!--
     <li class="">
         <a href="Board.php" aria-expanded="false">
@@ -312,18 +144,7 @@
             <li><a href="Pagination.php">Pagination</a></li>
         </ul>
     </li> -->
-    <li class="">
-        <a class="has-arrow" href="#" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="img/menu-icon/11.svg" alt="">
-            </div>
-            <span>Table</span>
-        </a>
-        <ul>
-            <li><a href="data_table.php">Data Tables</a></li>
-            <li><a href="bootstrap_table.php">Bootstrap</a></li>
-        </ul>
-    </li>
+    
     <!-- <li class="">
         <a class="has-arrow" href="#" aria-expanded="false">
             <div class="icon_menu">
