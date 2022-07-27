@@ -23,4 +23,10 @@ if ($result == 'success') {
     <script>
     alert("Updated Successfuly");
     window.location="orders"</script>';
+} else {
+    echo '
+    <script>alert("failed to update );
+    window.location="orders"
+    </script>
+    ';
 }
