@@ -136,6 +136,13 @@ $router = new Router([
     ),
 
     new Route(
+        '/completedorders',
+        function ($context) {
+            return Viewer::view('backend/done.php', $context);
+        }
+    ),
+
+    new Route(
         '/updateactivity',
         function ($context) {
             return Viewer::view('backend/status.php', $context);

@@ -22,6 +22,7 @@
         <ul>
             <li><a class="active" href="neworders">New Orders</a></li>
             <li><a href="recievedorders">Recieved orders</a></li>
+            <li><a href="completedorders">Processed orders</a></li>
             <li><a href="orders">All orders</a></li>
 
             <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
