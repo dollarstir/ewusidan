@@ -92,9 +92,9 @@ function orders()
 
 function neworders()
 {
-    $res = fetchall('activity');
+    $res = customfetch('activity', [['status' => 'pending']]);
     foreach ($res as $row) {
-        $res2 = customfetch('applicant', [['id', '=', $row['uid']], ['status' => 'pending']], 'AND');
+        $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
         $rr = $res2[0];
 
         echo '<tr>
@@ -112,9 +112,9 @@ function neworders()
 
 function recievedorders()
 {
-    $res = fetchall('activity');
+    $res = customfetch('activity', [['status' => 'recieved']]);
     foreach ($res as $row) {
-        $res2 = customfetch('applicant', [['id', '=', $row['uid']], ['status' => 'recieved']], 'AND');
+        $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
         $rr = $res2[0];
 
         echo '<tr>
