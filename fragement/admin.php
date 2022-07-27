@@ -132,9 +132,9 @@ function recievedorders()
 
 function proccessedorders()
 {
-    $res = fetchall('activity');
+    $res = customfetch('activity', [['status' => 'processed']]);
     foreach ($res as $row) {
-        $res2 = customfetch('applicant', [['id', '=', $row['uid']], ['status' => 'proccessed']], 'AND');
+        $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
         $rr = $res2[0];
 
         echo '<tr>
