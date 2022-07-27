@@ -201,7 +201,7 @@ begin('New Orders');
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                            <?php orders(); ?>
+                                            <?php neworders(); ?>
 
                                             </tbody>
                                         </table>
