@@ -92,7 +92,7 @@ function orders()
 
 function neworders()
 {
-    $res = customfetch('activity', [['status' => 'pending']]);
+    $res = customfetch('activity', [['status', '=', 'pending']]);
     foreach ($res as $row) {
         $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
         $rr = $res2[0];
@@ -112,7 +112,7 @@ function neworders()
 
 function recievedorders()
 {
-    $res = customfetch('activity', [['status' => 'recieved']]);
+    $res = customfetch('activity', [['status', '=', 'recieved']]);
     foreach ($res as $row) {
         $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
         $rr = $res2[0];
@@ -132,7 +132,7 @@ function recievedorders()
 
 function proccessedorders()
 {
-    $res = customfetch('activity', [['status' => 'processed']]);
+    $res = customfetch('activity', [['status', '=', 'processed']]);
     foreach ($res as $row) {
         $res2 = customfetch('applicant', [['id', '=', $row['uid']]]);
         $rr = $res2[0];
