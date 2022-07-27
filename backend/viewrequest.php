@@ -195,6 +195,7 @@ begin('Orders');
                                                     <th scope="col">Order Status</th>
                                                     <th scope="col">Date Added</th>
                                                     <th scope="col">Time Added</th>
+                                                    <th scope="col">Action</th>
                                                     
                                                     
                                                 </tr>
