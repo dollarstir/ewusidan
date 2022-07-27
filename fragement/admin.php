@@ -94,7 +94,27 @@ function neworders()
 {
     $res = fetchall('activity');
     foreach ($res as $row) {
-        $res2 = customfetch('applicant', [['id', '=', $row['uid']], ['status' => 'pending']],'AND');
+        $res2 = customfetch('applicant', [['id', '=', $row['uid']], ['status' => 'pending']], 'AND');
+        $rr = $res2[0];
+
+        echo '<tr>
+        <th scope="row"> <a href="" class="question_content"> '.$rr['name'].'</a></th>
+        <td>'.$row['type'].'</td>
+        <td>'.$row['paystatus'].'</td>
+        <td>'.$row['status'].'</td>
+        <td>'.$row['dateadded'].'</td>
+        <td>'.$row['timeadded'].'</td>
+        <td><a class="btn btn-primary" href="updateactivity?token='.$row['id'].'"><i class="fa fa-edit"></i>Update</a></td>
+        
+    </tr>';
+    }
+}
+
+function recievedorders()
+{
+    $res = fetchall('activity');
+    foreach ($res as $row) {
+        $res2 = customfetch('applicant', [['id', '=', $row['uid']], ['status' => 'recieved']], 'AND');
         $rr = $res2[0];
 
         echo '<tr>
