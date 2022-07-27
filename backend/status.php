@@ -17,3 +17,10 @@ switch ($cc['status']) {
         // code...
         break;
 }
+
+if ($result == 'success') {
+    echo '
+    <script>
+    alert("Updated Successfuly");
+    window.location="orders"</script>';
+}
