@@ -5,7 +5,12 @@ $c = customfetch('activity', [['id', '=', $id]]);
 $cc = $c[0];
 switch ($cc['status']) {
     case 'pending':
-        $result = update('activity', ['status'=>]);
+        $result = update('activity', ['status' => 'recieved']);
+
+        break;
+
+    case 'recieved':
+        $result = update('activity', ['status' => 'processed']);
         break;
 
     default:
