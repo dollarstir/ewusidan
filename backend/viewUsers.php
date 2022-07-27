@@ -13,7 +13,7 @@ begin('Users');
                 <i class="ti-close"></i>
             </div>
         </div>
-        <?php include 'sidebar.php'; ?>
+        <?php include 'sidebar1.php'; ?>
     </nav>
 
     <section class="main_content dashboard_part large_header_bg">
