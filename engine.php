@@ -122,6 +122,20 @@ $router = new Router([
     ),
 
     new Route(
+        '/neworders',
+        function ($context) {
+            return Viewer::view('backend/newrequest.php', $context);
+        }
+    ),
+
+    new Route(
+        '/recievedorders',
+        function ($context) {
+            return Viewer::view('backend/recievedOrders.php', $context);
+        }
+    ),
+
+    new Route(
         '/updateactivity',
         function ($context) {
             return Viewer::view('backend/status.php', $context);

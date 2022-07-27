@@ -1,7 +1,7 @@
 <?php
 
 involve('admin');
-begin('Orders');
+begin('New Orders');
 ?>
 
 <body class="crm_body_bg">

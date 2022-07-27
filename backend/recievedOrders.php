@@ -1,7 +1,7 @@
 <?php
 
 involve('admin');
-begin('Orders');
+begin('Recieved Orders');
 ?>
 
 <body class="crm_body_bg">
