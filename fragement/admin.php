@@ -67,10 +67,10 @@ function admintopbar()
                     <i class="ti-menu"></i>
                 </div>
                 
-                <!--<div class="header_right d-flex justify-content-between align-items-center">
+                <div class="header_right d-flex justify-content-between align-items-center">
                     <div class="header_notification_warp d-flex align-items-center">
                         <li>
-                            <a class="bell_notification_clicker nav-link-notify" href="viewreviews"> <img src="backend/img/icon/bell.svg" alt="">
+                            <a class="bell_notification_clicker nav-link-notify" href="viewreviews"> 
                             </a>
 
                             <div class="Menu_NOtification_Wrap">
@@ -160,7 +160,7 @@ function admintopbar()
 
                         </li>
                         <li>
-                            <a class="CHATBOX_open nav-link-notify" href="viewmessages"> <img src="backend/img/icon/msg.svg" alt=""> </a>
+                            <a class="CHATBOX_open nav-link-notify" href="viewmessages"> </a>
                         </li>
                     </div>
                     <div class="profile_info">
@@ -177,7 +177,7 @@ function admintopbar()
                             </div>
                         </div>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
     </div>
