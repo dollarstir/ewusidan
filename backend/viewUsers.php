@@ -8,7 +8,7 @@ begin('Users');
 
     <nav class="sidebar vertical-scroll  ps-container ps-theme-default ps-active-y">
         <div class="logo d-flex justify-content-between">
-            <a href="myusers"><img src="main/assets/images/logo/logo.png" alt=""></a>
+            <a href="myusers"><img src="main/assets/images/logo/logo.png" alt="" style="width:150px;"></a>
             <div class="sidebar_close_icon d-lg-none">
                 <i class="ti-close"></i>
             </div>
@@ -168,21 +168,7 @@ begin('Users');
                                 <div class="QA_section">
                                     <div class="white_box_tittle list_header">
                                         <h4>Users</h4>
-                                        <div class="box_right d-flex lms_block">
-                                            <div class="serach_field_2">
-                                                <div class="search_inner">
-                                                    <form Active="#">
-                                                        <div class="search_field">
-                                                            <input type="text" placeholder="Search content here...">
-                                                        </div>
-                                                        <button type="submit"> <i class="ti-search"></i> </button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                            <div class="add_button ms-2">
-                                                <a href="backend/#" data-bs-toggle="modal" data-bs-target="#addcategory" class="btn_1">Add New</a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                     <div class="QA_table mb_30">
 
