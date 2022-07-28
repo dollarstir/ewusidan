@@ -1,4 +1,6 @@
+<?php
 
+echo'
 
 <ul id="sidebar_menu">
     <li class="mm-active">
@@ -218,4 +220,4 @@
             <li><a href="gallery.php">Gallery</a></li>
         </ul>
     </li> -->
-</ul>
+</ul>';
