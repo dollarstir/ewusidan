@@ -17,7 +17,7 @@ begin('New Orders');
     </nav>
 
     <section class="main_content dashboard_part large_header_bg">
-
+    <?php admintopbar(); ?>
         <!-- <div class="container-fluid g-0">
             <div class="row">
                 <div class="col-lg-12 p-0 ">
