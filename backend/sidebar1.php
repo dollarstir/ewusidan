@@ -22,7 +22,7 @@
             <span>Orders</span>
         </a>
         <ul>
-            <li><a class="active" href="neworders">New Orders <span class="badge badge-danger">1</span></a></li>
+            <li><a class="active" href="neworders">New Orders <span class="badge badge-danger">Danger</span></a></li>
             <li><a href="recievedorders">Recieved orders</a></li>
             <li><a href="completedorders">Processed orders</a></li>
             <li><a href="orders">All orders</a></li>
