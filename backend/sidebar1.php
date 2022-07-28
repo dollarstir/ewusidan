@@ -22,7 +22,7 @@
             <span>Orders</span>
         </a>
         <ul>
-            <li><a class="active" href="neworders">New Orders <span class="badge badge-danger" style="border-radius:100px;background-color:red;margin-left:100px;text-align:center;">1</span></a></li>
+            <li><a class="active" href="neworders">New Orders <span class="badge badge-danger" style="border-radius:100px;background-color:red;margin-left:100px;text-align:center;"><?php echo customcount('activity', [['status', '=', 'pending']]); ?></span></a></li>
             <li><a href="recievedorders">Recieved orders</a></li>
             <li><a href="completedorders">Processed orders</a></li>
             <li><a href="orders">All orders</a></li>
