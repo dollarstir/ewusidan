@@ -1,6 +1,4 @@
-<?php
 
-echo'
 
 <ul id="sidebar_menu">
     <li class="mm-active">
@@ -24,7 +22,7 @@ echo'
             <span>Orders</span>
         </a>
         <ul>
-            <li><a class="active" href="neworders">New Orders <span class="badge badge-danger">Danger</span></a></li>
+            <li><a class="active" href="neworders">New Orders <span class="badge badge-danger" style="border-radius:50px;background-color:red;">Danger</span></a></li>
             <li><a href="recievedorders">Recieved orders</a></li>
             <li><a href="completedorders">Processed orders</a></li>
             <li><a href="orders">All orders</a></li>
@@ -220,4 +218,4 @@ echo'
             <li><a href="gallery.php">Gallery</a></li>
         </ul>
     </li> -->
-</ul>';
+</ul>
