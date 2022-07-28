@@ -8,7 +8,7 @@ begin('New Orders');
 
     <nav class="sidebar vertical-scroll  ps-container ps-theme-default ps-active-y">
         <div class="logo d-flex justify-content-between">
-            <a href="myusers"><img src="main/assets/images/logo/logo.png" alt=""></a>
+            <a href="myusers"><img src="main/assets/images/logo/logo.png" alt="" style="width:150px;height:100px;"></a>
             <div class="sidebar_close_icon d-lg-none">
                 <i class="ti-close"></i>
             </div>
