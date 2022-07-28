@@ -164,11 +164,11 @@ function admintopbar()
                         </li>
                     </div>
                     <div class="profile_info">
-                        <img src="yolkassets/upload/'.$_SESSION['admin']['pic'].'" alt="#">
+                        <img src="main/assets/images/logo/logo.png" alt="#">
                         <div class="profile_info_iner">
                             <div class="profile_author_name">
                                 <!--<p>Neurologist </p>-->
-                                <h5>'.$_SESSION['admin']['name'].'</h5>
+                                <h5>Admin</h5>
                             </div>
                             <div class="profile_info_details">
                                 <a href="profile">My Profile </a>
