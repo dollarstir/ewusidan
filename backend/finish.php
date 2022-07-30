@@ -196,27 +196,7 @@ session_start();
                                     </div> -->
                                             <button type="submit" class="btn btn-primary">Continue</button>
                                 </form>
-                                <div class="paying">
-
-
-                                <?php
-                                // session_start();
-                                $u = customfetch('applicant', [['id', '=', $_SESSION['uid']]]);
-                                $user = $u[0];
-                                $yp = new Yolkpay();
-                                echo  $yp->handler();
-
-                                $name = explode(' ', $user['name']);
-                                $fname = $name[0];
-                                $lname = $name[1];
-
-                                if (!isset($servicefee)) {
-                                    echo $yp->payscript($fname, $lname, $user['email'], $user['phone'], $servicefee);
-                                }
-                                echo $yp->pay('Pay Now');
-
-                                        ?>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
