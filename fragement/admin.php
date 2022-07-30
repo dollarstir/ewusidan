@@ -288,7 +288,12 @@ function package($id)
 {
     switch ($id) {
         case 1:
-            echo ' <option value="300">6 Weeks Passport (GHS300)</option><option value="700">6 Weeks Passport (GHS700)</option>'
-; break;
+            echo ' <option value="300">6 Weeks Passport (GHS300)</option><option value="700">1 Week Passport (GHS700)</option>';
+
+            break;
+        case 2:
+            echo ' <option value="120">3 Months Birthcert (GHS120)</option><option value="300">3 Week Birthcert (GHS300)</option>';
+
+            break;
     }
 }
