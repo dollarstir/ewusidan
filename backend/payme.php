@@ -190,7 +190,7 @@ $servicefee = $_SESSION['servicefee'];
                                 if (!isset($servicefee)) {
                                     echo $yp->payscript($fname, $lname, $user['email'], $user['phone'], $servicefee);
                                 }
-                                echo $yp->pay('Pay Now');
+                                echo '<center>'.$yp->pay('Pay Now').'</center>';
 
                                         ?>
                                 </div>
