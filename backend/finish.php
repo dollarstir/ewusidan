@@ -160,7 +160,7 @@ begin('Pay For Service');
                             <div class="white_card_header">
                                 <div class="box_header m-0">
                                     <div class="main-title">
-                                        <img src="main/assets/images/logo/logo.png" style="width:100px;height:100px;"/>
+                                        <center><img src="main/assets/images/logo/logo.png" style="width:100px;height:100px;"/></center>
                                         <h3 class="m-0">Complete Your Application </h3>
                                     </div>
                                 </div>
