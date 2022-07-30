@@ -178,7 +178,7 @@ begin('Pay For Service');
                                             <label class="input-group-text" for="inputGroupSelect01">Options</label>
                                             <select class="form-select" id="inputGroupSelect01">
                                                 <option>Choose...</option>
-                                               <?php package('1'); ?>
+                                               <?php package('2'); ?>
                                                 
                                             </select>
                                         </div>
