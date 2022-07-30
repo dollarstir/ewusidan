@@ -199,7 +199,7 @@ begin('Pay For Service');
 
 
                                 <?php
-                                session_start();
+                                // session_start();
                                 $u = customfetch('applicant', [['id', '=', $_SESSION['uid']]]);
                                 $user = $u[0];
                                 echo  Yolkpay::handler();
