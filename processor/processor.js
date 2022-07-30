@@ -317,6 +317,66 @@ $('.finishup').submit(function(e){
 
 
 
+// Add affidavit name
+$('.addaffidavitname').submit(function(e){
+
+  e.preventDefault();
+  var staff = {
+      url: 'processor/processor.php?action=addaffidavitname',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
+// Add affidavit dob
+
+$('.addaffidavitdob').submit(function(e){
+
+  e.preventDefault();
+  var staff = {
+      url: 'processor/processor.php?action=addaffidavitdob',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
+
+// Add Gazette
+
+$('.addgazette').submit(function(e){
+
+  e.preventDefault();
+  var staff = {
+      url: 'processor/processor.php?action=addgazette',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
 
 
 
