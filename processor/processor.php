@@ -791,7 +791,9 @@ if (isset($_GET['action'])) {
                     } else {
                         if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
                             $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
-                            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Business Certificate', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A')]);
+                            $coooo = countall('activity');
+                            $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Business Certifacte', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
 
                             $nidtimage = $_FILES['nidpic']['name'];
                             $ppicimage = $_FILES['ppic']['name'];
@@ -962,6 +964,7 @@ if (isset($_GET['action'])) {
                                 if ($response == 'success') {
                                     session_start();
                                     $_SESSION['uid'] = $cc[0]['id'];
+                                    $_SESSION['orderid'] = $orderid;
 
                                     echo 'successbusinesscert';
                                 }
@@ -969,7 +972,9 @@ if (isset($_GET['action'])) {
                         } else {
                             if (insert('applicant', ['name' => $fname.' '.$lname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
                                 $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
-                                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Business Certifacte', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A')]);
+                                $coooo = countall('activity');
+                                $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Business Certifacte', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
 
                                 $nidtimage = $_FILES['nidpic']['name'];
                                 $ppicimage = $_FILES['ppic']['name'];
@@ -1140,6 +1145,7 @@ if (isset($_GET['action'])) {
                                     if ($response == 'success') {
                                         session_start();
                                         $_SESSION['uid'] = $cc[0]['id'];
+                                        $_SESSION['orderid'] = $orderid;
 
                                         echo 'successbusinesscert';
                                     }
