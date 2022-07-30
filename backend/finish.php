@@ -1,6 +1,7 @@
 <?php
 involve('admin');
 begin('Pay For Service');
+session_start();
 ?>
 
 <body class="crm_body_bg">
