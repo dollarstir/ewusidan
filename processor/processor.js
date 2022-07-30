@@ -85,6 +85,10 @@ $(function(){
       }
 
 
+      
+
+
+
       else if(response == 'successbirthcert'){
 
         swal({
@@ -97,12 +101,10 @@ $(function(){
               swal.showLoading();
             },
           }).then(function (result) {
-            window.location="finishup?token=2";
+            window.location="finishup?token=3";
           });
-
+  
     }
-
-
 
     else if(response == 'successbusinesscert'){
 
