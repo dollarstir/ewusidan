@@ -1164,6 +1164,8 @@ if (isset($_GET['action'])) {
 
                     break;
 
+        case '':
+
         default:
 
         break;
