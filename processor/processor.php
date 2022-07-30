@@ -1164,7 +1164,382 @@ if (isset($_GET['action'])) {
 
                     break;
 
-        case '':
+        case 'addaffidavitname':
+
+
+
+            extract($_POST);
+                    if (empty(trim($fname)) || empty(trim($lname)) || empty(trim($phone))) {
+                        echo 'Name and phone number must be field';
+                    } else {
+                        if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
+                            $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                            $coooo = countall('activity');
+                            $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Business Certifacte', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
+
+                            $nidtimage = $_FILES['nidpic']['name'];
+                            $ppicimage = $_FILES['ppic']['name'];
+
+                            $nidtempname = $_FILES['nidpic']['tmp_name'];
+                            $ppictempname = $_FILES['ppic']['tmp_name'];
+
+                            move_uploaded_file($nidtempname, '../yolkassets/upload/'.$nidtimage);
+                            move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
+                            $subject = 'New Business Certificate Request';
+                            $message = '
+                                                        <p>GHANA CARD FRONT</p>
+
+                                                        <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidtimage.'" width="200px"/>
+                                                
+                                                        <p>GHANA CARD BACK</p>
+                                                
+                                                        <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/>
+                                                        
+                                                        <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+                                                
+                                                                    <tr>
+                                                                    <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                                                                    <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">surname</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$lname.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">First name</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$fname.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Other name </td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$oname.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Gender</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$gender.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Date of birth</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$dob.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Street </td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$street.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">City</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$city.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">District</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$district.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Region</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Postal Addresses</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$postaladdress.'</td>
+                                                                    </tr>
+                                                
+                                                                    
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Nationality</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$nationality.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Occupation</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$occupation.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Marrital status</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$mstatus.'</td>
+                                                                    </tr>
+                                                
+                                                                    
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Telephone number</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$phone.'</td>
+                                                                    </tr>
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Email Address </td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$email.'</td>
+                                                                    </tr>
+                                                
+                                                                    
+                                                
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;"><strong>Business Info</strong></td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;"><strong>----------------------</strong></td>
+                                                                    </tr>
+
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Business CHoice 1</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$name1.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Business Choice 2</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$name2.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Business Choice 3</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$name3.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Principal Activities</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$activities.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Number of employee</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$numemployee.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">TIN</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$tin.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Ghana Card Number</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$ghanacardnumber.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">Business Type</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$buztype.'</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">GPS</td>
+                                                                    <td style="border-collapse:collapse;border:1px solid;">'.$gps.'</td>
+                                                                    </tr> 
+                                                        
+                                                                </table>
+                                                        
+                                                        ';
+
+                            if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name'])) {
+                                echo  'Upload required documents';
+                            } else {
+                                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                                if ($response == 'success') {
+                                    session_start();
+                                    $_SESSION['uid'] = $cc[0]['id'];
+                                    $_SESSION['orderid'] = $orderid;
+
+                                    echo 'successbusinesscert';
+                                }
+                            }
+                        } else {
+                            if (insert('applicant', ['name' => $fname.' '.$lname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
+                                $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                                $coooo = countall('activity');
+                                $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Business Certifacte', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
+
+                                $nidtimage = $_FILES['nidpic']['name'];
+                                $ppicimage = $_FILES['ppic']['name'];
+
+                                $nidtempname = $_FILES['nidpic']['tmp_name'];
+                                $ppictempname = $_FILES['ppic']['tmp_name'];
+
+                                move_uploaded_file($nidtempname, '../yolkassets/upload/'.$nidtimage);
+                                move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
+                                $subject = 'New Business Certificate Request';
+                                $message = '
+                                            <p>GHANA CARD FRONT</p>
+
+                                            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidtimage.'" width="200px"/>
+                                    
+                                            <p>GHANA CARD BACK</p>
+                                    
+                                            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/>
+                                            
+                                            <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+                                    
+                                                        <tr>
+                                                        <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                                                        <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">surname</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$lname.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">First name</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$fname.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Other name </td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$oname.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Gender</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$gender.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Date of birth</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$dob.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Street </td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$street.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">City</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$city.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">District</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$district.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Region</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Postal Addresses</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$postaladdress.'</td>
+                                                        </tr>
+                                    
+                                                        
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Nationality</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$nationality.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Occupation</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$occupation.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Marrital status</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$mstatus.'</td>
+                                                        </tr>
+                                    
+                                                        
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Telephone number</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$phone.'</td>
+                                                        </tr>
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Email Address </td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$email.'</td>
+                                                        </tr>
+                                    
+                                                        
+                                    
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;"><strong>Business Info</strong></td>
+                                                        <td style="border-collapse:collapse;border:1px solid;"><strong>----------------------</strong></td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Business CHoice 1</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$name1.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Business Choice 2</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$name2.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Business Choice 3</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$name3.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Principal Activities</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$activities.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Number of employee</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$numemployee.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">TIN</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$tin.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Ghana Card Number</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$ghanacardnumber.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">Business Type</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$buztype.'</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                        <td style="border-collapse:collapse;border:1px solid;">GPS</td>
+                                                        <td style="border-collapse:collapse;border:1px solid;">'.$gps.'</td>
+                                                        </tr> 
+                                            
+                                                    </table>
+                                            
+                                            ';
+
+                                if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name'])) {
+                                    echo  'Upload required documents';
+                                } else {
+                                    $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                                    if ($response == 'success') {
+                                        session_start();
+                                        $_SESSION['uid'] = $cc[0]['id'];
+                                        $_SESSION['orderid'] = $orderid;
+
+                                        echo 'successbusinesscert';
+                                    }
+                                }
+                            } else {
+                                echo'something went wrong';
+                            }
+                        }
+                    }
+
+            break;
 
         default:
 

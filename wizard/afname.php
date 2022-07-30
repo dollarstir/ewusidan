@@ -26,6 +26,22 @@ begin('AFFIDAVIT FOR CHANGE OF NAME');
 
 </div>
 
+<div class="form-row">
+        <div class="form-holder">
+        <i class="zmdi zmdi-account"></i>
+        <input type="text" name="email" class="form-control" placeholder="Email Address">
+
+        </div>
+
+
+        <div class="form-holder">
+        <i class="zmdi zmdi-account"></i>
+        <input type="number" name="phone" class="form-control" placeholder="phone Number">
+
+        </div>
+
+</div>
+
 
 
 
