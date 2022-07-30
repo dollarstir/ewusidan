@@ -83,9 +83,7 @@ begin('AFFIDAVIT FOR CHANGE OF NAME ');
 </section>
 </form>
 </div>
-<script src="wizard/js/jquery-3.3.1.min.js"></script>
-
-<script src="wizard/js/jquery.steps.js"></script>
+<?php scripts(); ?>
 <script src="wizard/js/main1.js"></script>
 
 
