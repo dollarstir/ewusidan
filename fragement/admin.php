@@ -295,5 +295,20 @@ function package($id)
             echo ' <option value="120">3 Months Birthcert (GHS120)</option><option value="300">3 Week Birthcert (GHS300)</option>';
 
             break;
+
+        case 3:
+            echo ' <option value="300">2 Weeks Business Certificate (GHS300)</option>';
+            break;
+        case 4:
+            echo ' <option value="150">1 Week  Affidavit (GHS150) </option>';
+            break;
+
+        case 5:
+            echo ' <option value="150">1 Week Affidavit (GHS150)</option>';
+            break;
+
+        case 6:
+            echo ' <option value="350">7 Weeks Gazette (GHS350)</option>';
+            break;
     }
 }
