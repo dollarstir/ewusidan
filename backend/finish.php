@@ -177,7 +177,7 @@ begin('Pay For Service');
                                         <div class="input-group mb-3">
                                             <label class="input-group-text" for="inputGroupSelect01">Options</label>
                                             <select class="form-select" id="inputGroupSelect01" name="servicefee">
-                                                <option>Choose...</option>
+                                                <option value="">Choose...</option>
                                                <?php package('2'); ?>
                                                 
                                             </select>
