@@ -210,7 +210,9 @@ session_start();
                                 $fname = $name[0];
                                 $lname = $name[1];
 
-                                echo $yp->payscript($fname, $lname, $user['email'], $user['phone'], $servicefee);
+                                if (!isset($servicefee)) {
+                                    echo $yp->payscript($fname, $lname, $user['email'], $user['phone'], $servicefee);
+                                }
                                 echo $yp->pay('Pay Now');
 
                                         ?>
