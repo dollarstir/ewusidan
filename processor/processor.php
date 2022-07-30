@@ -758,7 +758,10 @@ if (isset($_GET['action'])) {
                             $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                             if ($response == 'success') {
-                                echo 'success';
+                                session_start();
+                                $_SESSION['uid'] = $cc[0]['id'];
+
+                                echo 'successpassport';
                             }
                         }
                     } else {
@@ -773,6 +776,8 @@ if (isset($_GET['action'])) {
             if (empty($servicefee)) {
                 echo 'Kindly Select Service type';
             } else {
+                session_start();
+                $u = customfetch('applicant', [['id', '=', $_SESSION['uid']]]);
                 echo Yolkpay::handler();
                 $d = user();
                 $name = explode(' ', $d['name']);
