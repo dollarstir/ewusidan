@@ -7,7 +7,9 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
     } else {
         if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
             $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
-            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A')]);
+            $coooo = countall('activity');
+            $orderid = 'EWS'.date('Y').''.($coooo + 1);
+            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certifacte', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
             $nidtimage = $_FILES['nidpic']['name'];
 
             $nidtempname = $_FILES['nidpic']['tmp_name'];
@@ -136,6 +138,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
                 if ($response == 'success') {
                     session_start();
                     $_SESSION['uid'] = $cc[0]['id'];
+                    $_SESSION['orderid'] = $orderid;
 
                     echo 'successbirthcert';
                 }
@@ -143,7 +146,9 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
         } else {
             if (insert('applicant', ['name' => $fname.' '.$lname, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
                 $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
-                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certificate', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A')]);
+                $coooo = countall('activity');
+                $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'Birth Certifacte', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
                 $nidtimage = $_FILES['nidpic']['name'];
 
                 $nidtempname = $_FILES['nidpic']['tmp_name'];
@@ -272,6 +277,7 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
                     if ($response == 'success') {
                         session_start();
                         $_SESSION['uid'] = $cc[0]['id'];
+                        $_SESSION['orderid'] = $orderid;
 
                         echo 'successbirthcert';
                     }
