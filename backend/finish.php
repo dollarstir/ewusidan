@@ -176,7 +176,7 @@ begin('Pay For Service');
                                         <h6 class="card-subtitle mb-2">Select Service Type</h6>
                                         <div class="input-group mb-3">
                                             <label class="input-group-text" for="inputGroupSelect01">Options</label>
-                                            <select class="form-select" id="inputGroupSelect01">
+                                            <select class="form-select" id="inputGroupSelect01" name="servicefee">
                                                 <option>Choose...</option>
                                                <?php package('2'); ?>
                                                 

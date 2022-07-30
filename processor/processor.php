@@ -767,7 +767,10 @@ if (isset($_GET['action'])) {
             break;
         case 'payment':
             extract($_POST);
-            break;
+            if (empty($servicefee)) {
+                echo 'Kindly Select Service type';
+            }
+                break;
 
         default:
 
