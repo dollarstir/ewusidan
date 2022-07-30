@@ -10,6 +10,18 @@ begin('AFFIDAVIT FOR CHANGE OF NAME ');
 <h4></h4>
 <section>
 <h3>Basic details</h3>
+
+
+<div class="form-row">
+<div class="form-holder">
+<i class="zmdi zmdi-smartphone-android"></i>
+<input type="text" name="phone"  class="form-control" placeholder="Phone Number">
+</div>
+<div class="form-holder">
+<i class="zmdi zmdi-email"></i>
+<input type="text" name="email" class="form-control" placeholder="Email Address">
+</div>
+</div>
 <div class="form-row">
         <div class="form-holder">
         <i class="zmdi zmdi-account"></i>
@@ -37,16 +49,7 @@ begin('AFFIDAVIT FOR CHANGE OF NAME ');
 <section>
 
 
-<div class="form-row">
-<div class="form-holder">
-<i class="zmdi zmdi-smartphone-android"></i>
-<input type="text" name="phone"  class="form-control" placeholder="Phone Number">
-</div>
-<div class="form-holder">
-<i class="zmdi zmdi-email"></i>
-<input type="text" name="email" class="form-control" placeholder="Email Address">
-</div>
-</div>
+
 
 <div class="form-row">
         <div class="form-holder">
