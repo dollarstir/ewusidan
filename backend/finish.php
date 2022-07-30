@@ -160,7 +160,7 @@ begin('Pay For Service');
                             <div class="white_card_header">
                                 <div class="box_header m-0">
                                     <div class="main-title">
-                                        <h3 class="m-0">Basic Form</h3>
+                                        <h3 class="m-0">Complete Your Application </h3>
                                     </div>
                                 </div>
                             </div>
