@@ -769,6 +769,7 @@ if (isset($_GET['action'])) {
             extract($_POST);
             if (empty($servicefee)) {
                 echo 'Kindly Select Service type';
+            } else {
             }
                 break;
 
