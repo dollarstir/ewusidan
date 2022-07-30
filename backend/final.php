@@ -5,6 +5,7 @@ if (!isset($_GET['ref'])) {
 } else {
     session_start();
     $orderid = $_SESSION['orderid'];
+    $servicetype = $_SESSION['servicetype'];
     $amount = $_SESSION['servicefee'];
     $uid = $_SESSION['uid'];
     $user = customfetch('applicant', [['id', '=', $uid]]);
@@ -14,7 +15,7 @@ if (!isset($_GET['ref'])) {
     <html>
     <body>
     <center><img src="http://ewusidanconsult.com/main/assets/images/logo/logo.png"/></center>
-    <p> Dear '.$user[0]['name'].', Your payment of GHS'.$amount.' has been recieved  </p>
+    <p> Dear '.$user[0]['name'].', Your payment of GHS'.$amount.' for '.$servicetype.' has been recieved . <br><strong>Order No : '.$orderid.' </strong>  </p>
     </body>
     </html>
     
