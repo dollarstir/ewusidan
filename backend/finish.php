@@ -202,14 +202,15 @@ begin('Pay For Service');
                                 // session_start();
                                 $u = customfetch('applicant', [['id', '=', $_SESSION['uid']]]);
                                 $user = $u[0];
-                                echo  Yolkpay::handler();
+                                $yp = new Yolkpay();
+                                echo  $yp->handler();
 
                                 $name = explode(' ', $user['name']);
                                 $fname = $name[0];
                                 $lname = $name[1];
 
-                                echo Yolkpay::payscript($fname, $lname, $user['email'], $user['phone'], $servicefee);
-                                echo Yolkpay::pay('Pay Now');
+                                echo $yp->payscript($fname, $lname, $user['email'], $user['phone'], $servicefee);
+                                echo $yp->pay('Pay Now');
 
                                         ?>
                                 </div>
