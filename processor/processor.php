@@ -384,7 +384,10 @@ if (isset($_GET['action'])) {
                         $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                         if ($response == 'success') {
-                            echo 'success';
+                            session_start();
+                            $_SESSION['uid'] = $cc[0]['id'];
+
+                            echo 'successpassport';
                         }
                     }
                 } else {
@@ -770,6 +773,14 @@ if (isset($_GET['action'])) {
             if (empty($servicefee)) {
                 echo 'Kindly Select Service type';
             } else {
+                echo Yolkpay::handler();
+                $d = user();
+                $name = explode(' ', $d['name']);
+                $fname = $name[0];
+                $lname = $name[1];
+
+                echo Yolkpay::payscript($fname, $lname, $d['email'], $d['phone'], paytotal($context['token']), '', $context['token']);
+                echo Yolkpay::pay('Pay Now');
             }
                 break;
 
