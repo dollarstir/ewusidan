@@ -161,7 +161,7 @@ $servicefee = $_SESSION['servicefee'];
                         <div class="white_card card_height_100 mb_30">
 
                         <center><img src="main/assets/images/logo/logo.png" style="width:100px;height:100px;"/></center>
-                        <center><h3 class="m-0"> You are paying an amount of <?php echo 'GHS'.$servicefee; ?> </h3></center>
+                        <center><h4 class="m-0"> You are paying an amount of <?php echo 'GHS'.$servicefee; ?> <br> For <?php echo $_SESSION['servicetype']; ?> </h4></center>
                             <div class="white_card_header">
                                 <div class="box_header m-0">
                                     <div class="main-title">
