@@ -100,6 +100,13 @@ $(function(){
         }
 
 
+        else if(response == 'initpay'){
+
+          $('.paying').show();
+
+      }
+
+
         else if(response == 'loginfailed'){
 
             swal({
