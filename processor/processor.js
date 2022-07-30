@@ -122,6 +122,24 @@ $(function(){
         });
 
   }
+
+
+  else if(response == 'successaffidavit'){
+
+    swal({
+        title: "Records  Submitted!",
+        text: "will be redirected soon to finish up",
+        timer: 4000,
+        type: 'success',
+        padding: "2em",
+        onOpen: function () {
+          swal.showLoading();
+        },
+      }).then(function (result) {
+        window.location="finishup?token=4";
+      });
+
+}
         else if(response == 'Updated Successfully'){
 
             swal({
