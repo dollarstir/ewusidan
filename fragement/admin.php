@@ -23,6 +23,7 @@ function begin($title)
         <link rel="stylesheet" href="backend/vendors/datatable/css/jquery.dataTables.min.css" />
         <link rel="stylesheet" href="backend/vendors/datatable/css/responsive.dataTables.min.css" />
         <link rel="stylesheet" href="backend/vendors/datatable/css/buttons.dataTables.min.css" />
+        '.Yolk::uicore('cssa').'
     
     
         <link rel="stylesheet" href="backend/css/metisMenu.css">
@@ -54,7 +55,13 @@ function script()
     <script src="backend/vendors/scroll/perfect-scrollbar.min.js"></script>
     <script src="backend/vendors/scroll/scrollable-custom.js"></script>
 
-    <script src="backend/js/custom.js"></script>';
+    <script src="backend/js/custom.js"></script>
+
+    '.Yolk::uicore('jsa').'
+
+    <script src="processor/processor.js"></script>
+    
+    ';
 }
 
 function admintopbar()
