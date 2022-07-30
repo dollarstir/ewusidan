@@ -182,42 +182,8 @@ begin('Pay For Service');
                                                 
                                             </select>
                                         </div>
-                                        <div class="mb-3">
-                                            <label class="form-label" for="exampleInputEmail1">Description</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Description">
-                                            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                                        </div>
-                                        <div class="white_card_body">
-                                            <h6 class="card-subtitle mb-2">List of Categories</h6>
-                                            <div class="input-group mb-3">
-                                                <label class="input-group-text" for="inputGroupSelect01">Options</label>
-                                                <select class="form-select" id="inputGroupSelect01">
-                                                    <option selected="">Choose...</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label class="form-label" for="exampleInputEmail1">price</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Price">
-                                                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                                            </div>
-                                            <h6 class="card-subtitle mb-2">Book Couver Picture</h6>
-                                            <div class="input-group mb-3">
-                                                <input type="file" class="form-control" id="inputGroupFile02">
-                                                <label class="input-group-text" for="inputGroupFile02">Upload</label>
-                                            </div>
-                                            <h6 class="card-subtitle mb-2">Book Back Cover</h6>
-                                            <div class="input-group mb-3">
-                                                <input type="file" class="form-control" id="inputGroupFile02">
-                                                <label class="input-group-text" for="inputGroupFile02">Upload</label>
-                                            </div>
-                                            <h6 class="card-subtitle mb-2">Book File</h6>
-                                            <div class="input-group mb-3">
-                                                <input type="file" class="form-control" id="inputGroupFile02">
-                                                <label class="input-group-text" for="inputGroupFile02">Upload</label>
-                                            </div>
+                                       
+                                        
                                             
                                             <!-- <div class="mb-3">
                                         <label class="form-label" for="exampleInputPassword1">Password</label>
@@ -229,6 +195,7 @@ begin('Pay For Service');
                                     </div> -->
                                             <button type="submit" class="btn btn-primary">Submit</button>
                                 </form>
+                                <div class="paying"></div>
                             </div>
                         </div>
                     </div>
