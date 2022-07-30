@@ -5,7 +5,7 @@ begin('AFFIDAVIT FOR CHANGE OF NAME ');
 <body>
 <div class="wrapper">
     <h3>Affidavit for change of name</h3>
-<form  id="wizard" class="addaffidavitname" method="post" enctype="multipart/form-data">
+<form  id="wizard" class="addaffidavitname">
 
 <h4></h4>
 <section>
