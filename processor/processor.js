@@ -101,7 +101,7 @@ $(function(){
               swal.showLoading();
             },
           }).then(function (result) {
-            window.location="finishup?token=3";
+            window.location="finishup?token=2";
           });
   
     }
