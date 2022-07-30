@@ -21,4 +21,7 @@ if (!isset($_GET['ref'])) {
     
     ';
     sendmail('www.phpyolk.com', 'Payment Successful', $message, 'Ewusidan Consult', [$user[0]['email']]);
+
+        session_destroy();
+    echo '<script>window.location="home"</script>';
 }
