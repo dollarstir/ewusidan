@@ -124,7 +124,7 @@ $(function(){
   }
 
 
-  else if(response == 'successaffidavit'){
+  else if(response == 'successaffidavitname'){
 
     swal({
         title: "Records  Submitted!",
@@ -138,6 +138,41 @@ $(function(){
       }).then(function (result) {
         window.location="finishup?token=4";
       });
+
+}
+
+
+else if(response == 'successaffidavitdob'){
+
+  swal({
+      title: "Records  Submitted!",
+      text: "will be redirected soon to finish up",
+      timer: 4000,
+      type: 'success',
+      padding: "2em",
+      onOpen: function () {
+        swal.showLoading();
+      },
+    }).then(function (result) {
+      window.location="finishup?token=5";
+    });
+
+}
+
+else if(response == 'successgazette'){
+
+  swal({
+      title: "Records  Submitted!",
+      text: "will be redirected soon to finish up",
+      timer: 4000,
+      type: 'success',
+      padding: "2em",
+      onOpen: function () {
+        swal.showLoading();
+      },
+    }).then(function (result) {
+      window.location="finishup?token=6";
+    });
 
 }
         else if(response == 'Updated Successfully'){
