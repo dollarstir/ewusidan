@@ -20,5 +20,5 @@ if (!isset($_GET['ref'])) {
     </html>
     
     ';
-    sendmail('www.phpyolk.com', 'Payment Successful;', $message, 'Ewusidan Consult', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+    sendmail('www.phpyolk.com', 'Payment Successful;', $message, 'Ewusidan Consult', ['kpin463@gmail.com', $user[0]['email']]);
 }
