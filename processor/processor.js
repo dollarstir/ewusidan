@@ -176,7 +176,7 @@ $('.finishup').submit(function(e){
   $.ajax(staff);
 });
 
-
+alert('hi');
 
 
 
