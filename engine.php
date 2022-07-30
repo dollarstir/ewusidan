@@ -155,5 +155,12 @@ $router = new Router([
             return Viewer::view('backend/finish.php', $context);
         }
     ),
+
+    new Route(
+        '/finalize',
+        function ($context) {
+            return Viewer::view('backend/final.php', $context);
+        }
+    ),
 ]);
 $router->launch();

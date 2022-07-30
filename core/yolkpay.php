@@ -29,7 +29,7 @@ class Yolkpay
     public function payscript($fname, $lname, $email, $phone, $amount, $ref = '')
     {
         if ($ref == '') {
-            $r1 = 'YP';
+            $r1 = 'EWC';
             $r2 = uniqid('AdfSXD');
             $r3 = time();
             $ref = $r1.''.$r2.''.$r3;
@@ -81,7 +81,7 @@ function payWithPaystack() {
        
 
       //alert("Payment complete! Reference: " + reference);
-    window.location="'.Config::get('CALLBACK_URL').'/'.$fname.' '.$lname.'/'.$email.'/'.$phone.'/'.$amount.'/'.$ref.'" ;
+    window.location="'.Config::get('CALLBACK_URL').'?ref='.$ref.'" ;
       
       // Make an AJAX call to your server with the reference to verify the transaction
       

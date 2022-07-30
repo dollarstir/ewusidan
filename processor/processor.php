@@ -778,13 +778,14 @@ if (isset($_GET['action'])) {
             } else {
                 session_start();
                 $u = customfetch('applicant', [['id', '=', $_SESSION['uid']]]);
+                $user = $u[0];
                 echo Yolkpay::handler();
-                $d = user();
-                $name = explode(' ', $d['name']);
+
+                $name = explode(' ', $user['name']);
                 $fname = $name[0];
                 $lname = $name[1];
 
-                echo Yolkpay::payscript($fname, $lname, $d['email'], $d['phone'], paytotal($context['token']), '', $context['token']);
+                echo Yolkpay::payscript($fname, $lname, $user['email'], $user['phone'], $servicefee);
                 echo Yolkpay::pay('Pay Now');
             }
                 break;
