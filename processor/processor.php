@@ -765,6 +765,9 @@ if (isset($_GET['action'])) {
             }
 
             break;
+        case 'payment':
+            extract($_POST);
+            break;
 
         default:
 
