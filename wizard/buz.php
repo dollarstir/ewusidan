@@ -5,7 +5,7 @@ begin('BUSINESS CERTIFCATE');
 <body>
 <div class="wrapper">
     <h3>BUSINESS Certificate application form</h3>
-<form  id="wizard" class="addbusinesscert" >
+<form  id="wizard" class="addbusinesscert">
 
 <h4></h4>
 <section>
