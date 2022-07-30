@@ -1,7 +1,34 @@
 <?php
 involve('admin');
-begin('Pay For Service');
+begin('Complete Application');
 session_start();
+
+switch ($_GET['token']) {
+    case 1:
+        $_SESSION['servicetype'] = 'Passport';
+        break;
+    case 2:
+        $_SESSION['servicetype'] = 'Birth Certifcate';
+        break;
+    case 3:
+        $_SESSION['servicetype'] = 'Business Certifcate';
+        break;
+    case 4:
+        $_SESSION['servicetype'] = 'Affidavit Change Name';
+        break;
+
+    case 5:
+        $_SESSION['servicetype'] = 'Affidavit Change Date of Birth';
+        break;
+    case 6:
+        $_SESSION['servicetype'] = 'Gazette';
+        break;
+
+    case 7:
+        $_SESSION['servicetype'] = 'Link NHIS';
+        break;
+}
+
 ?>
 
 <body class="crm_body_bg">
