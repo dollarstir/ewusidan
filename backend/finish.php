@@ -170,21 +170,16 @@ begin('Pay For Service');
                             </div>
                             <div class="white_card_body">
                                 <!-- <h6 class="card-subtitle mb-2">Here’s a quick example to demonstrate Bootstrap’s form styles. Keep reading for documentation on required classes, form layout, and more.</h6> -->
-                                <form>
-                                    <div class="mb-3">
-                                        <label class="form-label" for="exampleInputEmail1">Title</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Title">
-                                        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                                    </div>
+                                <form class="finishup">
+                                    
                                     <div class="white_card_body">
-                                        <h6 class="card-subtitle mb-2">List of Authors</h6>
+                                        <h6 class="card-subtitle mb-2">Select Service Type</h6>
                                         <div class="input-group mb-3">
                                             <label class="input-group-text" for="inputGroupSelect01">Options</label>
                                             <select class="form-select" id="inputGroupSelect01">
-                                                <option selected="">Choose...</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
+                                                <option>Choose...</option>
+                                               <?php package($id); ?>
+                                                
                                             </select>
                                         </div>
                                         <div class="mb-3">

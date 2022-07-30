@@ -283,3 +283,12 @@ function proccessedorders()
     </tr>';
     }
 }
+
+function package($id)
+{
+    switch ($id) {
+        case 1:
+            echo ' <option value="300">6 Weeks Passport (GHS300)</option><option value="700">6 Weeks Passport (GHS700)</option>'
+; break;
+    }
+}
