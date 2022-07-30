@@ -15,7 +15,7 @@ if (!isset($_GET['ref'])) {
     <html>
     <body>
     <center><img src="http://ewusidanconsult.com/main/assets/images/logo/logo.png"/></center>
-    <p> Dear '.$user[0]['name'].', Your payment of GHS'.$amount.' for '.$servicetype.' has been recieved . <br><strong>Order No : '.$orderid.' </strong>  </p>
+    <p> Dear '.$user[0]['name'].', Your payment of GHS'.$amount.' for '.$servicetype.' has been recieved . <br><strong>Order No : '.$orderid.' </strong> <br><strong>Transaction Ref : '.$_GET['ref'].' </strong> </p>
     </body>
     </html>
     
