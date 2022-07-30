@@ -18,7 +18,7 @@ begin('Pay For Service');
 
     <section class="main_content dashboard_part large_header_bg">
 
-        <div class="container-fluid g-0">
+        <!-- <div class="container-fluid g-0">
             <div class="row">
                 <div class="col-lg-12 p-0 ">
                     <div class="header_iner d-flex justify-content-between align-items-center">
@@ -150,7 +150,7 @@ begin('Pay For Service');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="main_content_iner ">
             <div class="container-fluid p-0 sm_padding_15px">
