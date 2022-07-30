@@ -134,7 +134,10 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
                 $response = sendmail('www.phpyolk.com', $sub2, $messcert, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                 if ($response == 'success') {
-                    echo 'success';
+                    session_start();
+                    $_SESSION['uid'] = $cc[0]['id'];
+
+                    echo 'successbirthcert';
                 }
             }
         } else {
@@ -267,7 +270,10 @@ function addbirthcert($fname, $oname, $lname, $phone, $email, $gender, $dob, $po
                     $response = sendmail('www.phpyolk.com', $sub2, $messcert, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                     if ($response == 'success') {
-                        echo 'success';
+                        session_start();
+                        $_SESSION['uid'] = $cc[0]['id'];
+
+                        echo 'successbirthcert';
                     }
                 }
             } else {
