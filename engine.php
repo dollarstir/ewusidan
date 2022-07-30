@@ -162,5 +162,12 @@ $router = new Router([
             return Viewer::view('backend/final.php', $context);
         }
     ),
+
+    new Route(
+        '/pay',
+        function ($context) {
+            return Viewer::view('backend/payme.php', $context);
+        }
+    ),
 ]);
 $router->launch();

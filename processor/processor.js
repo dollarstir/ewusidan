@@ -1,6 +1,6 @@
 
 $(function(){
-  $(".paying").hide();
+  // $(".paying").hide();
 
 
 
@@ -103,7 +103,8 @@ $(function(){
 
         else if(response == 'initpay'){
 
-          $('.paying').show();
+          // $('.paying').show();
+          window.location="pay";
 
       }
 

@@ -776,6 +776,8 @@ if (isset($_GET['action'])) {
             if (empty($servicefee)) {
                 echo 'Kindly Select Service type';
             } else {
+                session_start();
+                $_SESSION['servicefee'] = $servicefee;
                 echo 'initpay';
             }
                 break;
