@@ -101,6 +101,25 @@ $(function(){
           });
 
     }
+
+
+
+    else if(response == 'successbusinesscert'){
+
+      swal({
+          title: "Records  Submitted!",
+          text: "will be redirected soon to finish up",
+          timer: 4000,
+          type: 'success',
+          padding: "2em",
+          onOpen: function () {
+            swal.showLoading();
+          },
+        }).then(function (result) {
+          window.location="finishup?token=3";
+        });
+
+  }
         else if(response == 'Updated Successfully'){
 
             swal({
@@ -200,6 +219,27 @@ $('.addpassport').submit(function(e){
   $.ajax(staff);
 });
 
+
+
+
+
+// add business cert
+$('.addbusinesscert').submit(function(e){
+
+  e.preventDefault();
+  var staff = {
+      url: 'processor/processor.php?action=addbusinesscert',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
 
 // check payment type
 
