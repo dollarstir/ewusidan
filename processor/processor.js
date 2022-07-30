@@ -1,6 +1,6 @@
 
 $(function(){
-  $("paying").hide();
+  $(".paying").hide();
 
 
 
