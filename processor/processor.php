@@ -1166,7 +1166,7 @@ if (isset($_GET['action'])) {
 
         case 'addaffidavitname':
 
-            extract($_POST);
+                    extract($_POST);
                     if (empty(trim($oldname)) || empty(trim($newname)) || empty(trim($phone))) {
                         echo 'Name and phone number must be field';
                     } else {
@@ -1324,6 +1324,161 @@ if (isset($_GET['action'])) {
             break;
 
         case 'addaffidavitdob':
+
+            extract($_POST);
+                    if (empty(trim($oldname)) || empty(trim($newname)) || empty(trim($phone))) {
+                        echo 'Name and phone number must be field';
+                    } else {
+                        if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
+                            $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                            $coooo = countall('activity');
+                            $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'AFFIDAVIT FOR Date of birth', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
+
+                            $ppicimage = $_FILES['nidpic']['name'];
+
+                            $ppictempname = $_FILES['nidpic']['tmp_name'];
+
+                            move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
+                            $subject = 'New Affidavit of Date of birth';
+                            $message = '
+                    
+            
+                                <p>Picture of ID CARD </p>
+                    
+                            <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
+                                
+                                <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+                        
+                                            <tr>
+                                            <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                                            <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Old Name</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$oldname.'</td>
+                                            </tr>
+                    
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">New Name</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$newname.'</td>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Region</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
+                                            </tr>
+
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Town</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$town.'</td>
+                                            </tr>
+                    
+                                        
+                        
+                                            
+                        
+                                            
+                                
+                                        </table>
+                                
+                                ';
+
+                            $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                            if ($response == 'success') {
+                                session_start();
+                                $_SESSION['uid'] = $cc[0]['id'];
+                                $_SESSION['orderid'] = $orderid;
+
+                                echo 'successaffidavitdob';
+                            } else {
+                                echo'something went wrong';
+                            }
+                        } else {
+                            if (insert('applicant', ['name' => $name, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
+                                $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                                $coooo = countall('activity');
+                                $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'AFFIDAVIT FOR Date of birth', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
+
+                                $ppicimage = $_FILES['nidpic']['name'];
+
+                                $ppictempname = $_FILES['nidpic']['tmp_name'];
+
+                                move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
+                                $subject = 'New Affidavit of Date of birth  Request';
+                                $message = '
+                            
+                    
+                            <p>Picture of ID CARD </p>
+                
+                        <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
+                            
+                            <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+                    
+                                        <tr>
+                                        <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                                        <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                                        </tr>
+                    
+                                        <tr>
+                                        <td style="border-collapse:collapse;border:1px solid;">Old Name</td>
+                                        <td style="border-collapse:collapse;border:1px solid;">'.$oldname.'</td>
+                                        </tr>
+                
+                                        <tr>
+                                        <td style="border-collapse:collapse;border:1px solid;">New Name</td>
+                                        <td style="border-collapse:collapse;border:1px solid;">'.$newname.'</td>
+                                        </tr>
+                    
+                                        <tr>
+                                        <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                                        <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                                        </tr>
+                    
+                                        <tr>
+                                        <td style="border-collapse:collapse;border:1px solid;">Region</td>
+                                        <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
+                                        </tr>
+
+                                        <tr>
+                                        <td style="border-collapse:collapse;border:1px solid;">Town</td>
+                                        <td style="border-collapse:collapse;border:1px solid;">'.$town.'</td>
+                                        </tr>
+                
+                                    
+                    
+                                        
+                    
+                                        
+                            
+                                    </table>
+                            
+                            ';
+
+                                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                                if ($response == 'success') {
+                                    session_start();
+                                    $_SESSION['uid'] = $cc[0]['id'];
+                                    $_SESSION['orderid'] = $orderid;
+
+                                    echo 'successaffidavitdob';
+                                } else {
+                                    echo'something went wrong';
+                                }
+                            } else {
+                                echo'something went wrong';
+                            }
+                        }
+                    }
             break;
 
         default:
