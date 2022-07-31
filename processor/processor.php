@@ -1348,45 +1348,50 @@ if (isset($_GET['action'])) {
                     
                             <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
                                 
-                                <table style="width:100%;border-collapse:collapse;border:1px solid;" >
-                        
-                                            <tr>
-                                            <th style="border-collapse:collapse;border:1px solid;">Question</th>
-                                            <th style="border-collapse:collapse;border:1px solid;">Answers</th>
-                                            </tr>
-                        
-                                            <tr>
-                                            <td style="border-collapse:collapse;border:1px solid;">Old Name</td>
-                                            <td style="border-collapse:collapse;border:1px solid;">'.$oldname.'</td>
-                                            </tr>
-                    
-                                            <tr>
-                                            <td style="border-collapse:collapse;border:1px solid;">New Name</td>
-                                            <td style="border-collapse:collapse;border:1px solid;">'.$newname.'</td>
-                                            </tr>
-                        
-                                            <tr>
-                                            <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
-                                            <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
-                                            </tr>
-                        
-                                            <tr>
-                                            <td style="border-collapse:collapse;border:1px solid;">Region</td>
-                                            <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
-                                            </tr>
+                            <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+                
+                            <tr>
+                            <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                            <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                            </tr>
+        
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;"> Name</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$name.'</td>
+                            </tr>
 
-                                            <tr>
-                                            <td style="border-collapse:collapse;border:1px solid;">Town</td>
-                                            <td style="border-collapse:collapse;border:1px solid;">'.$town.'</td>
-                                            </tr>
-                    
-                                        
-                        
-                                            
-                        
-                                            
-                                
-                                        </table>
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Old Date of Birth</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$olddob.'</td>
+                            </tr>
+    
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">New Date of Birth</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$newdob.'</td>
+                            </tr>
+        
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                            </tr>
+        
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Region</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
+                            </tr>
+
+                            <tr>
+                            <td style="border-collapse:collapse;border:1px solid;">Town</td>
+                            <td style="border-collapse:collapse;border:1px solid;">'.$town.'</td>
+                            </tr>
+    
+                           
+        
+                            
+        
+                            
+                
+                        </table>
                                 
                                 ';
 
@@ -1421,45 +1426,50 @@ if (isset($_GET['action'])) {
                 
                         <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
                             
-                            <table style="width:100%;border-collapse:collapse;border:1px solid;" >
-                    
-                                        <tr>
-                                        <th style="border-collapse:collapse;border:1px solid;">Question</th>
-                                        <th style="border-collapse:collapse;border:1px solid;">Answers</th>
-                                        </tr>
-                    
-                                        <tr>
-                                        <td style="border-collapse:collapse;border:1px solid;">Old Name</td>
-                                        <td style="border-collapse:collapse;border:1px solid;">'.$oldname.'</td>
-                                        </tr>
+                        <table style="width:100%;border-collapse:collapse;border:1px solid;" >
                 
-                                        <tr>
-                                        <td style="border-collapse:collapse;border:1px solid;">New Name</td>
-                                        <td style="border-collapse:collapse;border:1px solid;">'.$newname.'</td>
-                                        </tr>
-                    
-                                        <tr>
-                                        <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
-                                        <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
-                                        </tr>
-                    
-                                        <tr>
-                                        <td style="border-collapse:collapse;border:1px solid;">Region</td>
-                                        <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
-                                        </tr>
+                        <tr>
+                        <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                        <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                        </tr>
+    
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;"> Name</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$name.'</td>
+                        </tr>
 
-                                        <tr>
-                                        <td style="border-collapse:collapse;border:1px solid;">Town</td>
-                                        <td style="border-collapse:collapse;border:1px solid;">'.$town.'</td>
-                                        </tr>
-                
-                                    
-                    
-                                        
-                    
-                                        
-                            
-                                    </table>
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Old Date of Birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$olddob.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">New Date of Birth</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$newdob.'</td>
+                        </tr>
+    
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                        </tr>
+    
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Region</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$region.'</td>
+                        </tr>
+
+                        <tr>
+                        <td style="border-collapse:collapse;border:1px solid;">Town</td>
+                        <td style="border-collapse:collapse;border:1px solid;">'.$town.'</td>
+                        </tr>
+
+                       
+    
+                        
+    
+                        
+            
+                    </table>
                             
                             ';
 
