@@ -1325,7 +1325,7 @@ if (isset($_GET['action'])) {
 
         case 'addaffidavitdob':
 
-            extract($_POST);
+                    extract($_POST);
                     if (empty(trim($name)) || empty(trim($olddob)) || empty(trim($newdob)) || empty(trim($phone))) {
                         echo 'Name and phone number must be field';
                     } else {
