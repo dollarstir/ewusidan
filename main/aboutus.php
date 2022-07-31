@@ -42,10 +42,10 @@
 <body>
 
     <!-- Preloader -->
-    <div class="tm-preloader">
+    <!-- <div class="tm-preloader">
         <span class="tm-preloader-box"></span>
         <button class="tm-button tm-button-sm tm-button-white">Cancel Preloader <b></b></button>
-    </div>
+    </div> -->
     <!--// Preloader -->
 
     <!-- Wrapper -->
