@@ -1490,6 +1490,174 @@ if (isset($_GET['action'])) {
                         }
                     }
             break;
+        case 'addgazette':
+
+                    extract($_POST);
+                    if (empty(trim($name)) || empty(trim($phone))) {
+                        echo 'Name and phone number must be field';
+                    } else {
+                        if (authenticate('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR') == 'success') {
+                            $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                            $coooo = countall('activity');
+                            $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                            insert('activity', ['uid' => $cc[0]['id'], 'type' => 'GAZETTE', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
+
+                            $nidimage = $_FILES['nidpic']['name'];
+                            $ppicimage = $_FILES['ppic']['name'];
+
+                            $nidtempname = $_FILES['nidpic']['tmp_name'];
+                            $ppictempname = $_FILES['ppic']['tmp_name'];
+
+                            move_uploaded_file($nidtempname, '../yolkassets/upload/'.$nidimage);
+                            move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
+                            $subject = 'New Gazette  Request';
+                            $message = '
+                
+        
+                                <p>Picture of ID CARD </p>
+                        
+                                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidimage.'" width="200px"/><br>
+
+
+                                <p>Picture of Gazette </p>
+                        
+                                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
+                                
+                                <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+                        
+                                            <tr>
+                                            <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                                            <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Occupation</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$occupation.'</td>
+                                            </tr>
+                    
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Place of work</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$place.'</td>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Work ID</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$wid.'</td>
+                                            </tr>
+                    
+                                        
+                        
+                                            
+                        
+                                            
+                                
+                                        </table>
+                                
+                                ';
+
+                            if (empty($_FILES['ppic']['name'])) {
+                                echo  'Upload required documents';
+                            } else {
+                                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                                if ($response == 'success') {
+                                    session_start();
+                                    $_SESSION['uid'] = $cc[0]['id'];
+                                    $_SESSION['orderid'] = $orderid;
+
+                                    echo 'successgazette';
+                                }
+                            }
+                        } else {
+                            if (insert('applicant', ['name' => $name, 'email' => $email, 'phone' => $phone, 'password' => md5($phone)]) == 'success') {
+                                $cc = customfetch('applicant', [['email', '=', $email], ['phone', '=', $phone]], 'OR');
+                                $coooo = countall('activity');
+                                $orderid = 'EWS'.date('Y').''.($coooo + 1);
+                                insert('activity', ['uid' => $cc[0]['id'], 'type' => 'GAZETTE', 'paystatus' => 'unpaid', 'status' => 'pending', 'dateadded' => date('jS F, Y'), 'timeadded' => date('h :i A'), 'orderid' => $orderid]);
+
+                                $nidimage = $_FILES['nidpic']['name'];
+                                $ppicimage = $_FILES['ppic']['name'];
+
+                                $nidtempname = $_FILES['nidpic']['tmp_name'];
+                                $ppictempname = $_FILES['ppic']['tmp_name'];
+
+                                move_uploaded_file($nidtempname, '../yolkassets/upload/'.$nidimage);
+                                move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
+                                $subject = 'New Gazette  Request';
+                                $message = '
+                
+        
+                                <p>Picture of ID CARD </p>
+                        
+                                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$nidimage.'" width="200px"/><br>
+
+
+                                <p>Picture of Gazette </p>
+                        
+                                <img src="http://ewusidanconsult.com/yolkassets/upload/'.$ppicimage.'" width="200px"/><br>
+                                
+                                <table style="width:100%;border-collapse:collapse;border:1px solid;" >
+                        
+                                            <tr>
+                                            <th style="border-collapse:collapse;border:1px solid;">Question</th>
+                                            <th style="border-collapse:collapse;border:1px solid;">Answers</th>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Occupation</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$occupation.'</td>
+                                            </tr>
+                    
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Place of work</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$place.'</td>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Postal address</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$postal.'</td>
+                                            </tr>
+                        
+                                            <tr>
+                                            <td style="border-collapse:collapse;border:1px solid;">Work ID</td>
+                                            <td style="border-collapse:collapse;border:1px solid;">'.$wid.'</td>
+                                            </tr>
+                    
+                                        
+                        
+                                            
+                        
+                                            
+                                
+                                        </table>
+                                
+                                ';
+
+                                if (empty($_FILES['ppic']['name'])) {
+                                    echo  'Upload required documents';
+                                } else {
+                                    $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+
+                                    if ($response == 'success') {
+                                        session_start();
+                                        $_SESSION['uid'] = $cc[0]['id'];
+                                        $_SESSION['orderid'] = $orderid;
+
+                                        echo 'successgazette';
+                                    }
+                                }
+                            } else {
+                                echo'something went wrong';
+                            }
+                        }
+                    }
+
+            break;
 
         default:
 
