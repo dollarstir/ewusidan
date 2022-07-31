@@ -11,7 +11,7 @@ echo '<div class="header sticky-header">
                     <ul>
                         <li><a href="main/tel:+233556267002"><i class="fa fa-phone"></i> +233556267002</a></li>
                         <li><a href="main/mailto:danielewusi2@gmail.com"><i class="fa fa-envelope-o"></i>
-                        danielewusi2@gmail.com</a></li>
+                        info@ewusidanconsult.com</a></li>
                     </ul>
                 </div>
             </div>
