@@ -1180,7 +1180,7 @@ if (isset($_GET['action'])) {
 
                             $ppictempname = $_FILES['nidpic']['tmp_name'];
 
-                            move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+                            move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
                             $subject = 'New Affidavit of Name  Request';
                             $message = '
                     
@@ -1253,7 +1253,7 @@ if (isset($_GET['action'])) {
 
                                 $ppictempname = $_FILES['nidpic']['tmp_name'];
 
-                                move_uploaded_file($ppictempname, 'yolkassets/upload/'.$ppicimage);
+                                move_uploaded_file($ppictempname, '../yolkassets/upload/'.$ppicimage);
                                 $subject = 'New Affidavit of Name  Request';
                                 $message = '
                             
