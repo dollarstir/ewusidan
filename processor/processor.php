@@ -1323,6 +1323,9 @@ if (isset($_GET['action'])) {
 
             break;
 
+        case 'addaffidavitdob':
+            break;
+
         default:
 
         break;
