@@ -10,7 +10,7 @@ echo '<div class="header sticky-header">
                 <div class="header-topinfo">
                     <ul>
                         <li><a href="main/tel:+233556267002"><i class="fa fa-phone"></i> +233556267002</a></li>
-                        <li><a href="main/mailto:danielewusi2@gmail.com"><i class="fa fa-envelope-o"></i>
+                        <li><a href="main/mailto:info@ewusidanconsult.com"><i class="fa fa-envelope-o"></i>
                         info@ewusidanconsult.com</a></li>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@ echo '<div class="header sticky-header">
         <div class="header-bottominner">
             <div class="header-logo">
                 <a href="home">
-                    <img src="main/assets/images/logo/logo.png" alt="deconsult logo" style="width:100px;height:100px;">
+                    <img src="main/assets/images/logo/logo.png" alt="Ewusidanconsult  logo" style="width:100px;height:100px;">
                     <span style="color:#8C704F;font-weight:bold;">EWUSIDAN CONSULT</span>
                 </a>
             </div>
