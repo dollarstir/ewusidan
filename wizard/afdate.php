@@ -51,7 +51,7 @@
 <body>
 <div class="wrapper">
     <h3>Affidavit for change of Date of birth</h3>
-<form action="handler1" id="wizard" class="addpassport" method="post" enctype="multipart/form-data">
+<form  id="wizard" class="addaffidavitdob">
 
 <h4></h4>
 <section>
