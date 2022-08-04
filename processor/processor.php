@@ -1,5 +1,7 @@
 <?php
 
+// created by dollarsoft
+
 require '../loader/autoloader.php';
 require '../fragement/deep.php';
 
