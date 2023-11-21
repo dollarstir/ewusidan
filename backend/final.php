@@ -20,7 +20,7 @@ if (!isset($_GET['ref'])) {
     </html>
     
     ';
-    sendmail('www.phpyolk.com', 'Payment Successful', $message, 'Ewusidan Consult', [$user[0]['email']]);
+    sendmail('www.tict-edu.org', 'Payment Successful', $message, 'Ewusidan Consult', [$user[0]['email']]);
 
         session_destroy();
     echo '<script>window.location="home"</script>';

@@ -385,7 +385,7 @@ if (isset($_GET['action'])) {
                     if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name']) || empty($_FILES['bcertimage']['name'])) {
                         echo  'Upload required documents';
                     } else {
-                        $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                        $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                         if ($response == 'success') {
                             session_start();
@@ -762,7 +762,7 @@ if (isset($_GET['action'])) {
                         if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name']) || empty($_FILES['bcertimage']['name'])) {
                             echo  'Upload required documents';
                         } else {
-                            $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                            $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                             if ($response == 'success') {
                                 session_start();
@@ -967,7 +967,7 @@ if (isset($_GET['action'])) {
                             if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name'])) {
                                 echo  'Upload required documents';
                             } else {
-                                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                                $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                                 if ($response == 'success') {
                                     session_start();
@@ -1148,7 +1148,7 @@ if (isset($_GET['action'])) {
                                 if (empty($_FILES['nidpic']['name']) || empty($_FILES['ppic']['name'])) {
                                     echo  'Upload required documents';
                                 } else {
-                                    $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                                    $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                                     if ($response == 'success') {
                                         session_start();
@@ -1233,7 +1233,7 @@ if (isset($_GET['action'])) {
                                 
                                 ';
 
-                            $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                            $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                             if ($response == 'success') {
                                 session_start();
@@ -1306,7 +1306,7 @@ if (isset($_GET['action'])) {
                             
                             ';
 
-                                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                                $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                                 if ($response == 'success') {
                                     session_start();
@@ -1397,7 +1397,7 @@ if (isset($_GET['action'])) {
                                 
                                 ';
 
-                            $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                            $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                             if ($response == 'success') {
                                 session_start();
@@ -1565,7 +1565,7 @@ if (isset($_GET['action'])) {
                             if (empty($_FILES['ppic']['name'])) {
                                 echo  'Upload required documents';
                             } else {
-                                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                                $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                                 if ($response == 'success') {
                                     session_start();
@@ -1643,7 +1643,7 @@ if (isset($_GET['action'])) {
                                 if (empty($_FILES['ppic']['name'])) {
                                     echo  'Upload required documents';
                                 } else {
-                                    $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                                    $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                                     if ($response == 'success') {
                                         session_start();

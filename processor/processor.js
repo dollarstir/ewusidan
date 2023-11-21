@@ -71,7 +71,7 @@ $(function(){
 
           swal({
               title: "Records  Submitted!",
-              text: "will be redirected soon to finish up",
+              text: "Admin will contact you to complete the proccess",
               timer: 4000,
               type: 'success',
               padding: "2em",
@@ -79,7 +79,8 @@ $(function(){
                 swal.showLoading();
               },
             }).then(function (result) {
-              window.location="finishup?token=1";
+              // window.location="finishup?token=1";
+              window.location="home";
             });
 
       }
@@ -93,7 +94,7 @@ $(function(){
 
         swal({
             title: "Records  Submitted!",
-            text: "will be redirected soon to finish up",
+            text: "Admin will contact you to complete the proccess",
             timer: 4000,
             type: 'success',
             padding: "2em",
@@ -101,7 +102,8 @@ $(function(){
               swal.showLoading();
             },
           }).then(function (result) {
-            window.location="finishup?token=2";
+            // window.location="finishup?token=2";
+            window.location="home";
           });
   
     }
@@ -110,7 +112,7 @@ $(function(){
 
       swal({
           title: "Records  Submitted!",
-          text: "will be redirected soon to finish up",
+          text: "Admin will contact you to complete the proccess",
           timer: 4000,
           type: 'success',
           padding: "2em",
@@ -118,7 +120,8 @@ $(function(){
             swal.showLoading();
           },
         }).then(function (result) {
-          window.location="finishup?token=3";
+          // window.location="finishup?token=3";
+          window.location="home";
         });
 
   }
@@ -128,7 +131,7 @@ $(function(){
 
     swal({
         title: "Records  Submitted!",
-        text: "will be redirected soon to finish up",
+        text: "Admin will contact you to complete the proccess",
         timer: 4000,
         type: 'success',
         padding: "2em",
@@ -136,7 +139,8 @@ $(function(){
           swal.showLoading();
         },
       }).then(function (result) {
-        window.location="finishup?token=4";
+        // window.location="finishup?token=4";
+        window.location="home";
       });
 
 }
@@ -146,7 +150,7 @@ else if(response == 'successaffidavitdob'){
 
   swal({
       title: "Records  Submitted!",
-      text: "will be redirected soon to finish up",
+      text: "Admin will contact you to complete the proccess",
       timer: 4000,
       type: 'success',
       padding: "2em",
@@ -154,7 +158,8 @@ else if(response == 'successaffidavitdob'){
         swal.showLoading();
       },
     }).then(function (result) {
-      window.location="finishup?token=5";
+      // window.location="finishup?token=5";
+      window.location="home";
     });
 
 }
@@ -163,7 +168,7 @@ else if(response == 'successgazette'){
 
   swal({
       title: "Records  Submitted!",
-      text: "will be redirected soon to finish up",
+      text: "Admin will contact you to complete the proccess",
       timer: 4000,
       type: 'success',
       padding: "2em",
@@ -171,7 +176,8 @@ else if(response == 'successgazette'){
         swal.showLoading();
       },
     }).then(function (result) {
-      window.location="finishup?token=6";
+      // window.location="finishup?token=6";
+      window.location="home";
     });
 
 }
