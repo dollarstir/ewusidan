@@ -1475,7 +1475,7 @@ if (isset($_GET['action'])) {
                             
                             ';
 
-                                $response = sendmail('www.phpyolk.com', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
+                                $response = sendmail('www.tict-edu.org', $subject, $message, 'Ewusidan Website', ['kpin463@gmail.com', 'danielewusi2@gmail.com']);
 
                                 if ($response == 'success') {
                                     session_start();
